@@ -1,0 +1,285 @@
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Charts.v23.1.Core.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.CodeParser.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Data.Desktop.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Data.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.DataAccess.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.DataAccess.v23.1.UI.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Drawing.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Office.v23.1.Core.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.PivotGrid.v23.1.Core.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Printing.v23.1.Core.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.RichEdit.v23.1.Core.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Sparkline.v23.1.Core.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Utils.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Utils.v23.1.UI.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraBars.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraCharts.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraCharts.v23.1.Extensions.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraCharts.v23.1.Wizard.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraEditors.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraGauges.v23.1.Core.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraGrid.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraLayout.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraNavBar.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraPivotGrid.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraPrinting.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraReports.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraReports.v23.1.Extensions.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraRichEdit.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraTreeList.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraVerticalGrid.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Xpo.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraDiagram.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Diagram.v23.1.Core.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Pdf.v23.1.Core.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Pdf.v23.1.Drawing.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.DataVisualization.v23.1.Core.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Images.v23.1.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Charts.v23.1.Core.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Data.Desktop.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Data.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.DataAccess.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.DataAccess.v23.1.UI.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Drawing.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Office.v23.1.Core.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.PivotGrid.v23.1.Core.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Printing.v23.1.Core.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.RichEdit.v23.1.Core.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Sparkline.v23.1.Core.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Utils.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Utils.v23.1.UI.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraBars.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraCharts.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraCharts.v23.1.Wizard.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraEditors.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraGauges.v23.1.Core.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraGrid.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraLayout.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraNavBar.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraPivotGrid.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraPrinting.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraReports.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraReports.v23.1.Extensions.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraRichEdit.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraTreeList.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraVerticalGrid.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Xpo.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraDiagram.v23.1.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Diagram.v23.1.Core.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Pdf.v23.1.Core.xml
+E:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Pdf.v23.1.Drawing.xml
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master Data.vbproj.AssemblyReference.cache
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Form1.resources
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Frm_Customer.resources
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Frm_InvList.resources
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Frm_InvListDetail.resources
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Frm_Promo.resources
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Frm_Supp.resources
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Resources.resources
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Rpt_LabelBarcode.resources
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Rpt_LabelBarcodePrice.resources
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Rpt_PriceByKeyword.resources
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master Data.vbproj.GenerateResource.cache
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master Data.vbproj.CoreCompileInputs.cache
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master Data.vbproj.CopyComplete
+E:\Project\VB\Harmony\Master Data\bin\Debug\Master_Data.dll.config
+E:\Project\VB\Harmony\Master Data\bin\Debug\Master_Data.dll
+E:\Project\VB\Harmony\Master Data\bin\Debug\Master_Data.pdb
+E:\Project\VB\Harmony\Master Data\bin\Debug\Master_Data.xml
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.dll.licenses
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.dll
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.xml
+E:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.pdb
+D:\Project\VB\Harmony\Master Data\bin\Debug\Master_Data.pdb
+D:\Project\VB\Harmony\Master Data\bin\Debug\Master_Data.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Charts.v23.1.Core.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.CodeParser.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Data.Desktop.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Data.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.DataAccess.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.DataAccess.v23.1.UI.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Drawing.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Office.v23.1.Core.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.PivotGrid.v23.1.Core.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Printing.v23.1.Core.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.RichEdit.v23.1.Core.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Sparkline.v23.1.Core.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Utils.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Utils.v23.1.UI.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraBars.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraCharts.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraCharts.v23.1.Extensions.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraCharts.v23.1.Wizard.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraEditors.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraGauges.v23.1.Core.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraGrid.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraLayout.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraNavBar.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraPivotGrid.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraPrinting.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraReports.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraReports.v23.1.Extensions.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraRichEdit.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraTreeList.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraVerticalGrid.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Xpo.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraDiagram.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Diagram.v23.1.Core.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Pdf.v23.1.Core.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Pdf.v23.1.Drawing.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.DataVisualization.v23.1.Core.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Images.v23.1.dll
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Charts.v23.1.Core.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Data.Desktop.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Data.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.DataAccess.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.DataAccess.v23.1.UI.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Drawing.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Office.v23.1.Core.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.PivotGrid.v23.1.Core.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Printing.v23.1.Core.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.RichEdit.v23.1.Core.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Sparkline.v23.1.Core.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Utils.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Utils.v23.1.UI.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraBars.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraCharts.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraCharts.v23.1.Wizard.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraEditors.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraGauges.v23.1.Core.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraGrid.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraLayout.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraNavBar.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraPivotGrid.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraPrinting.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraReports.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraReports.v23.1.Extensions.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraRichEdit.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraTreeList.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraVerticalGrid.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Xpo.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.XtraDiagram.v23.1.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Diagram.v23.1.Core.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Pdf.v23.1.Core.xml
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.Pdf.v23.1.Drawing.xml
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master Data.vbproj.AssemblyReference.cache
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Form1.resources
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Frm_Customer.resources
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Frm_InvList.resources
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Frm_InvListDetail.resources
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Frm_Promo.resources
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Frm_Supp.resources
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Resources.resources
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Rpt_LabelBarcode.resources
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Rpt_LabelBarcodePrice.resources
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Rpt_PriceByKeyword.resources
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master Data.vbproj.GenerateResource.cache
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master Data.vbproj.CoreCompileInputs.cache
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master Data.vbproj.CopyComplete
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.xml
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.pdb
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Frm_InputStock.resources
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Rpt_Opname.resources
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Frm_InvListStock.resources
+D:\Project\VB\Harmony\Master Data\bin\Debug\DevExpress.RichEdit.v23.1.Export.dll
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.Rpt_InvListStock.resources
+D:\Project\VB\Harmony\Master Data\bin\Debug\Master_Data.exe.config
+D:\Project\VB\Harmony\Master Data\bin\Debug\Master_Data.exe
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.exe.licenses
+D:\Project\VB\Harmony\Master Data\obj\Debug\Master_Data.exe
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master Data.vbproj.AssemblyReference.cache
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master Data.vbproj.GenerateResource.cache
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master Data.vbproj.CoreCompileInputs.cache
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master_Data.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master_Data.pdb
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\Master_Data.pdb
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\Master_Data.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Charts.v23.1.Core.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.CodeParser.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Data.Desktop.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Data.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.DataAccess.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.DataAccess.v23.1.UI.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Drawing.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Office.v23.1.Core.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Pdf.v23.1.Core.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.PivotGrid.v23.1.Core.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Printing.v23.1.Core.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.RichEdit.v23.1.Core.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.RichEdit.v23.1.Export.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Sparkline.v23.1.Core.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Utils.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Utils.v23.1.UI.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraBars.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraCharts.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraCharts.v23.1.Extensions.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraCharts.v23.1.Wizard.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraEditors.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraGauges.v23.1.Core.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraGrid.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraLayout.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraNavBar.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraPivotGrid.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraPrinting.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraReports.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraReports.v23.1.Extensions.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraRichEdit.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraTreeList.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraVerticalGrid.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Xpo.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraDiagram.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Diagram.v23.1.Core.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Pdf.v23.1.Drawing.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.DataVisualization.v23.1.Core.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Images.v23.1.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Charts.v23.1.Core.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Data.Desktop.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Data.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.DataAccess.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.DataAccess.v23.1.UI.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Drawing.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Office.v23.1.Core.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Pdf.v23.1.Core.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.PivotGrid.v23.1.Core.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Printing.v23.1.Core.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.RichEdit.v23.1.Core.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Sparkline.v23.1.Core.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Utils.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Utils.v23.1.UI.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraBars.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraCharts.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraCharts.v23.1.Wizard.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraEditors.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraGauges.v23.1.Core.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraGrid.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraLayout.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraNavBar.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraPivotGrid.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraPrinting.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraReports.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraReports.v23.1.Extensions.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraRichEdit.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraTreeList.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraVerticalGrid.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Xpo.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.XtraDiagram.v23.1.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Diagram.v23.1.Core.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\DevExpress.Pdf.v23.1.Drawing.xml
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master_Data.Form1.resources
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master_Data.Frm_Customer.resources
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master_Data.Frm_InputStock.resources
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master_Data.Frm_InvList.resources
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master_Data.Frm_InvListDetail.resources
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master_Data.Frm_InvListStock.resources
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master_Data.Frm_Supp.resources
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master_Data.Resources.resources
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master_Data.Rpt_InvListStock.resources
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master_Data.Rpt_LabelBarcode.resources
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master_Data.Rpt_LabelBarcodePrice.resources
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master_Data.Rpt_Opname.resources
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master_Data.Rpt_PriceByKeyword.resources
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master Data.vbproj.CopyComplete
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\Master_Data.dll.config
+D:\Project\VB\Resto\Inventory\Mod_MasterData\bin\Debug\Master_Data.dll
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master_Data.dll.licenses
+D:\Project\VB\Resto\Inventory\Mod_MasterData\obj\Debug\Master_Data.dll

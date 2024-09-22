@@ -1,0 +1,566 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Master_Data
+</name>
+</assembly>
+<members>
+<member name="T:Master_Data.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Master_Data.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Master_Data.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_PrintBarcodeListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetTransactionDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetHPPHistoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_T_Opname_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInvBrand_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInvCategory_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInvProduct_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDEmployee_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDUoMGetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_T_Opname_CheckInvBarcodeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDCustomer_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDPosition_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_T_Opname_GetListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDSupplier_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetDataSyncListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetDataSyncList_DetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetDataSyncList_ReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_LookUpData_GetUoMDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_LookUpData_GetInventoryTypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_PrintBarcodeListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetTransactionDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetHPPHistoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_T_Opname_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInvBrand_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInvCategory_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInvProduct_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDEmployee_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDUoMGetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_T_Opname_CheckInvBarcodeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDCustomer_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDPosition_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_T_Opname_GetListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDSupplier_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetDataSyncListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetDataSyncList_DetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetDataSyncList_ReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_LookUpData_GetUoMRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_LookUpData_GetInventoryTypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_PrintBarcodeListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetTransactionDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetHPPHistoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_T_Opname_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInvBrand_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInvCategory_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInvProduct_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDEmployee_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDUoMGetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_T_Opname_CheckInvBarcodeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDCustomer_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDPosition_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_T_Opname_GetListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDSupplier_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetDataSyncListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetDataSyncList_DetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_MDInventory_GetDataSyncList_ReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_LookUpData_GetUoMRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet.sp_LookUpData_GetInventoryTypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_MDInventory_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_MDInventory_PrintBarcodeListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_MDInventory_GetTransactionDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_MDInventory_GetHPPHistoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_T_Opname_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_MDInvBrand_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_MDInvCategory_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_MDInvProduct_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_MDEmployee_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_MDUoMGetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_T_Opname_CheckInvBarcodeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_MDCustomer_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_MDPosition_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_T_Opname_GetListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_MDSupplier_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_MDInventory_GetDataSyncListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_MDInventory_GetDataSyncList_DetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_MDInventory_GetDataSyncList_ReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_LookUpData_GetUoMTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.sp_LookUpData_GetInventoryTypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Master_Data.DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Master_Data.DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Master_Data.DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Master_Data.DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Master_Data.DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Master_Data.DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Master_Data.DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Master_Data.DataSetTableAdapters.TableAdapterManager.UpdateAll(Master_Data.DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Master_Data.DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Master_Data.DataSet_Report">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet_Report.sp_MDInventory_PrintBarcodeListLabelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet_Report.sp_SPReport_GetPriceFromKeywordDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet_Report.sp_MDInventory_PrintBarcodeListLabelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet_Report.sp_SPReport_GetPriceFromKeywordRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet_Report.sp_MDInventory_PrintBarcodeListLabelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet_Report.sp_SPReport_GetPriceFromKeywordRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Master_Data.DataSet_ReportTableAdapters.sp_MDInventory_PrintBarcodeListLabelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet_ReportTableAdapters.sp_SPReport_GetPriceFromKeywordTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet_ReportTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet_ReportTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Master_Data.DataSet_ReportTableAdapters.TableAdapterManager.UpdateUpdatedRows(Master_Data.DataSet_Report,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Master_Data.DataSet_ReportTableAdapters.TableAdapterManager.UpdateInsertedRows(Master_Data.DataSet_Report,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Master_Data.DataSet_ReportTableAdapters.TableAdapterManager.UpdateDeletedRows(Master_Data.DataSet_Report,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Master_Data.DataSet_ReportTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Master_Data.DataSet_ReportTableAdapters.TableAdapterManager.UpdateAll(Master_Data.DataSet_Report)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Master_Data.DataSet_ReportTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Master_Data.DataSet_ReportTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
