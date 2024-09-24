@@ -74,7 +74,7 @@
     <Reference Include="DevExpress.XtraReports.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraReports.v23.1.Extensions, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System">
-      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
@@ -113,6 +113,12 @@
     <Compile Include="Dataset.vb">
       <DependentUpon>Dataset.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Frm_CashFlowTransaction.Designer.vb">
+      <DependentUpon>Frm_CashFlowTransaction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_CashFlowTransaction.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Frm_InventoryOut.Designer.vb">
       <DependentUpon>Frm_InventoryOut.vb</DependentUpon>
     </Compile>
@@ -129,6 +135,12 @@
       <DependentUpon>Frm_PurchaseOrder.vb</DependentUpon>
     </Compile>
     <Compile Include="Frm_PurchaseOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Purchasing.Designer.vb">
+      <DependentUpon>Frm_Purchasing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Purchasing.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_TransactionDaily.Designer.vb">
@@ -155,6 +167,9 @@
     <Compile Include="Rpt_TransactionOut_Daily.vb">
       <SubType>Component</SubType>
     </Compile>
+    <EmbeddedResource Include="Frm_CashFlowTransaction.resx">
+      <DependentUpon>Frm_CashFlowTransaction.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_InventoryOut.resx">
       <DependentUpon>Frm_InventoryOut.vb</DependentUpon>
       <SubType>Designer</SubType>
@@ -164,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_PurchaseOrder.resx">
       <DependentUpon>Frm_PurchaseOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Purchasing.resx">
+      <DependentUpon>Frm_Purchasing.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_TransactionDaily.resx">
       <DependentUpon>Frm_TransactionDaily.vb</DependentUpon>

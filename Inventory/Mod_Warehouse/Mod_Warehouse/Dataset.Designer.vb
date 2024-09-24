@@ -3850,7 +3850,6 @@ Partial Public Class Dataset
             Me.columnSupplierName.MaxLength = 50
             Me.columnAddress.MaxLength = 500
             Me.columnCity.MaxLength = 20
-            Me.columnPhone1.AllowDBNull = false
             Me.columnPhone1.MaxLength = 20
             Me.columnPhone2.MaxLength = 20
             Me.columnFax.MaxLength = 20
@@ -5086,6 +5085,8 @@ Partial Public Class Dataset
         
         Private columnModifiedUser As Global.System.Data.DataColumn
         
+        Private columnSupplierID As Global.System.Data.DataColumn
+        
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
         Public Sub New()
@@ -5218,6 +5219,14 @@ Partial Public Class Dataset
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property SupplierIDColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnSupplierID
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
          Global.System.ComponentModel.Browsable(false)>  _
         Public ReadOnly Property Count() As Integer
@@ -5254,9 +5263,9 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Overloads Function Addsp_SPPurchaseOrderDetail_GetDataRow(ByVal POID As String, ByVal PONo As String, ByVal InventoryID As Integer, ByVal Qty As Decimal, ByVal Weight As Decimal, ByVal UoMID As Integer, ByVal Price As Decimal, ByVal Disc As Decimal, ByVal Subtotal As Decimal, ByVal Description As String, ByVal ModifiedUser As String) As sp_SPPurchaseOrderDetail_GetDataRow
+        Public Overloads Function Addsp_SPPurchaseOrderDetail_GetDataRow(ByVal POID As String, ByVal PONo As String, ByVal InventoryID As Integer, ByVal Qty As Integer, ByVal Weight As Integer, ByVal UoMID As Integer, ByVal Price As Integer, ByVal Disc As Decimal, ByVal Subtotal As Integer, ByVal Description As String, ByVal ModifiedUser As String, ByVal SupplierID As Integer) As sp_SPPurchaseOrderDetail_GetDataRow
             Dim rowsp_SPPurchaseOrderDetail_GetDataRow As sp_SPPurchaseOrderDetail_GetDataRow = CType(Me.NewRow,sp_SPPurchaseOrderDetail_GetDataRow)
-            Dim columnValuesArray() As Object = New Object() {Nothing, POID, PONo, InventoryID, Qty, Weight, UoMID, Price, Disc, Subtotal, Description, ModifiedUser}
+            Dim columnValuesArray() As Object = New Object() {Nothing, POID, PONo, InventoryID, Qty, Weight, UoMID, Price, Disc, Subtotal, Description, ModifiedUser, SupplierID}
             rowsp_SPPurchaseOrderDetail_GetDataRow.ItemArray = columnValuesArray
             Me.Rows.Add(rowsp_SPPurchaseOrderDetail_GetDataRow)
             Return rowsp_SPPurchaseOrderDetail_GetDataRow
@@ -5297,6 +5306,7 @@ Partial Public Class Dataset
             Me.columnSubtotal = MyBase.Columns("Subtotal")
             Me.columnDescription = MyBase.Columns("Description")
             Me.columnModifiedUser = MyBase.Columns("ModifiedUser")
+            Me.columnSupplierID = MyBase.Columns("SupplierID")
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -5310,22 +5320,24 @@ Partial Public Class Dataset
             MyBase.Columns.Add(Me.columnPONo)
             Me.columnInventoryID = New Global.System.Data.DataColumn("InventoryID", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnInventoryID)
-            Me.columnQty = New Global.System.Data.DataColumn("Qty", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnQty = New Global.System.Data.DataColumn("Qty", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnQty)
-            Me.columnWeight = New Global.System.Data.DataColumn("Weight", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnWeight = New Global.System.Data.DataColumn("Weight", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnWeight)
             Me.columnUoMID = New Global.System.Data.DataColumn("UoMID", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnUoMID)
-            Me.columnPrice = New Global.System.Data.DataColumn("Price", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnPrice = New Global.System.Data.DataColumn("Price", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnPrice)
             Me.columnDisc = New Global.System.Data.DataColumn("Disc", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnDisc)
-            Me.columnSubtotal = New Global.System.Data.DataColumn("Subtotal", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnSubtotal = New Global.System.Data.DataColumn("Subtotal", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnSubtotal)
             Me.columnDescription = New Global.System.Data.DataColumn("Description", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnDescription)
             Me.columnModifiedUser = New Global.System.Data.DataColumn("ModifiedUser", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnModifiedUser)
+            Me.columnSupplierID = New Global.System.Data.DataColumn("SupplierID", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnSupplierID)
             Me.Constraints.Add(New Global.System.Data.UniqueConstraint("Constraint1", New Global.System.Data.DataColumn() {Me.columnID}, true))
             Me.columnID.AutoIncrement = true
             Me.columnID.AutoIncrementSeed = -1
@@ -8683,7 +8695,11 @@ Partial Public Class Dataset
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
         Public Property Phone1() As String
             Get
-                Return CType(Me(Me.tablesp_LookUpData_GetSupplier.Phone1Column),String)
+                Try 
+                    Return CType(Me(Me.tablesp_LookUpData_GetSupplier.Phone1Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Phone1' in table 'sp_LookUpData_GetSupplier' is DBNull.", e)
+                End Try
             End Get
             Set
                 Me(Me.tablesp_LookUpData_GetSupplier.Phone1Column) = value
@@ -8895,6 +8911,18 @@ Partial Public Class Dataset
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
         Public Sub SetCityNull()
             Me(Me.tablesp_LookUpData_GetSupplier.CityColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function IsPhone1Null() As Boolean
+            Return Me.IsNull(Me.tablesp_LookUpData_GetSupplier.Phone1Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub SetPhone1Null()
+            Me(Me.tablesp_LookUpData_GetSupplier.Phone1Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -9717,10 +9745,10 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Property Qty() As Decimal
+        Public Property Qty() As Integer
             Get
                 Try 
-                    Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.QtyColumn),Decimal)
+                    Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.QtyColumn),Integer)
                 Catch e As Global.System.InvalidCastException
                     Throw New Global.System.Data.StrongTypingException("The value for column 'Qty' in table 'sp_SPPurchaseOrderDetail_GetData' is DBNull."& _ 
                             "", e)
@@ -9733,10 +9761,10 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Property Weight() As Decimal
+        Public Property Weight() As Integer
             Get
                 Try 
-                    Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.WeightColumn),Decimal)
+                    Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.WeightColumn),Integer)
                 Catch e As Global.System.InvalidCastException
                     Throw New Global.System.Data.StrongTypingException("The value for column 'Weight' in table 'sp_SPPurchaseOrderDetail_GetData' is DBNu"& _ 
                             "ll.", e)
@@ -9765,10 +9793,10 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Property Price() As Decimal
+        Public Property Price() As Integer
             Get
                 Try 
-                    Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.PriceColumn),Decimal)
+                    Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.PriceColumn),Integer)
                 Catch e As Global.System.InvalidCastException
                     Throw New Global.System.Data.StrongTypingException("The value for column 'Price' in table 'sp_SPPurchaseOrderDetail_GetData' is DBNul"& _ 
                             "l.", e)
@@ -9797,10 +9825,10 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Property Subtotal() As Decimal
+        Public Property Subtotal() As Integer
             Get
                 Try 
-                    Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.SubtotalColumn),Decimal)
+                    Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.SubtotalColumn),Integer)
                 Catch e As Global.System.InvalidCastException
                     Throw New Global.System.Data.StrongTypingException("The value for column 'Subtotal' in table 'sp_SPPurchaseOrderDetail_GetData' is DB"& _ 
                             "Null.", e)
@@ -9840,6 +9868,22 @@ Partial Public Class Dataset
             End Get
             Set
                 Me(Me.tablesp_SPPurchaseOrderDetail_GetData.ModifiedUserColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property SupplierID() As Integer
+            Get
+                Try 
+                    Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.SupplierIDColumn),Integer)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'SupplierID' in table 'sp_SPPurchaseOrderDetail_GetData' is "& _ 
+                            "DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablesp_SPPurchaseOrderDetail_GetData.SupplierIDColumn) = value
             End Set
         End Property
         
@@ -9961,6 +10005,18 @@ Partial Public Class Dataset
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
         Public Sub SetModifiedUserNull()
             Me(Me.tablesp_SPPurchaseOrderDetail_GetData.ModifiedUserColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function IsSupplierIDNull() As Boolean
+            Return Me.IsNull(Me.tablesp_SPPurchaseOrderDetail_GetData.SupplierIDColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub SetSupplierIDNull()
+            Me(Me.tablesp_SPPurchaseOrderDetail_GetData.SupplierIDColumn) = Global.System.Convert.DBNull
         End Sub
     End Class
     
@@ -13777,6 +13833,7 @@ Namespace DatasetTableAdapters
             tableMapping.ColumnMappings.Add("Subtotal", "Subtotal")
             tableMapping.ColumnMappings.Add("Description", "Description")
             tableMapping.ColumnMappings.Add("ModifiedUser", "ModifiedUser")
+            tableMapping.ColumnMappings.Add("SupplierID", "SupplierID")
             Me._adapter.TableMappings.Add(tableMapping)
             Me._adapter.DeleteCommand = New Global.System.Data.SqlClient.SqlCommand()
             Me._adapter.DeleteCommand.Connection = Me.Connection
@@ -13795,6 +13852,10 @@ Namespace DatasetTableAdapters
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@RETURN_VALUE", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.ReturnValue, 10, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@ID", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.Input, 10, 0, "ID", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@POID", Global.System.Data.SqlDbType.VarChar, 15, Global.System.Data.ParameterDirection.Input, 0, 0, "POID", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@SupplierID", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.Input, 10, 0, "SupplierID", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@InventoryID", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.Input, 10, 0, "InventoryID", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Qty", Global.System.Data.SqlDbType.[Decimal], 13, Global.System.Data.ParameterDirection.Input, 25, 5, "Qty", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Price", Global.System.Data.SqlDbType.[Decimal], 9, Global.System.Data.ParameterDirection.Input, 12, 2, "Price", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@SubTotal", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.Input, 10, 0, "Subtotal", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Description", Global.System.Data.SqlDbType.VarChar, 250, Global.System.Data.ParameterDirection.Input, 0, 0, "Description", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@ModifiedUser", Global.System.Data.SqlDbType.VarChar, 100, Global.System.Data.ParameterDirection.Input, 0, 0, "ModifiedUser", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
@@ -13930,7 +13991,7 @@ Namespace DatasetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
          Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
          Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Update, true)>  _
-        Public Overloads Overridable Function Update(ByVal ID As Global.System.Nullable(Of Integer), ByVal POID As String, ByVal SubTotal As Global.System.Nullable(Of Integer), ByVal Description As String, ByVal ModifiedUser As String) As Integer
+        Public Overloads Overridable Function Update(ByVal ID As Global.System.Nullable(Of Integer), ByVal POID As String, ByVal SupplierID As Global.System.Nullable(Of Integer), ByVal InventoryID As Global.System.Nullable(Of Integer), ByVal Qty As Global.System.Nullable(Of Decimal), ByVal Price As Global.System.Nullable(Of Decimal), ByVal SubTotal As Global.System.Nullable(Of Integer), ByVal Description As String, ByVal ModifiedUser As String) As Integer
             If (ID.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(1).Value = CType(ID.Value,Integer)
             Else
@@ -13941,20 +14002,40 @@ Namespace DatasetTableAdapters
             Else
                 Me.Adapter.UpdateCommand.Parameters(2).Value = CType(POID,String)
             End If
-            If (SubTotal.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(3).Value = CType(SubTotal.Value,Integer)
+            If (SupplierID.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(3).Value = CType(SupplierID.Value,Integer)
             Else
                 Me.Adapter.UpdateCommand.Parameters(3).Value = Global.System.DBNull.Value
             End If
-            If (Description Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(4).Value = Global.System.DBNull.Value
+            If (InventoryID.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(4).Value = CType(InventoryID.Value,Integer)
             Else
-                Me.Adapter.UpdateCommand.Parameters(4).Value = CType(Description,String)
+                Me.Adapter.UpdateCommand.Parameters(4).Value = Global.System.DBNull.Value
+            End If
+            If (Qty.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(5).Value = CType(Qty.Value,Decimal)
+            Else
+                Me.Adapter.UpdateCommand.Parameters(5).Value = Global.System.DBNull.Value
+            End If
+            If (Price.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(6).Value = CType(Price.Value,Decimal)
+            Else
+                Me.Adapter.UpdateCommand.Parameters(6).Value = Global.System.DBNull.Value
+            End If
+            If (SubTotal.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(7).Value = CType(SubTotal.Value,Integer)
+            Else
+                Me.Adapter.UpdateCommand.Parameters(7).Value = Global.System.DBNull.Value
+            End If
+            If (Description Is Nothing) Then
+                Me.Adapter.UpdateCommand.Parameters(8).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.UpdateCommand.Parameters(8).Value = CType(Description,String)
             End If
             If (ModifiedUser Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(5).Value = Global.System.DBNull.Value
+                Me.Adapter.UpdateCommand.Parameters(9).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.UpdateCommand.Parameters(5).Value = CType(ModifiedUser,String)
+                Me.Adapter.UpdateCommand.Parameters(9).Value = CType(ModifiedUser,String)
             End If
             Dim previousConnectionState As Global.System.Data.ConnectionState = Me.Adapter.UpdateCommand.Connection.State
             If ((Me.Adapter.UpdateCommand.Connection.State And Global.System.Data.ConnectionState.Open)  _
@@ -14415,6 +14496,10 @@ Namespace DatasetTableAdapters
             CType(Me._commandCollection(5),Global.System.Data.SqlClient.SqlCommand).CommandType = Global.System.Data.CommandType.StoredProcedure
             CType(Me._commandCollection(5),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@RETURN_VALUE", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.ReturnValue, 10, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             CType(Me._commandCollection(5),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@PONo", Global.System.Data.SqlDbType.VarChar, 20, Global.System.Data.ParameterDirection.Input, 0, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            CType(Me._commandCollection(5),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@SupplierID", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.Input, 10, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            CType(Me._commandCollection(5),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@InventoryID", Global.System.Data.SqlDbType.VarChar, 50, Global.System.Data.ParameterDirection.Input, 0, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            CType(Me._commandCollection(5),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Qty", Global.System.Data.SqlDbType.[Decimal], 13, Global.System.Data.ParameterDirection.Input, 25, 5, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            CType(Me._commandCollection(5),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Price", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.Input, 10, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             CType(Me._commandCollection(5),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Description", Global.System.Data.SqlDbType.VarChar, 100, Global.System.Data.ParameterDirection.Input, 0, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             CType(Me._commandCollection(5),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Subtotal", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.Input, 10, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             CType(Me._commandCollection(5),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@ModifiedUser", Global.System.Data.SqlDbType.VarChar, 100, Global.System.Data.ParameterDirection.Input, 0, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
@@ -14646,27 +14731,47 @@ Namespace DatasetTableAdapters
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
          Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")>  _
-        Public Overloads Overridable Function sp_SPPurchaseOrderDetail_InsData(ByVal PONo As String, ByVal Description As String, ByVal Subtotal As Global.System.Nullable(Of Integer), ByVal ModifiedUser As String) As Object
+        Public Overloads Overridable Function sp_SPPurchaseOrderDetail_InsData(ByVal PONo As String, ByVal SupplierID As Global.System.Nullable(Of Integer), ByVal InventoryID As String, ByVal Qty As Global.System.Nullable(Of Decimal), ByVal Price As Global.System.Nullable(Of Integer), ByVal Description As String, ByVal Subtotal As Global.System.Nullable(Of Integer), ByVal ModifiedUser As String) As Object
             Dim command As Global.System.Data.SqlClient.SqlCommand = CType(Me.CommandCollection(5),Global.System.Data.SqlClient.SqlCommand)
             If (PONo Is Nothing) Then
                 command.Parameters(1).Value = Global.System.DBNull.Value
             Else
                 command.Parameters(1).Value = CType(PONo,String)
             End If
-            If (Description Is Nothing) Then
-                command.Parameters(2).Value = Global.System.DBNull.Value
+            If (SupplierID.HasValue = true) Then
+                command.Parameters(2).Value = CType(SupplierID.Value,Integer)
             Else
-                command.Parameters(2).Value = CType(Description,String)
+                command.Parameters(2).Value = Global.System.DBNull.Value
+            End If
+            If (InventoryID Is Nothing) Then
+                command.Parameters(3).Value = Global.System.DBNull.Value
+            Else
+                command.Parameters(3).Value = CType(InventoryID,String)
+            End If
+            If (Qty.HasValue = true) Then
+                command.Parameters(4).Value = CType(Qty.Value,Decimal)
+            Else
+                command.Parameters(4).Value = Global.System.DBNull.Value
+            End If
+            If (Price.HasValue = true) Then
+                command.Parameters(5).Value = CType(Price.Value,Integer)
+            Else
+                command.Parameters(5).Value = Global.System.DBNull.Value
+            End If
+            If (Description Is Nothing) Then
+                command.Parameters(6).Value = Global.System.DBNull.Value
+            Else
+                command.Parameters(6).Value = CType(Description,String)
             End If
             If (Subtotal.HasValue = true) Then
-                command.Parameters(3).Value = CType(Subtotal.Value,Integer)
+                command.Parameters(7).Value = CType(Subtotal.Value,Integer)
             Else
-                command.Parameters(3).Value = Global.System.DBNull.Value
+                command.Parameters(7).Value = Global.System.DBNull.Value
             End If
             If (ModifiedUser Is Nothing) Then
-                command.Parameters(4).Value = Global.System.DBNull.Value
+                command.Parameters(8).Value = Global.System.DBNull.Value
             Else
-                command.Parameters(4).Value = CType(ModifiedUser,String)
+                command.Parameters(8).Value = CType(ModifiedUser,String)
             End If
             Dim previousConnectionState As Global.System.Data.ConnectionState = command.Connection.State
             If ((command.Connection.State And Global.System.Data.ConnectionState.Open)  _

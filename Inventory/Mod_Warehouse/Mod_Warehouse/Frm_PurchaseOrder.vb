@@ -1,6 +1,7 @@
 ﻿Imports DevExpress.Utils.Menu
 Imports DevExpress.XtraGrid.Views.Grid
 Imports DevExpress.XtraReports.UI
+Imports Mod_Purchase.DatasetTableAdapters
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.ListView
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel
 
@@ -8,7 +9,7 @@ Public Class Frm_PurchaseOrder
 
     Dim _User As String = ""
     Dim TempNo As String
-
+    Dim _isNew As Boolean = False
 
 #Region "Variables"
     Private isNew As Boolean
@@ -61,6 +62,10 @@ Public Class Frm_PurchaseOrder
 
     End Sub
     Private Sub Frm_PurchaseOrder_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the 'Dataset.sp_LookUpData_GetInventory' table. You can move, or remove it, as needed.
+        Me.Sp_LookUpData_GetInventoryTableAdapter.Fill(Me.Dataset.sp_LookUpData_GetInventory)
+        'TODO: This line of code loads data into the 'Dataset.sp_LookUpData_GetSupplier' table. You can move, or remove it, as needed.
+        Me.Sp_LookUpData_GetSupplierTableAdapter.Fill(Me.Dataset.sp_LookUpData_GetSupplier)
         'TODO: This line of code loads data into the 'Dataset.sp_LookUpData_GetUsage' table. You can move, or remove it, as needed.
         Me.Sp_LookUpData_GetUsageTableAdapter.Fill(Me.Dataset.sp_LookUpData_GetUsage)
 
@@ -83,47 +88,60 @@ Public Class Frm_PurchaseOrder
     End Sub
 
     Sub ClearData()
-        Memo_Description.EditValue = ""
+        Ed_Price.EditValue = 0
+        Ed_Qty.EditValue = 0
+        LUE_Supplier.EditValue = Nothing
+        LUE_Inv.EditValue = Nothing
         Ed_Subtotal.EditValue = 0
     End Sub
 
     Private Sub SB_Submit_Click(sender As Object, e As EventArgs) Handles SB_Submit.Click
+
         Dim isError As Boolean = False
-        Try
-            If (Memo_Description.EditValue.ToString() = "") Then
-                AlertControl.Show(Me, "Error on Input Data", "Barang masih belum terisi")
-                isError = True
-                Exit Sub
-            ElseIf CInt(Ed_Subtotal.EditValue) <= 0 Then
-                AlertControl.Show(Me, "Error on Input Data", "Qty Harus di atas 0")
-                isError = True
-                Exit Sub
+        If (isNew) Then
 
-            End If
+            Try
+                'If (Memo_Description.EditValue.ToString() = "") Then
+                '    AlertControl.Show(Me, "Error on Input Data", "Barang masih belum terisi")
+                '    isError = True
+                '    Exit Sub
+                'ElseIf CInt(Ed_Subtotal.EditValue) <= 0 Then
+                '    AlertControl.Show(Me, "Error on Input Data", "Qty Harus di atas 0")
+                '    isError = True
+                '    Exit Sub
 
-            Me.QueriesTableAdapter.sp_SPPurchaseOrderDetail_InsData(Ed_TransactionNo.EditValue.ToString(),
-                                                                    Memo_Description.EditValue.ToString(),
-                                                                    CInt(Ed_Subtotal.EditValue),
-                                                                    _User)
+                'End If
+
+                Me.QueriesTableAdapter.sp_SPPurchaseOrderDetail_InsData(Ed_TransactionNo.EditValue.ToString(),
+                                                                        CInt(LUE_Supplier.EditValue),
+                                                                        CInt(LUE_Inv.EditValue),
+                                                                        CInt(Ed_Qty.EditValue),
+                                                                        CInt(Ed_Price.EditValue),
+                                                                        "",
+                                                                        CInt(Ed_Subtotal.EditValue),
+                                                                        _User)
 
 
 
-            SB_Search.PerformClick()
-            RefreshData()
-            ClearData()
+                SB_Search.PerformClick()
+                RefreshData()
+                ClearData()
 
-            If (isError) Then
+                If (isError) Then
 
-                Exit Sub
-            End If
-        Catch ex As Exception
-            If (ex.Message.ToString().Contains("Violation of PRIMARY KEY constraint")) Then
-                MessageBox.Show("Barang Sudah Diinput dalam transaksi ini")
-            Else
+                    Exit Sub
+                End If
+            Catch ex As Exception
+                If (ex.Message.ToString().Contains("Violation of PRIMARY KEY constraint")) Then
+                    MessageBox.Show("Barang Sudah Diinput dalam transaksi ini")
+                Else
 
-                MessageBox.Show(ex.Message.ToString)
-            End If
-        End Try
+                    MessageBox.Show(ex.Message.ToString)
+                End If
+            End Try
+
+            isNew = False
+        End If
     End Sub
 
     Private Sub SB_Search_Click(sender As Object, e As EventArgs) Handles SB_Search.Click
@@ -158,7 +176,7 @@ Public Class Frm_PurchaseOrder
                     '    GV_Detail.SetColumnError(colQty_Detail, "Qty cannot be 0")
                     '    e.Valid = False
                     'End If
-                    If CDec(GV_Detail.GetRowCellValue(GV_Detail.FocusedRowHandle, colSubtotal_Detail)) <= 0 Then
+                    If CDec(GV_Detail.GetRowCellValue(GV_Detail.FocusedRowHandle, colQty_Detail)) <= 0 Then
                         e.Valid = False
                         AlertControl.Show(Me, "Error on Input Data", "Item Harus Di atas 0")
                     End If
@@ -330,5 +348,12 @@ Public Class Frm_PurchaseOrder
         AlertControl.Show(Me, "Success", "Berhasil Dihapus")
 
         RefreshData()
+    End Sub
+
+    Private Sub SB_NewTransaction_Click(sender As Object, e As EventArgs) Handles SB_NewTransaction.Click
+
+        ClearData()
+        isNew = True
+
     End Sub
 End Class
