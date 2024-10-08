@@ -24,6 +24,9 @@ Partial Public Class Rpt_PurchaseOrder_Daily
         Me.TopMargin = New DevExpress.XtraReports.UI.TopMarginBand()
         Me.BottomMargin = New DevExpress.XtraReports.UI.BottomMarginBand()
         Me.Detail = New DevExpress.XtraReports.UI.DetailBand()
+        Me.XrLabel9 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel5 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel2 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel7 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel6 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel3 = New DevExpress.XtraReports.UI.XRLabel()
@@ -48,6 +51,8 @@ Partial Public Class Rpt_PurchaseOrder_Daily
         Me.PageFooter = New DevExpress.XtraReports.UI.PageFooterBand()
         Me.XrLabel14 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel13 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.GroupHeader3 = New DevExpress.XtraReports.UI.GroupHeaderBand()
+        Me.GroupFooter3 = New DevExpress.XtraReports.UI.GroupFooterBand()
         CType(Me.Dataset1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
@@ -65,7 +70,7 @@ Partial Public Class Rpt_PurchaseOrder_Daily
         '
         'Detail
         '
-        Me.Detail.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLabel7, Me.XrLabel6, Me.XrLabel3})
+        Me.Detail.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLabel9, Me.XrLabel5, Me.XrLabel2, Me.XrLabel7, Me.XrLabel6})
         Me.Detail.Dpi = 254.0!
         Me.Detail.HeightF = 58.42!
         Me.Detail.HierarchyPrintOptions.Indent = 50.8!
@@ -74,12 +79,59 @@ Partial Public Class Rpt_PurchaseOrder_Daily
         Me.Detail.MultiColumn.Mode = DevExpress.XtraReports.UI.MultiColumnMode.UseColumnCount
         Me.Detail.Name = "Detail"
         '
+        'XrLabel9
+        '
+        Me.XrLabel9.Dpi = 254.0!
+        Me.XrLabel9.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Qty]")})
+        Me.XrLabel9.Font = New DevExpress.Drawing.DXFont("Lato", 10.0!)
+        Me.XrLabel9.LocationFloat = New DevExpress.Utils.PointFloat(28.6875!, 0!)
+        Me.XrLabel9.Multiline = True
+        Me.XrLabel9.Name = "XrLabel9"
+        Me.XrLabel9.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel9.SizeF = New System.Drawing.SizeF(76.58304!, 58.42!)
+        Me.XrLabel9.StylePriority.UseFont = False
+        Me.XrLabel9.StylePriority.UseTextAlignment = False
+        Me.XrLabel9.Text = "XrLabel3"
+        Me.XrLabel9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
+        Me.XrLabel9.TextFormatString = "{0:N0}"
+        '
+        'XrLabel5
+        '
+        Me.XrLabel5.Dpi = 254.0!
+        Me.XrLabel5.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Price]")})
+        Me.XrLabel5.Font = New DevExpress.Drawing.DXFont("Lato", 10.0!)
+        Me.XrLabel5.LocationFloat = New DevExpress.Utils.PointFloat(530.7086!, 0!)
+        Me.XrLabel5.Multiline = True
+        Me.XrLabel5.Name = "XrLabel5"
+        Me.XrLabel5.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel5.SizeF = New System.Drawing.SizeF(186.6459!, 58.42!)
+        Me.XrLabel5.StylePriority.UseFont = False
+        Me.XrLabel5.StylePriority.UseTextAlignment = False
+        Me.XrLabel5.Text = "XrLabel3"
+        Me.XrLabel5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
+        Me.XrLabel5.TextFormatString = "{0:N0}"
+        '
+        'XrLabel2
+        '
+        Me.XrLabel2.Dpi = 254.0!
+        Me.XrLabel2.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[InventoryName]")})
+        Me.XrLabel2.Font = New DevExpress.Drawing.DXFont("Lato", 10.0!)
+        Me.XrLabel2.LocationFloat = New DevExpress.Utils.PointFloat(108.0209!, 0!)
+        Me.XrLabel2.Multiline = True
+        Me.XrLabel2.Name = "XrLabel2"
+        Me.XrLabel2.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel2.SizeF = New System.Drawing.SizeF(422.6877!, 58.42!)
+        Me.XrLabel2.StylePriority.UseFont = False
+        Me.XrLabel2.StylePriority.UseTextAlignment = False
+        Me.XrLabel2.Text = "XrLabel3"
+        Me.XrLabel2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
+        '
         'XrLabel7
         '
         Me.XrLabel7.Dpi = 254.0!
         Me.XrLabel7.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[SubTotal]")})
         Me.XrLabel7.Font = New DevExpress.Drawing.DXFont("Lato", 10.0!)
-        Me.XrLabel7.LocationFloat = New DevExpress.Utils.PointFloat(717.3541!, 0!)
+        Me.XrLabel7.LocationFloat = New DevExpress.Utils.PointFloat(717.3545!, 0!)
         Me.XrLabel7.Multiline = True
         Me.XrLabel7.Name = "XrLabel7"
         Me.XrLabel7.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
@@ -105,13 +157,13 @@ Partial Public Class Rpt_PurchaseOrder_Daily
         'XrLabel3
         '
         Me.XrLabel3.Dpi = 254.0!
-        Me.XrLabel3.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Description]")})
+        Me.XrLabel3.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[SupplierName]")})
         Me.XrLabel3.Font = New DevExpress.Drawing.DXFont("Lato", 10.0!)
-        Me.XrLabel3.LocationFloat = New DevExpress.Utils.PointFloat(28.68752!, 0!)
+        Me.XrLabel3.LocationFloat = New DevExpress.Utils.PointFloat(0!, 0!)
         Me.XrLabel3.Multiline = True
         Me.XrLabel3.Name = "XrLabel3"
         Me.XrLabel3.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
-        Me.XrLabel3.SizeF = New System.Drawing.SizeF(688.6666!, 58.42!)
+        Me.XrLabel3.SizeF = New System.Drawing.SizeF(1888.0!, 58.42!)
         Me.XrLabel3.StylePriority.UseFont = False
         Me.XrLabel3.StylePriority.UseTextAlignment = False
         Me.XrLabel3.Text = "XrLabel3"
@@ -131,7 +183,7 @@ Partial Public Class Rpt_PurchaseOrder_Daily
         Me.GroupHeader1.Dpi = 254.0!
         Me.GroupHeader1.GroupFields.AddRange(New DevExpress.XtraReports.UI.GroupField() {New DevExpress.XtraReports.UI.GroupField("UsageName", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)})
         Me.GroupHeader1.HeightF = 10.91665!
-        Me.GroupHeader1.Level = 1
+        Me.GroupHeader1.Level = 2
         Me.GroupHeader1.Name = "GroupHeader1"
         '
         'XrLabel4
@@ -199,6 +251,7 @@ Partial Public Class Rpt_PurchaseOrder_Daily
         Me.GroupHeader2.Dpi = 254.0!
         Me.GroupHeader2.GroupFields.AddRange(New DevExpress.XtraReports.UI.GroupField() {New DevExpress.XtraReports.UI.GroupField("PONo", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)})
         Me.GroupHeader2.HeightF = 87.52422!
+        Me.GroupHeader2.Level = 1
         Me.GroupHeader2.Name = "GroupHeader2"
         '
         'XrLabel8
@@ -231,6 +284,7 @@ Partial Public Class Rpt_PurchaseOrder_Daily
         Me.GroupFooter1.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLabel10, Me.XrLabel16})
         Me.GroupFooter1.Dpi = 254.0!
         Me.GroupFooter1.HeightF = 62.52421!
+        Me.GroupFooter1.Level = 1
         Me.GroupFooter1.Name = "GroupFooter1"
         '
         'XrLabel10
@@ -277,7 +331,7 @@ Partial Public Class Rpt_PurchaseOrder_Daily
         '
         Me.GroupFooter2.Dpi = 254.0!
         Me.GroupFooter2.HeightF = 15.23995!
-        Me.GroupFooter2.Level = 1
+        Me.GroupFooter2.Level = 2
         Me.GroupFooter2.Name = "GroupFooter2"
         '
         'ReportFooter
@@ -354,9 +408,23 @@ Partial Public Class Rpt_PurchaseOrder_Daily
         Me.XrLabel13.Text = "( Gudang )"
         Me.XrLabel13.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
         '
+        'GroupHeader3
+        '
+        Me.GroupHeader3.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLabel3})
+        Me.GroupHeader3.Dpi = 254.0!
+        Me.GroupHeader3.GroupFields.AddRange(New DevExpress.XtraReports.UI.GroupField() {New DevExpress.XtraReports.UI.GroupField("SupplierName", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)})
+        Me.GroupHeader3.HeightF = 58.42!
+        Me.GroupHeader3.Name = "GroupHeader3"
+        '
+        'GroupFooter3
+        '
+        Me.GroupFooter3.Dpi = 254.0!
+        Me.GroupFooter3.HeightF = 0!
+        Me.GroupFooter3.Name = "GroupFooter3"
+        '
         'Rpt_PurchaseOrder_Daily
         '
-        Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() {Me.TopMargin, Me.BottomMargin, Me.Detail, Me.GroupHeader1, Me.PageHeader, Me.GroupHeader2, Me.GroupFooter1, Me.GroupFooter2, Me.ReportFooter, Me.PageFooter})
+        Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() {Me.TopMargin, Me.BottomMargin, Me.Detail, Me.GroupHeader1, Me.PageHeader, Me.GroupHeader2, Me.GroupFooter1, Me.GroupFooter2, Me.ReportFooter, Me.PageFooter, Me.GroupHeader3, Me.GroupFooter3})
         Me.CalculatedFields.AddRange(New DevExpress.XtraReports.UI.CalculatedField() {Me.CalculatedField1, Me.CF_Subtotal_PODaily})
         Me.ComponentStorage.AddRange(New System.ComponentModel.IComponent() {Me.Dataset1})
         Me.DataAdapter = Me.sp_SPPurchaseOrder_GetReportDailyTableAdapter
@@ -403,4 +471,9 @@ Partial Public Class Rpt_PurchaseOrder_Daily
     Friend WithEvents XrLabel14 As DevExpress.XtraReports.UI.XRLabel
     Friend WithEvents XrLabel13 As DevExpress.XtraReports.UI.XRLabel
     Friend WithEvents XrLabel16 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel9 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel5 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel2 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents GroupHeader3 As DevExpress.XtraReports.UI.GroupHeaderBand
+    Friend WithEvents GroupFooter3 As DevExpress.XtraReports.UI.GroupFooterBand
 End Class

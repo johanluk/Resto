@@ -11,6 +11,9 @@ Public Class Frm_PurchaseOrder
     Dim TempNo As String
     Dim _isNew As Boolean = False
 
+    Dim _POID As Integer = 0
+    Dim isNewRow As Boolean = False
+
 #Region "Variables"
     Private isNew As Boolean
     Dim isUpdate As Boolean = False
@@ -81,7 +84,9 @@ Public Class Frm_PurchaseOrder
     Sub RefreshData()
         Me.Sp_SPPurchaseOrderDetail_GetDataTableAdapter.Fill(Me.Dataset.sp_SPPurchaseOrderDetail_GetData, Ed_TransactionNo.EditValue.ToString())
         Label_Subtotal.Text = "Rp. " + String.Format("{0:#,##0}", colSubtotal_Detail.SummaryItem.SummaryValue)
+        _POID = CInt(Label_Subtotal.Tag)
 
+        Dataset.sp_SPPurchaseOrderDetail_GetData.Columns("POID").DefaultValue = (Ed_TransactionNo.Tag)
 
 
         LCItem_NewTransaction.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never
@@ -146,7 +151,7 @@ Public Class Frm_PurchaseOrder
 
     Private Sub SB_Search_Click(sender As Object, e As EventArgs) Handles SB_Search.Click
 
-        Me.Sp_SPPurchaseOrderHeader_GetDataTableAdapter.Fill(Me.Dataset.sp_SPPurchaseOrderHeader_GetData, Dt_Start.DateTime, Dt_End.DateTime)
+        Me.Sp_SPPurchaseOrderParent_GetDataTableAdapter.Fill(Me.Dataset.sp_SPPurchaseOrderParent_GetData, Dt_Start.DateTime, Dt_End.DateTime)
 
     End Sub
 
@@ -164,6 +169,7 @@ Public Class Frm_PurchaseOrder
             '    IsError = True
             '    Exit Sub
             'End If
+
 
             If (isError = False) Then
 
@@ -185,12 +191,25 @@ Public Class Frm_PurchaseOrder
                         Exit Sub
                     End If
 
+                    If (e.RowHandle = DevExpress.XtraGrid.GridControl.NewItemRowHandle) Then
+                        Dataset.sp_SPPurchaseOrderDetail_GetData.Columns("POID").DefaultValue = _POID
+                        Dataset.sp_SPPurchaseOrderDetail_GetData.Columns("PONo").DefaultValue = Ed_TransactionNo.EditValue.ToString()
+                        GV_Detail.SetRowCellValue(DevExpress.XtraGrid.GridControl.NewItemRowHandle, colPOID_Detail, _POID)
+                        GV_Detail.SetRowCellValue(DevExpress.XtraGrid.GridControl.NewItemRowHandle, colPONo, Ed_TransactionNo.EditValue.ToString())
+                        isNewRow = False
+                    End If
+                    If (isNewRow) Then
+
+                        GV_Detail.SetRowCellValue(DevExpress.XtraGrid.GridControl.NewItemRowHandle, colPOID_Detail, _POID)
+                        isNewRow = False
+                    Else
+
+                    End If
 
                     Me.Validate()
-
                     Me.SpSPPurchaseOrderDetailGetDataBindingSource.EndEdit()
                     Me.TableAdapterManager.UpdateAll(Me.Dataset)
-                    Me.Sp_SPPurchaseOrderDetail_GetDataTableAdapter.Fill(Me.Dataset.sp_SPPurchaseOrderDetail_GetData, Date_Request.DateTime)
+                    Me.Sp_SPPurchaseOrderDetail_GetDataTableAdapter.Fill(Me.Dataset.sp_SPPurchaseOrderDetail_GetData, Ed_TransactionNo.EditValue.ToString())
 
 
                     AlertControl.Show(Me, "Success", "Berhasil Dirubah")
@@ -206,7 +225,7 @@ Public Class Frm_PurchaseOrder
                         MessageBox.Show(ex.Message.ToString)
                     End If
 
-                    Me.Sp_SPPurchaseOrderDetail_GetDataTableAdapter.Fill(Me.Dataset.sp_SPPurchaseOrderDetail_GetData, Date_Request.DateTime)
+                    Me.Sp_SPPurchaseOrderDetail_GetDataTableAdapter.Fill(Me.Dataset.sp_SPPurchaseOrderDetail_GetData, Ed_TransactionNo.EditValue.ToString())
 
                 End Try
 
@@ -309,6 +328,8 @@ Public Class Frm_PurchaseOrder
             End If
             LCGroup_Header.Enabled = False
             LCGroup_List.Enabled = True
+
+            Sp_SPPurchaseOrderDetail_GetDataTableAdapter.Fill(Me.Dataset.sp_SPPurchaseOrderDetail_GetData, Ed_TransactionNo.EditValue.ToString())
         Catch ex As Exception
             AlertControl.Show(Me, "Error on Input Data", ex.Message)
         End Try
@@ -342,7 +363,7 @@ Public Class Frm_PurchaseOrder
 
         Me.SpSPPurchaseOrderDetailGetDataBindingSource.EndEdit()
         Me.TableAdapterManager.UpdateAll(Me.Dataset)
-        Me.Sp_SPPurchaseOrderDetail_GetDataTableAdapter.Fill(Me.Dataset.sp_SPPurchaseOrderDetail_GetData, Date_Request.DateTime)
+        Me.Sp_SPPurchaseOrderDetail_GetDataTableAdapter.Fill(Me.Dataset.sp_SPPurchaseOrderDetail_GetData, Ed_TransactionNo.EditValue.ToString())
 
 
         AlertControl.Show(Me, "Success", "Berhasil Dihapus")
@@ -355,5 +376,65 @@ Public Class Frm_PurchaseOrder
         ClearData()
         isNew = True
 
+    End Sub
+
+    Private Sub GV_Parent_RowClick(sender As Object, e As RowClickEventArgs) Handles GV_Parent.RowClick
+        Me.Sp_SPPurchaseOrderHeader_GetDataTableAdapter.Fill(Me.Dataset.sp_SPPurchaseOrderHeader_GetData, GV_Parent.GetFocusedRowCellValue(colPODate_Parent), GV_Parent.GetFocusedRowCellValue(colPODate_Parent))
+    End Sub
+
+    Private Sub GV_Parent_PopupMenuShowing(sender As Object, e As PopupMenuShowingEventArgs) Handles GV_Parent.PopupMenuShowing
+        Dim view As GridView = CType(sender, GridView)
+        ' Check whether a row is right-clicked.
+
+        Dim rowHandle As Integer = e.HitInfo.RowHandle()
+        e.Menu.Items.Clear()
+        Dim menuInsertCashFlow As New DXMenuItem("&Input Kas",
+      AddressOf OnInsertCashFlow, ImageCollection.Images(0))
+        menuInsertCashFlow.Tag = New RowInfo(view, rowHandle)
+        e.Menu.Items.Add(menuInsertCashFlow)
+
+
+    End Sub
+
+    Sub OnInsertCashFlow(ByVal sender As Object, ByVal e As EventArgs)
+        RowFocus = GV_Parent.FocusedRowHandle
+        Dim DeletedVar1 As String
+
+        DeletedVar1 = GV_Parent.GetRowCellValue(RowFocus, colPODate_Parent).ToString
+        Try
+            Dim item As DXMenuItem = CType(sender, DXMenuItem)
+            Dim info As RowInfo = CType(item.Tag, RowInfo)
+
+            If MessageBox.Show("Benar Barang Ini Yang Anda Maksud?", "Confirmation", MessageBoxButtons.YesNoCancel) = MsgBoxResult.Yes Then
+
+                Dim Fm_Transaction As New Frm_CashFlowTransaction(CDate(GV_Parent.GetRowCellValue(RowFocus, colPODate_Parent)),
+                                                                  0,
+                                                                  "-",
+                                                                  21,
+                                                                  1,
+                                                                  1)
+
+                Fm_Transaction.ShowDialog()
+            Else
+                'BtnRefresh.PerformClick()
+                'AlertControl1.Show(Me, "Cancel on Delete Data", DeletedVar1)
+            End If
+            AlertControl.Show(Me, "Hapus Barang Berhasil", "")
+        Catch ex As Exception
+            AlertControl.Show(Me, "Hapus Barang Gagal", ex.Message)
+        End Try
+    End Sub
+
+    Private Sub GV_Detail_InitNewRow(sender As Object, e As InitNewRowEventArgs) Handles GV_Detail.InitNewRow
+
+
+    End Sub
+
+    Private Sub SpSPPurchaseOrderDetailGetDataBindingSource_AddingNew(sender As Object, e As System.ComponentModel.AddingNewEventArgs) Handles SpSPPurchaseOrderDetailGetDataBindingSource.AddingNew
+
+        Dataset.sp_SPPurchaseOrderDetail_GetData.Columns("POID").DefaultValue = _POID
+        Dataset.sp_SPPurchaseOrderDetail_GetData.Columns("PONo").DefaultValue = Ed_TransactionNo.EditValue.ToString()
+        GV_Detail.SetRowCellValue(DevExpress.XtraGrid.GridControl.NewItemRowHandle, colPOID_Detail, _POID)
+        GV_Detail.SetRowCellValue(DevExpress.XtraGrid.GridControl.NewItemRowHandle, colPONo, Ed_TransactionNo.EditValue.ToString())
     End Sub
 End Class

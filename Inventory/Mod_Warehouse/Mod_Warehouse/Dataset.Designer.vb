@@ -51,6 +51,12 @@ Partial Public Class Dataset
     
     Private tablesp_SPPurchaseOrder_GetReportDaily As sp_SPPurchaseOrder_GetReportDailyDataTable
     
+    Private tablesp_LookUpData_GetCashFlowType As sp_LookUpData_GetCashFlowTypeDataTable
+    
+    Private tablesp_SPPurchaseOrderParent_GetData As sp_SPPurchaseOrderParent_GetDataDataTable
+    
+    Private tablesp_SPPurchaseReceiveDetail_GetPOInv As sp_SPPurchaseReceiveDetail_GetPOInvDataTable
+    
     Private relationsp_SPPurchaseReceiveHeader_GetData_sp_SPPurchaseReceiveDetail_GetData As Global.System.Data.DataRelation
     
     Private _schemaSerializationMode As Global.System.Data.SchemaSerializationMode = Global.System.Data.SchemaSerializationMode.IncludeSchema
@@ -120,6 +126,15 @@ Partial Public Class Dataset
             End If
             If (Not (ds.Tables("sp_SPPurchaseOrder_GetReportDaily")) Is Nothing) Then
                 MyBase.Tables.Add(New sp_SPPurchaseOrder_GetReportDailyDataTable(ds.Tables("sp_SPPurchaseOrder_GetReportDaily")))
+            End If
+            If (Not (ds.Tables("sp_LookUpData_GetCashFlowType")) Is Nothing) Then
+                MyBase.Tables.Add(New sp_LookUpData_GetCashFlowTypeDataTable(ds.Tables("sp_LookUpData_GetCashFlowType")))
+            End If
+            If (Not (ds.Tables("sp_SPPurchaseOrderParent_GetData")) Is Nothing) Then
+                MyBase.Tables.Add(New sp_SPPurchaseOrderParent_GetDataDataTable(ds.Tables("sp_SPPurchaseOrderParent_GetData")))
+            End If
+            If (Not (ds.Tables("sp_SPPurchaseReceiveDetail_GetPOInv")) Is Nothing) Then
+                MyBase.Tables.Add(New sp_SPPurchaseReceiveDetail_GetPOInvDataTable(ds.Tables("sp_SPPurchaseReceiveDetail_GetPOInv")))
             End If
             Me.DataSetName = ds.DataSetName
             Me.Prefix = ds.Prefix
@@ -270,6 +285,36 @@ Partial Public Class Dataset
     
     <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
+     Global.System.ComponentModel.Browsable(false),  _
+     Global.System.ComponentModel.DesignerSerializationVisibility(Global.System.ComponentModel.DesignerSerializationVisibility.Content)>  _
+    Public ReadOnly Property sp_LookUpData_GetCashFlowType() As sp_LookUpData_GetCashFlowTypeDataTable
+        Get
+            Return Me.tablesp_LookUpData_GetCashFlowType
+        End Get
+    End Property
+    
+    <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
+     Global.System.ComponentModel.Browsable(false),  _
+     Global.System.ComponentModel.DesignerSerializationVisibility(Global.System.ComponentModel.DesignerSerializationVisibility.Content)>  _
+    Public ReadOnly Property sp_SPPurchaseOrderParent_GetData() As sp_SPPurchaseOrderParent_GetDataDataTable
+        Get
+            Return Me.tablesp_SPPurchaseOrderParent_GetData
+        End Get
+    End Property
+    
+    <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
+     Global.System.ComponentModel.Browsable(false),  _
+     Global.System.ComponentModel.DesignerSerializationVisibility(Global.System.ComponentModel.DesignerSerializationVisibility.Content)>  _
+    Public ReadOnly Property sp_SPPurchaseReceiveDetail_GetPOInv() As sp_SPPurchaseReceiveDetail_GetPOInvDataTable
+        Get
+            Return Me.tablesp_SPPurchaseReceiveDetail_GetPOInv
+        End Get
+    End Property
+    
+    <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
      Global.System.ComponentModel.BrowsableAttribute(true),  _
      Global.System.ComponentModel.DesignerSerializationVisibilityAttribute(Global.System.ComponentModel.DesignerSerializationVisibility.Visible)>  _
     Public Overrides Property SchemaSerializationMode() As Global.System.Data.SchemaSerializationMode
@@ -373,6 +418,15 @@ Partial Public Class Dataset
             End If
             If (Not (ds.Tables("sp_SPPurchaseOrder_GetReportDaily")) Is Nothing) Then
                 MyBase.Tables.Add(New sp_SPPurchaseOrder_GetReportDailyDataTable(ds.Tables("sp_SPPurchaseOrder_GetReportDaily")))
+            End If
+            If (Not (ds.Tables("sp_LookUpData_GetCashFlowType")) Is Nothing) Then
+                MyBase.Tables.Add(New sp_LookUpData_GetCashFlowTypeDataTable(ds.Tables("sp_LookUpData_GetCashFlowType")))
+            End If
+            If (Not (ds.Tables("sp_SPPurchaseOrderParent_GetData")) Is Nothing) Then
+                MyBase.Tables.Add(New sp_SPPurchaseOrderParent_GetDataDataTable(ds.Tables("sp_SPPurchaseOrderParent_GetData")))
+            End If
+            If (Not (ds.Tables("sp_SPPurchaseReceiveDetail_GetPOInv")) Is Nothing) Then
+                MyBase.Tables.Add(New sp_SPPurchaseReceiveDetail_GetPOInvDataTable(ds.Tables("sp_SPPurchaseReceiveDetail_GetPOInv")))
             End If
             Me.DataSetName = ds.DataSetName
             Me.Prefix = ds.Prefix
@@ -484,6 +538,24 @@ Partial Public Class Dataset
                 Me.tablesp_SPPurchaseOrder_GetReportDaily.InitVars
             End If
         End If
+        Me.tablesp_LookUpData_GetCashFlowType = CType(MyBase.Tables("sp_LookUpData_GetCashFlowType"),sp_LookUpData_GetCashFlowTypeDataTable)
+        If (initTable = true) Then
+            If (Not (Me.tablesp_LookUpData_GetCashFlowType) Is Nothing) Then
+                Me.tablesp_LookUpData_GetCashFlowType.InitVars
+            End If
+        End If
+        Me.tablesp_SPPurchaseOrderParent_GetData = CType(MyBase.Tables("sp_SPPurchaseOrderParent_GetData"),sp_SPPurchaseOrderParent_GetDataDataTable)
+        If (initTable = true) Then
+            If (Not (Me.tablesp_SPPurchaseOrderParent_GetData) Is Nothing) Then
+                Me.tablesp_SPPurchaseOrderParent_GetData.InitVars
+            End If
+        End If
+        Me.tablesp_SPPurchaseReceiveDetail_GetPOInv = CType(MyBase.Tables("sp_SPPurchaseReceiveDetail_GetPOInv"),sp_SPPurchaseReceiveDetail_GetPOInvDataTable)
+        If (initTable = true) Then
+            If (Not (Me.tablesp_SPPurchaseReceiveDetail_GetPOInv) Is Nothing) Then
+                Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.InitVars
+            End If
+        End If
         Me.relationsp_SPPurchaseReceiveHeader_GetData_sp_SPPurchaseReceiveDetail_GetData = Me.Relations("sp_SPPurchaseReceiveHeader_GetData_sp_SPPurchaseReceiveDetail_GetData")
     End Sub
     
@@ -521,6 +593,12 @@ Partial Public Class Dataset
         MyBase.Tables.Add(Me.tablesp_LookUpData_GetUsage)
         Me.tablesp_SPPurchaseOrder_GetReportDaily = New sp_SPPurchaseOrder_GetReportDailyDataTable()
         MyBase.Tables.Add(Me.tablesp_SPPurchaseOrder_GetReportDaily)
+        Me.tablesp_LookUpData_GetCashFlowType = New sp_LookUpData_GetCashFlowTypeDataTable()
+        MyBase.Tables.Add(Me.tablesp_LookUpData_GetCashFlowType)
+        Me.tablesp_SPPurchaseOrderParent_GetData = New sp_SPPurchaseOrderParent_GetDataDataTable()
+        MyBase.Tables.Add(Me.tablesp_SPPurchaseOrderParent_GetData)
+        Me.tablesp_SPPurchaseReceiveDetail_GetPOInv = New sp_SPPurchaseReceiveDetail_GetPOInvDataTable()
+        MyBase.Tables.Add(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv)
         Me.relationsp_SPPurchaseReceiveHeader_GetData_sp_SPPurchaseReceiveDetail_GetData = New Global.System.Data.DataRelation("sp_SPPurchaseReceiveHeader_GetData_sp_SPPurchaseReceiveDetail_GetData", New Global.System.Data.DataColumn() {Me.tablesp_SPPurchaseReceiveHeader_GetData.IDColumn}, New Global.System.Data.DataColumn() {Me.tablesp_SPPurchaseReceiveDetail_GetData.PRVIDColumn}, false)
         Me.Relations.Add(Me.relationsp_SPPurchaseReceiveHeader_GetData_sp_SPPurchaseReceiveDetail_GetData)
     End Sub
@@ -600,6 +678,24 @@ Partial Public Class Dataset
     <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
     Private Function ShouldSerializesp_SPPurchaseOrder_GetReportDaily() As Boolean
+        Return false
+    End Function
+    
+    <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+    Private Function ShouldSerializesp_LookUpData_GetCashFlowType() As Boolean
+        Return false
+    End Function
+    
+    <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+    Private Function ShouldSerializesp_SPPurchaseOrderParent_GetData() As Boolean
+        Return false
+    End Function
+    
+    <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+    Private Function ShouldSerializesp_SPPurchaseReceiveDetail_GetPOInv() As Boolean
         Return false
     End Function
     
@@ -699,6 +795,15 @@ Partial Public Class Dataset
     
     <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
     Public Delegate Sub sp_SPPurchaseOrder_GetReportDailyRowChangeEventHandler(ByVal sender As Object, ByVal e As sp_SPPurchaseOrder_GetReportDailyRowChangeEvent)
+    
+    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+    Public Delegate Sub sp_LookUpData_GetCashFlowTypeRowChangeEventHandler(ByVal sender As Object, ByVal e As sp_LookUpData_GetCashFlowTypeRowChangeEvent)
+    
+    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+    Public Delegate Sub sp_SPPurchaseOrderParent_GetDataRowChangeEventHandler(ByVal sender As Object, ByVal e As sp_SPPurchaseOrderParent_GetDataRowChangeEvent)
+    
+    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+    Public Delegate Sub sp_SPPurchaseReceiveDetail_GetPOInvRowChangeEventHandler(ByVal sender As Object, ByVal e As sp_SPPurchaseReceiveDetail_GetPOInvRowChangeEvent)
     
     '''<summary>
     '''Represents the strongly named DataTable class.
@@ -1866,10 +1971,6 @@ Partial Public Class Dataset
         
         Private columnPRVDate As Global.System.Data.DataColumn
         
-        Private columnPOID As Global.System.Data.DataColumn
-        
-        Private columnPONo As Global.System.Data.DataColumn
-        
         Private columnWHID As Global.System.Data.DataColumn
         
         Private columnSupplierID As Global.System.Data.DataColumn
@@ -1889,6 +1990,8 @@ Partial Public Class Dataset
         Private columnVehicleNo As Global.System.Data.DataColumn
         
         Private columnDONo As Global.System.Data.DataColumn
+        
+        Private columnNoFaktur As Global.System.Data.DataColumn
         
         Private columnDescription As Global.System.Data.DataColumn
         
@@ -1977,22 +2080,6 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public ReadOnly Property POIDColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnPOID
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public ReadOnly Property PONoColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnPONo
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
         Public ReadOnly Property WHIDColumn() As Global.System.Data.DataColumn
             Get
                 Return Me.columnWHID
@@ -2068,6 +2155,14 @@ Partial Public Class Dataset
         Public ReadOnly Property DONoColumn() As Global.System.Data.DataColumn
             Get
                 Return Me.columnDONo
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property NoFakturColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnNoFaktur
             End Get
         End Property
         
@@ -2215,8 +2310,6 @@ Partial Public Class Dataset
         Public Overloads Function Addsp_SPPurchaseReceiveHeader_GetDataRow( _
                     ByVal PRVNo As String,  _
                     ByVal PRVDate As Date,  _
-                    ByVal POID As Integer,  _
-                    ByVal PONo As String,  _
                     ByVal WHID As Integer,  _
                     ByVal SupplierID As Integer,  _
                     ByVal PaymentType As Integer,  _
@@ -2227,6 +2320,7 @@ Partial Public Class Dataset
                     ByVal DriverName As String,  _
                     ByVal VehicleNo As String,  _
                     ByVal DONo As String,  _
+                    ByVal NoFaktur As String,  _
                     ByVal Description As String,  _
                     ByVal DiscPercentage As Decimal,  _
                     ByVal DiscValue As Decimal,  _
@@ -2241,7 +2335,7 @@ Partial Public Class Dataset
                     ByVal ModifiedUser As String,  _
                     ByVal GrandTotal As Decimal) As sp_SPPurchaseReceiveHeader_GetDataRow
             Dim rowsp_SPPurchaseReceiveHeader_GetDataRow As sp_SPPurchaseReceiveHeader_GetDataRow = CType(Me.NewRow,sp_SPPurchaseReceiveHeader_GetDataRow)
-            Dim columnValuesArray() As Object = New Object() {Nothing, PRVNo, PRVDate, POID, PONo, WHID, SupplierID, PaymentType, DownPayment, isVoid, isPaid, Transporter, DriverName, VehicleNo, DONo, Description, DiscPercentage, DiscValue, Disc1, Disc2, Disc3, isMultiDisc, PPnPercentage, PPnValue, LongTerm, DueDate, ModifiedUser, GrandTotal}
+            Dim columnValuesArray() As Object = New Object() {Nothing, PRVNo, PRVDate, WHID, SupplierID, PaymentType, DownPayment, isVoid, isPaid, Transporter, DriverName, VehicleNo, DONo, NoFaktur, Description, DiscPercentage, DiscValue, Disc1, Disc2, Disc3, isMultiDisc, PPnPercentage, PPnValue, LongTerm, DueDate, ModifiedUser, GrandTotal}
             rowsp_SPPurchaseReceiveHeader_GetDataRow.ItemArray = columnValuesArray
             Me.Rows.Add(rowsp_SPPurchaseReceiveHeader_GetDataRow)
             Return rowsp_SPPurchaseReceiveHeader_GetDataRow
@@ -2273,8 +2367,6 @@ Partial Public Class Dataset
             Me.columnID = MyBase.Columns("ID")
             Me.columnPRVNo = MyBase.Columns("PRVNo")
             Me.columnPRVDate = MyBase.Columns("PRVDate")
-            Me.columnPOID = MyBase.Columns("POID")
-            Me.columnPONo = MyBase.Columns("PONo")
             Me.columnWHID = MyBase.Columns("WHID")
             Me.columnSupplierID = MyBase.Columns("SupplierID")
             Me.columnPaymentType = MyBase.Columns("PaymentType")
@@ -2285,6 +2377,7 @@ Partial Public Class Dataset
             Me.columnDriverName = MyBase.Columns("DriverName")
             Me.columnVehicleNo = MyBase.Columns("VehicleNo")
             Me.columnDONo = MyBase.Columns("DONo")
+            Me.columnNoFaktur = MyBase.Columns("NoFaktur")
             Me.columnDescription = MyBase.Columns("Description")
             Me.columnDiscPercentage = MyBase.Columns("DiscPercentage")
             Me.columnDiscValue = MyBase.Columns("DiscValue")
@@ -2309,10 +2402,6 @@ Partial Public Class Dataset
             MyBase.Columns.Add(Me.columnPRVNo)
             Me.columnPRVDate = New Global.System.Data.DataColumn("PRVDate", GetType(Date), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnPRVDate)
-            Me.columnPOID = New Global.System.Data.DataColumn("POID", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnPOID)
-            Me.columnPONo = New Global.System.Data.DataColumn("PONo", GetType(String), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnPONo)
             Me.columnWHID = New Global.System.Data.DataColumn("WHID", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnWHID)
             Me.columnSupplierID = New Global.System.Data.DataColumn("SupplierID", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
@@ -2333,6 +2422,8 @@ Partial Public Class Dataset
             MyBase.Columns.Add(Me.columnVehicleNo)
             Me.columnDONo = New Global.System.Data.DataColumn("DONo", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnDONo)
+            Me.columnNoFaktur = New Global.System.Data.DataColumn("NoFaktur", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnNoFaktur)
             Me.columnDescription = New Global.System.Data.DataColumn("Description", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnDescription)
             Me.columnDiscPercentage = New Global.System.Data.DataColumn("DiscPercentage", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
@@ -2367,11 +2458,11 @@ Partial Public Class Dataset
             Me.columnID.ReadOnly = true
             Me.columnID.Unique = true
             Me.columnPRVNo.MaxLength = 50
-            Me.columnPONo.MaxLength = 50
             Me.columnTransporter.MaxLength = 100
             Me.columnDriverName.MaxLength = 100
             Me.columnVehicleNo.MaxLength = 20
             Me.columnDONo.MaxLength = 100
+            Me.columnNoFaktur.MaxLength = 20
             Me.columnDescription.MaxLength = 250
             Me.columnModifiedUser.AllowDBNull = false
             Me.columnModifiedUser.MaxLength = 100
@@ -5263,7 +5354,7 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Overloads Function Addsp_SPPurchaseOrderDetail_GetDataRow(ByVal POID As String, ByVal PONo As String, ByVal InventoryID As Integer, ByVal Qty As Integer, ByVal Weight As Integer, ByVal UoMID As Integer, ByVal Price As Integer, ByVal Disc As Decimal, ByVal Subtotal As Integer, ByVal Description As String, ByVal ModifiedUser As String, ByVal SupplierID As Integer) As sp_SPPurchaseOrderDetail_GetDataRow
+        Public Overloads Function Addsp_SPPurchaseOrderDetail_GetDataRow(ByVal POID As Integer, ByVal PONo As String, ByVal InventoryID As Integer, ByVal Qty As Decimal, ByVal Weight As Decimal, ByVal UoMID As Integer, ByVal Price As Decimal, ByVal Disc As Decimal, ByVal Subtotal As Decimal, ByVal Description As String, ByVal ModifiedUser As String, ByVal SupplierID As Integer) As sp_SPPurchaseOrderDetail_GetDataRow
             Dim rowsp_SPPurchaseOrderDetail_GetDataRow As sp_SPPurchaseOrderDetail_GetDataRow = CType(Me.NewRow,sp_SPPurchaseOrderDetail_GetDataRow)
             Dim columnValuesArray() As Object = New Object() {Nothing, POID, PONo, InventoryID, Qty, Weight, UoMID, Price, Disc, Subtotal, Description, ModifiedUser, SupplierID}
             rowsp_SPPurchaseOrderDetail_GetDataRow.ItemArray = columnValuesArray
@@ -5314,23 +5405,23 @@ Partial Public Class Dataset
         Private Sub InitClass()
             Me.columnID = New Global.System.Data.DataColumn("ID", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnID)
-            Me.columnPOID = New Global.System.Data.DataColumn("POID", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnPOID = New Global.System.Data.DataColumn("POID", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnPOID)
             Me.columnPONo = New Global.System.Data.DataColumn("PONo", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnPONo)
             Me.columnInventoryID = New Global.System.Data.DataColumn("InventoryID", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnInventoryID)
-            Me.columnQty = New Global.System.Data.DataColumn("Qty", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnQty = New Global.System.Data.DataColumn("Qty", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnQty)
-            Me.columnWeight = New Global.System.Data.DataColumn("Weight", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnWeight = New Global.System.Data.DataColumn("Weight", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnWeight)
             Me.columnUoMID = New Global.System.Data.DataColumn("UoMID", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnUoMID)
-            Me.columnPrice = New Global.System.Data.DataColumn("Price", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnPrice = New Global.System.Data.DataColumn("Price", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnPrice)
             Me.columnDisc = New Global.System.Data.DataColumn("Disc", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnDisc)
-            Me.columnSubtotal = New Global.System.Data.DataColumn("Subtotal", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnSubtotal = New Global.System.Data.DataColumn("Subtotal", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnSubtotal)
             Me.columnDescription = New Global.System.Data.DataColumn("Description", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnDescription)
@@ -5346,7 +5437,7 @@ Partial Public Class Dataset
             Me.columnID.ReadOnly = true
             Me.columnID.Unique = true
             Me.columnPOID.AllowDBNull = false
-            Me.columnPOID.MaxLength = 15
+            Me.columnPOID.DefaultValue = CType(0,Integer)
             Me.columnPONo.ReadOnly = true
             Me.columnPONo.MaxLength = 20
             Me.columnDescription.MaxLength = 250
@@ -5762,9 +5853,15 @@ Partial Public Class Dataset
         
         Private columnPODate As Global.System.Data.DataColumn
         
-        Private columnDescription As Global.System.Data.DataColumn
+        Private columnInventoryName As Global.System.Data.DataColumn
+        
+        Private columnQty As Global.System.Data.DataColumn
+        
+        Private columnPrice As Global.System.Data.DataColumn
         
         Private columnSubTotal As Global.System.Data.DataColumn
+        
+        Private columnSupplierName As Global.System.Data.DataColumn
         
         Private columnCreatedDate As Global.System.Data.DataColumn
         
@@ -5837,9 +5934,25 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public ReadOnly Property DescriptionColumn() As Global.System.Data.DataColumn
+        Public ReadOnly Property InventoryNameColumn() As Global.System.Data.DataColumn
             Get
-                Return Me.columnDescription
+                Return Me.columnInventoryName
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property QtyColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnQty
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property PriceColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnPrice
             End Get
         End Property
         
@@ -5848,6 +5961,14 @@ Partial Public Class Dataset
         Public ReadOnly Property SubTotalColumn() As Global.System.Data.DataColumn
             Get
                 Return Me.columnSubTotal
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property SupplierNameColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnSupplierName
             End Get
         End Property
         
@@ -5896,9 +6017,9 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Overloads Function Addsp_SPPurchaseOrder_GetReportDailyRow(ByVal UsageName As String, ByVal PONo As String, ByVal PODate As Date, ByVal Description As String, ByVal SubTotal As Decimal, ByVal CreatedDate As Date) As sp_SPPurchaseOrder_GetReportDailyRow
+        Public Overloads Function Addsp_SPPurchaseOrder_GetReportDailyRow(ByVal UsageName As String, ByVal PONo As String, ByVal PODate As Date, ByVal InventoryName As String, ByVal Qty As Decimal, ByVal Price As Decimal, ByVal SubTotal As Decimal, ByVal SupplierName As String, ByVal CreatedDate As Date) As sp_SPPurchaseOrder_GetReportDailyRow
             Dim rowsp_SPPurchaseOrder_GetReportDailyRow As sp_SPPurchaseOrder_GetReportDailyRow = CType(Me.NewRow,sp_SPPurchaseOrder_GetReportDailyRow)
-            Dim columnValuesArray() As Object = New Object() {Nothing, UsageName, PONo, PODate, Description, SubTotal, CreatedDate}
+            Dim columnValuesArray() As Object = New Object() {Nothing, UsageName, PONo, PODate, InventoryName, Qty, Price, SubTotal, SupplierName, CreatedDate}
             rowsp_SPPurchaseOrder_GetReportDailyRow.ItemArray = columnValuesArray
             Me.Rows.Add(rowsp_SPPurchaseOrder_GetReportDailyRow)
             Return rowsp_SPPurchaseOrder_GetReportDailyRow
@@ -5931,8 +6052,11 @@ Partial Public Class Dataset
             Me.columnUsageName = MyBase.Columns("UsageName")
             Me.columnPONo = MyBase.Columns("PONo")
             Me.columnPODate = MyBase.Columns("PODate")
-            Me.columnDescription = MyBase.Columns("Description")
+            Me.columnInventoryName = MyBase.Columns("InventoryName")
+            Me.columnQty = MyBase.Columns("Qty")
+            Me.columnPrice = MyBase.Columns("Price")
             Me.columnSubTotal = MyBase.Columns("SubTotal")
+            Me.columnSupplierName = MyBase.Columns("SupplierName")
             Me.columnCreatedDate = MyBase.Columns("CreatedDate")
         End Sub
         
@@ -5947,10 +6071,16 @@ Partial Public Class Dataset
             MyBase.Columns.Add(Me.columnPONo)
             Me.columnPODate = New Global.System.Data.DataColumn("PODate", GetType(Date), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnPODate)
-            Me.columnDescription = New Global.System.Data.DataColumn("Description", GetType(String), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnDescription)
+            Me.columnInventoryName = New Global.System.Data.DataColumn("InventoryName", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnInventoryName)
+            Me.columnQty = New Global.System.Data.DataColumn("Qty", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnQty)
+            Me.columnPrice = New Global.System.Data.DataColumn("Price", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnPrice)
             Me.columnSubTotal = New Global.System.Data.DataColumn("SubTotal", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnSubTotal)
+            Me.columnSupplierName = New Global.System.Data.DataColumn("SupplierName", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnSupplierName)
             Me.columnCreatedDate = New Global.System.Data.DataColumn("CreatedDate", GetType(Date), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnCreatedDate)
             Me.Constraints.Add(New Global.System.Data.UniqueConstraint("Constraint1", New Global.System.Data.DataColumn() {Me.columnID}, true))
@@ -5963,7 +6093,8 @@ Partial Public Class Dataset
             Me.columnPONo.AllowDBNull = false
             Me.columnPONo.MaxLength = 20
             Me.columnPODate.AllowDBNull = false
-            Me.columnDescription.MaxLength = 250
+            Me.columnInventoryName.MaxLength = 300
+            Me.columnSupplierName.MaxLength = 50
             Me.columnCreatedDate.AllowDBNull = false
         End Sub
         
@@ -6051,6 +6182,883 @@ Partial Public Class Dataset
             Dim attribute2 As Global.System.Xml.Schema.XmlSchemaAttribute = New Global.System.Xml.Schema.XmlSchemaAttribute()
             attribute2.Name = "tableTypeName"
             attribute2.FixedValue = "sp_SPPurchaseOrder_GetReportDailyDataTable"
+            type.Attributes.Add(attribute2)
+            type.Particle = sequence
+            Dim dsSchema As Global.System.Xml.Schema.XmlSchema = ds.GetSchemaSerializable
+            If xs.Contains(dsSchema.TargetNamespace) Then
+                Dim s1 As Global.System.IO.MemoryStream = New Global.System.IO.MemoryStream()
+                Dim s2 As Global.System.IO.MemoryStream = New Global.System.IO.MemoryStream()
+                Try 
+                    Dim schema As Global.System.Xml.Schema.XmlSchema = Nothing
+                    dsSchema.Write(s1)
+                    Dim schemas As Global.System.Collections.IEnumerator = xs.Schemas(dsSchema.TargetNamespace).GetEnumerator
+                    Do While schemas.MoveNext
+                        schema = CType(schemas.Current,Global.System.Xml.Schema.XmlSchema)
+                        s2.SetLength(0)
+                        schema.Write(s2)
+                        If (s1.Length = s2.Length) Then
+                            s1.Position = 0
+                            s2.Position = 0
+                            
+                            Do While ((s1.Position <> s1.Length)  _
+                                        AndAlso (s1.ReadByte = s2.ReadByte))
+                                
+                                
+                            Loop
+                            If (s1.Position = s1.Length) Then
+                                Return type
+                            End If
+                        End If
+                        
+                    Loop
+                Finally
+                    If (Not (s1) Is Nothing) Then
+                        s1.Close
+                    End If
+                    If (Not (s2) Is Nothing) Then
+                        s2.Close
+                    End If
+                End Try
+            End If
+            xs.Add(dsSchema)
+            Return type
+        End Function
+    End Class
+    
+    '''<summary>
+    '''Represents the strongly named DataTable class.
+    '''</summary>
+    <Global.System.Serializable(),  _
+     Global.System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")>  _
+    Partial Public Class sp_LookUpData_GetCashFlowTypeDataTable
+        Inherits Global.System.Data.TypedTableBase(Of sp_LookUpData_GetCashFlowTypeRow)
+        
+        Private columnID As Global.System.Data.DataColumn
+        
+        Private columnCashName As Global.System.Data.DataColumn
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub New()
+            MyBase.New
+            Me.TableName = "sp_LookUpData_GetCashFlowType"
+            Me.BeginInit
+            Me.InitClass
+            Me.EndInit
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Friend Sub New(ByVal table As Global.System.Data.DataTable)
+            MyBase.New
+            Me.TableName = table.TableName
+            If (table.CaseSensitive <> table.DataSet.CaseSensitive) Then
+                Me.CaseSensitive = table.CaseSensitive
+            End If
+            If (table.Locale.ToString <> table.DataSet.Locale.ToString) Then
+                Me.Locale = table.Locale
+            End If
+            If (table.Namespace <> table.DataSet.Namespace) Then
+                Me.Namespace = table.Namespace
+            End If
+            Me.Prefix = table.Prefix
+            Me.MinimumCapacity = table.MinimumCapacity
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Sub New(ByVal info As Global.System.Runtime.Serialization.SerializationInfo, ByVal context As Global.System.Runtime.Serialization.StreamingContext)
+            MyBase.New(info, context)
+            Me.InitVars
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property IDColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnID
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property CashNameColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnCashName
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
+         Global.System.ComponentModel.Browsable(false)>  _
+        Public ReadOnly Property Count() As Integer
+            Get
+                Return Me.Rows.Count
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Default ReadOnly Property Item(ByVal index As Integer) As sp_LookUpData_GetCashFlowTypeRow
+            Get
+                Return CType(Me.Rows(index),sp_LookUpData_GetCashFlowTypeRow)
+            End Get
+        End Property
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Event sp_LookUpData_GetCashFlowTypeRowChanging As sp_LookUpData_GetCashFlowTypeRowChangeEventHandler
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Event sp_LookUpData_GetCashFlowTypeRowChanged As sp_LookUpData_GetCashFlowTypeRowChangeEventHandler
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Event sp_LookUpData_GetCashFlowTypeRowDeleting As sp_LookUpData_GetCashFlowTypeRowChangeEventHandler
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Event sp_LookUpData_GetCashFlowTypeRowDeleted As sp_LookUpData_GetCashFlowTypeRowChangeEventHandler
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Overloads Sub Addsp_LookUpData_GetCashFlowTypeRow(ByVal row As sp_LookUpData_GetCashFlowTypeRow)
+            Me.Rows.Add(row)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Overloads Function Addsp_LookUpData_GetCashFlowTypeRow(ByVal ID As Integer, ByVal CashName As String) As sp_LookUpData_GetCashFlowTypeRow
+            Dim rowsp_LookUpData_GetCashFlowTypeRow As sp_LookUpData_GetCashFlowTypeRow = CType(Me.NewRow,sp_LookUpData_GetCashFlowTypeRow)
+            Dim columnValuesArray() As Object = New Object() {ID, CashName}
+            rowsp_LookUpData_GetCashFlowTypeRow.ItemArray = columnValuesArray
+            Me.Rows.Add(rowsp_LookUpData_GetCashFlowTypeRow)
+            Return rowsp_LookUpData_GetCashFlowTypeRow
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function FindByID(ByVal ID As Integer) As sp_LookUpData_GetCashFlowTypeRow
+            Return CType(Me.Rows.Find(New Object() {ID}),sp_LookUpData_GetCashFlowTypeRow)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Overrides Function Clone() As Global.System.Data.DataTable
+            Dim cln As sp_LookUpData_GetCashFlowTypeDataTable = CType(MyBase.Clone,sp_LookUpData_GetCashFlowTypeDataTable)
+            cln.InitVars
+            Return cln
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Function CreateInstance() As Global.System.Data.DataTable
+            Return New sp_LookUpData_GetCashFlowTypeDataTable()
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Friend Sub InitVars()
+            Me.columnID = MyBase.Columns("ID")
+            Me.columnCashName = MyBase.Columns("CashName")
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Private Sub InitClass()
+            Me.columnID = New Global.System.Data.DataColumn("ID", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnID)
+            Me.columnCashName = New Global.System.Data.DataColumn("CashName", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnCashName)
+            Me.Constraints.Add(New Global.System.Data.UniqueConstraint("Constraint1", New Global.System.Data.DataColumn() {Me.columnID}, true))
+            Me.columnID.AllowDBNull = false
+            Me.columnID.Unique = true
+            Me.columnCashName.MaxLength = 50
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function Newsp_LookUpData_GetCashFlowTypeRow() As sp_LookUpData_GetCashFlowTypeRow
+            Return CType(Me.NewRow,sp_LookUpData_GetCashFlowTypeRow)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Function NewRowFromBuilder(ByVal builder As Global.System.Data.DataRowBuilder) As Global.System.Data.DataRow
+            Return New sp_LookUpData_GetCashFlowTypeRow(builder)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Function GetRowType() As Global.System.Type
+            Return GetType(sp_LookUpData_GetCashFlowTypeRow)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Sub OnRowChanged(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowChanged(e)
+            If (Not (Me.sp_LookUpData_GetCashFlowTypeRowChangedEvent) Is Nothing) Then
+                RaiseEvent sp_LookUpData_GetCashFlowTypeRowChanged(Me, New sp_LookUpData_GetCashFlowTypeRowChangeEvent(CType(e.Row,sp_LookUpData_GetCashFlowTypeRow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Sub OnRowChanging(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowChanging(e)
+            If (Not (Me.sp_LookUpData_GetCashFlowTypeRowChangingEvent) Is Nothing) Then
+                RaiseEvent sp_LookUpData_GetCashFlowTypeRowChanging(Me, New sp_LookUpData_GetCashFlowTypeRowChangeEvent(CType(e.Row,sp_LookUpData_GetCashFlowTypeRow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Sub OnRowDeleted(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowDeleted(e)
+            If (Not (Me.sp_LookUpData_GetCashFlowTypeRowDeletedEvent) Is Nothing) Then
+                RaiseEvent sp_LookUpData_GetCashFlowTypeRowDeleted(Me, New sp_LookUpData_GetCashFlowTypeRowChangeEvent(CType(e.Row,sp_LookUpData_GetCashFlowTypeRow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Sub OnRowDeleting(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowDeleting(e)
+            If (Not (Me.sp_LookUpData_GetCashFlowTypeRowDeletingEvent) Is Nothing) Then
+                RaiseEvent sp_LookUpData_GetCashFlowTypeRowDeleting(Me, New sp_LookUpData_GetCashFlowTypeRowChangeEvent(CType(e.Row,sp_LookUpData_GetCashFlowTypeRow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub Removesp_LookUpData_GetCashFlowTypeRow(ByVal row As sp_LookUpData_GetCashFlowTypeRow)
+            Me.Rows.Remove(row)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Shared Function GetTypedTableSchema(ByVal xs As Global.System.Xml.Schema.XmlSchemaSet) As Global.System.Xml.Schema.XmlSchemaComplexType
+            Dim type As Global.System.Xml.Schema.XmlSchemaComplexType = New Global.System.Xml.Schema.XmlSchemaComplexType()
+            Dim sequence As Global.System.Xml.Schema.XmlSchemaSequence = New Global.System.Xml.Schema.XmlSchemaSequence()
+            Dim ds As Dataset = New Dataset()
+            Dim any1 As Global.System.Xml.Schema.XmlSchemaAny = New Global.System.Xml.Schema.XmlSchemaAny()
+            any1.Namespace = "http://www.w3.org/2001/XMLSchema"
+            any1.MinOccurs = New Decimal(0)
+            any1.MaxOccurs = Decimal.MaxValue
+            any1.ProcessContents = Global.System.Xml.Schema.XmlSchemaContentProcessing.Lax
+            sequence.Items.Add(any1)
+            Dim any2 As Global.System.Xml.Schema.XmlSchemaAny = New Global.System.Xml.Schema.XmlSchemaAny()
+            any2.Namespace = "urn:schemas-microsoft-com:xml-diffgram-v1"
+            any2.MinOccurs = New Decimal(1)
+            any2.ProcessContents = Global.System.Xml.Schema.XmlSchemaContentProcessing.Lax
+            sequence.Items.Add(any2)
+            Dim attribute1 As Global.System.Xml.Schema.XmlSchemaAttribute = New Global.System.Xml.Schema.XmlSchemaAttribute()
+            attribute1.Name = "namespace"
+            attribute1.FixedValue = ds.Namespace
+            type.Attributes.Add(attribute1)
+            Dim attribute2 As Global.System.Xml.Schema.XmlSchemaAttribute = New Global.System.Xml.Schema.XmlSchemaAttribute()
+            attribute2.Name = "tableTypeName"
+            attribute2.FixedValue = "sp_LookUpData_GetCashFlowTypeDataTable"
+            type.Attributes.Add(attribute2)
+            type.Particle = sequence
+            Dim dsSchema As Global.System.Xml.Schema.XmlSchema = ds.GetSchemaSerializable
+            If xs.Contains(dsSchema.TargetNamespace) Then
+                Dim s1 As Global.System.IO.MemoryStream = New Global.System.IO.MemoryStream()
+                Dim s2 As Global.System.IO.MemoryStream = New Global.System.IO.MemoryStream()
+                Try 
+                    Dim schema As Global.System.Xml.Schema.XmlSchema = Nothing
+                    dsSchema.Write(s1)
+                    Dim schemas As Global.System.Collections.IEnumerator = xs.Schemas(dsSchema.TargetNamespace).GetEnumerator
+                    Do While schemas.MoveNext
+                        schema = CType(schemas.Current,Global.System.Xml.Schema.XmlSchema)
+                        s2.SetLength(0)
+                        schema.Write(s2)
+                        If (s1.Length = s2.Length) Then
+                            s1.Position = 0
+                            s2.Position = 0
+                            
+                            Do While ((s1.Position <> s1.Length)  _
+                                        AndAlso (s1.ReadByte = s2.ReadByte))
+                                
+                                
+                            Loop
+                            If (s1.Position = s1.Length) Then
+                                Return type
+                            End If
+                        End If
+                        
+                    Loop
+                Finally
+                    If (Not (s1) Is Nothing) Then
+                        s1.Close
+                    End If
+                    If (Not (s2) Is Nothing) Then
+                        s2.Close
+                    End If
+                End Try
+            End If
+            xs.Add(dsSchema)
+            Return type
+        End Function
+    End Class
+    
+    '''<summary>
+    '''Represents the strongly named DataTable class.
+    '''</summary>
+    <Global.System.Serializable(),  _
+     Global.System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")>  _
+    Partial Public Class sp_SPPurchaseOrderParent_GetDataDataTable
+        Inherits Global.System.Data.TypedTableBase(Of sp_SPPurchaseOrderParent_GetDataRow)
+        
+        Private columnPODate As Global.System.Data.DataColumn
+        
+        Private columnGrandTotal As Global.System.Data.DataColumn
+        
+        Private columnValue As Global.System.Data.DataColumn
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub New()
+            MyBase.New
+            Me.TableName = "sp_SPPurchaseOrderParent_GetData"
+            Me.BeginInit
+            Me.InitClass
+            Me.EndInit
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Friend Sub New(ByVal table As Global.System.Data.DataTable)
+            MyBase.New
+            Me.TableName = table.TableName
+            If (table.CaseSensitive <> table.DataSet.CaseSensitive) Then
+                Me.CaseSensitive = table.CaseSensitive
+            End If
+            If (table.Locale.ToString <> table.DataSet.Locale.ToString) Then
+                Me.Locale = table.Locale
+            End If
+            If (table.Namespace <> table.DataSet.Namespace) Then
+                Me.Namespace = table.Namespace
+            End If
+            Me.Prefix = table.Prefix
+            Me.MinimumCapacity = table.MinimumCapacity
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Sub New(ByVal info As Global.System.Runtime.Serialization.SerializationInfo, ByVal context As Global.System.Runtime.Serialization.StreamingContext)
+            MyBase.New(info, context)
+            Me.InitVars
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property PODateColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnPODate
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property GrandTotalColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnGrandTotal
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property ValueColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnValue
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
+         Global.System.ComponentModel.Browsable(false)>  _
+        Public ReadOnly Property Count() As Integer
+            Get
+                Return Me.Rows.Count
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Default ReadOnly Property Item(ByVal index As Integer) As sp_SPPurchaseOrderParent_GetDataRow
+            Get
+                Return CType(Me.Rows(index),sp_SPPurchaseOrderParent_GetDataRow)
+            End Get
+        End Property
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Event sp_SPPurchaseOrderParent_GetDataRowChanging As sp_SPPurchaseOrderParent_GetDataRowChangeEventHandler
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Event sp_SPPurchaseOrderParent_GetDataRowChanged As sp_SPPurchaseOrderParent_GetDataRowChangeEventHandler
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Event sp_SPPurchaseOrderParent_GetDataRowDeleting As sp_SPPurchaseOrderParent_GetDataRowChangeEventHandler
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Event sp_SPPurchaseOrderParent_GetDataRowDeleted As sp_SPPurchaseOrderParent_GetDataRowChangeEventHandler
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Overloads Sub Addsp_SPPurchaseOrderParent_GetDataRow(ByVal row As sp_SPPurchaseOrderParent_GetDataRow)
+            Me.Rows.Add(row)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Overloads Function Addsp_SPPurchaseOrderParent_GetDataRow(ByVal PODate As Date, ByVal GrandTotal As Decimal, ByVal Value As Integer) As sp_SPPurchaseOrderParent_GetDataRow
+            Dim rowsp_SPPurchaseOrderParent_GetDataRow As sp_SPPurchaseOrderParent_GetDataRow = CType(Me.NewRow,sp_SPPurchaseOrderParent_GetDataRow)
+            Dim columnValuesArray() As Object = New Object() {PODate, GrandTotal, Value}
+            rowsp_SPPurchaseOrderParent_GetDataRow.ItemArray = columnValuesArray
+            Me.Rows.Add(rowsp_SPPurchaseOrderParent_GetDataRow)
+            Return rowsp_SPPurchaseOrderParent_GetDataRow
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Overrides Function Clone() As Global.System.Data.DataTable
+            Dim cln As sp_SPPurchaseOrderParent_GetDataDataTable = CType(MyBase.Clone,sp_SPPurchaseOrderParent_GetDataDataTable)
+            cln.InitVars
+            Return cln
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Function CreateInstance() As Global.System.Data.DataTable
+            Return New sp_SPPurchaseOrderParent_GetDataDataTable()
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Friend Sub InitVars()
+            Me.columnPODate = MyBase.Columns("PODate")
+            Me.columnGrandTotal = MyBase.Columns("GrandTotal")
+            Me.columnValue = MyBase.Columns("Value")
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Private Sub InitClass()
+            Me.columnPODate = New Global.System.Data.DataColumn("PODate", GetType(Date), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnPODate)
+            Me.columnGrandTotal = New Global.System.Data.DataColumn("GrandTotal", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnGrandTotal)
+            Me.columnValue = New Global.System.Data.DataColumn("Value", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnValue)
+            Me.columnPODate.AllowDBNull = false
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function Newsp_SPPurchaseOrderParent_GetDataRow() As sp_SPPurchaseOrderParent_GetDataRow
+            Return CType(Me.NewRow,sp_SPPurchaseOrderParent_GetDataRow)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Function NewRowFromBuilder(ByVal builder As Global.System.Data.DataRowBuilder) As Global.System.Data.DataRow
+            Return New sp_SPPurchaseOrderParent_GetDataRow(builder)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Function GetRowType() As Global.System.Type
+            Return GetType(sp_SPPurchaseOrderParent_GetDataRow)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Sub OnRowChanged(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowChanged(e)
+            If (Not (Me.sp_SPPurchaseOrderParent_GetDataRowChangedEvent) Is Nothing) Then
+                RaiseEvent sp_SPPurchaseOrderParent_GetDataRowChanged(Me, New sp_SPPurchaseOrderParent_GetDataRowChangeEvent(CType(e.Row,sp_SPPurchaseOrderParent_GetDataRow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Sub OnRowChanging(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowChanging(e)
+            If (Not (Me.sp_SPPurchaseOrderParent_GetDataRowChangingEvent) Is Nothing) Then
+                RaiseEvent sp_SPPurchaseOrderParent_GetDataRowChanging(Me, New sp_SPPurchaseOrderParent_GetDataRowChangeEvent(CType(e.Row,sp_SPPurchaseOrderParent_GetDataRow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Sub OnRowDeleted(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowDeleted(e)
+            If (Not (Me.sp_SPPurchaseOrderParent_GetDataRowDeletedEvent) Is Nothing) Then
+                RaiseEvent sp_SPPurchaseOrderParent_GetDataRowDeleted(Me, New sp_SPPurchaseOrderParent_GetDataRowChangeEvent(CType(e.Row,sp_SPPurchaseOrderParent_GetDataRow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Sub OnRowDeleting(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowDeleting(e)
+            If (Not (Me.sp_SPPurchaseOrderParent_GetDataRowDeletingEvent) Is Nothing) Then
+                RaiseEvent sp_SPPurchaseOrderParent_GetDataRowDeleting(Me, New sp_SPPurchaseOrderParent_GetDataRowChangeEvent(CType(e.Row,sp_SPPurchaseOrderParent_GetDataRow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub Removesp_SPPurchaseOrderParent_GetDataRow(ByVal row As sp_SPPurchaseOrderParent_GetDataRow)
+            Me.Rows.Remove(row)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Shared Function GetTypedTableSchema(ByVal xs As Global.System.Xml.Schema.XmlSchemaSet) As Global.System.Xml.Schema.XmlSchemaComplexType
+            Dim type As Global.System.Xml.Schema.XmlSchemaComplexType = New Global.System.Xml.Schema.XmlSchemaComplexType()
+            Dim sequence As Global.System.Xml.Schema.XmlSchemaSequence = New Global.System.Xml.Schema.XmlSchemaSequence()
+            Dim ds As Dataset = New Dataset()
+            Dim any1 As Global.System.Xml.Schema.XmlSchemaAny = New Global.System.Xml.Schema.XmlSchemaAny()
+            any1.Namespace = "http://www.w3.org/2001/XMLSchema"
+            any1.MinOccurs = New Decimal(0)
+            any1.MaxOccurs = Decimal.MaxValue
+            any1.ProcessContents = Global.System.Xml.Schema.XmlSchemaContentProcessing.Lax
+            sequence.Items.Add(any1)
+            Dim any2 As Global.System.Xml.Schema.XmlSchemaAny = New Global.System.Xml.Schema.XmlSchemaAny()
+            any2.Namespace = "urn:schemas-microsoft-com:xml-diffgram-v1"
+            any2.MinOccurs = New Decimal(1)
+            any2.ProcessContents = Global.System.Xml.Schema.XmlSchemaContentProcessing.Lax
+            sequence.Items.Add(any2)
+            Dim attribute1 As Global.System.Xml.Schema.XmlSchemaAttribute = New Global.System.Xml.Schema.XmlSchemaAttribute()
+            attribute1.Name = "namespace"
+            attribute1.FixedValue = ds.Namespace
+            type.Attributes.Add(attribute1)
+            Dim attribute2 As Global.System.Xml.Schema.XmlSchemaAttribute = New Global.System.Xml.Schema.XmlSchemaAttribute()
+            attribute2.Name = "tableTypeName"
+            attribute2.FixedValue = "sp_SPPurchaseOrderParent_GetDataDataTable"
+            type.Attributes.Add(attribute2)
+            type.Particle = sequence
+            Dim dsSchema As Global.System.Xml.Schema.XmlSchema = ds.GetSchemaSerializable
+            If xs.Contains(dsSchema.TargetNamespace) Then
+                Dim s1 As Global.System.IO.MemoryStream = New Global.System.IO.MemoryStream()
+                Dim s2 As Global.System.IO.MemoryStream = New Global.System.IO.MemoryStream()
+                Try 
+                    Dim schema As Global.System.Xml.Schema.XmlSchema = Nothing
+                    dsSchema.Write(s1)
+                    Dim schemas As Global.System.Collections.IEnumerator = xs.Schemas(dsSchema.TargetNamespace).GetEnumerator
+                    Do While schemas.MoveNext
+                        schema = CType(schemas.Current,Global.System.Xml.Schema.XmlSchema)
+                        s2.SetLength(0)
+                        schema.Write(s2)
+                        If (s1.Length = s2.Length) Then
+                            s1.Position = 0
+                            s2.Position = 0
+                            
+                            Do While ((s1.Position <> s1.Length)  _
+                                        AndAlso (s1.ReadByte = s2.ReadByte))
+                                
+                                
+                            Loop
+                            If (s1.Position = s1.Length) Then
+                                Return type
+                            End If
+                        End If
+                        
+                    Loop
+                Finally
+                    If (Not (s1) Is Nothing) Then
+                        s1.Close
+                    End If
+                    If (Not (s2) Is Nothing) Then
+                        s2.Close
+                    End If
+                End Try
+            End If
+            xs.Add(dsSchema)
+            Return type
+        End Function
+    End Class
+    
+    '''<summary>
+    '''Represents the strongly named DataTable class.
+    '''</summary>
+    <Global.System.Serializable(),  _
+     Global.System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")>  _
+    Partial Public Class sp_SPPurchaseReceiveDetail_GetPOInvDataTable
+        Inherits Global.System.Data.TypedTableBase(Of sp_SPPurchaseReceiveDetail_GetPOInvRow)
+        
+        Private columnID As Global.System.Data.DataColumn
+        
+        Private columnInventoryID As Global.System.Data.DataColumn
+        
+        Private columnQty As Global.System.Data.DataColumn
+        
+        Private columnPrice As Global.System.Data.DataColumn
+        
+        Private columnSupplierID As Global.System.Data.DataColumn
+        
+        Private columnOrd As Global.System.Data.DataColumn
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub New()
+            MyBase.New
+            Me.TableName = "sp_SPPurchaseReceiveDetail_GetPOInv"
+            Me.BeginInit
+            Me.InitClass
+            Me.EndInit
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Friend Sub New(ByVal table As Global.System.Data.DataTable)
+            MyBase.New
+            Me.TableName = table.TableName
+            If (table.CaseSensitive <> table.DataSet.CaseSensitive) Then
+                Me.CaseSensitive = table.CaseSensitive
+            End If
+            If (table.Locale.ToString <> table.DataSet.Locale.ToString) Then
+                Me.Locale = table.Locale
+            End If
+            If (table.Namespace <> table.DataSet.Namespace) Then
+                Me.Namespace = table.Namespace
+            End If
+            Me.Prefix = table.Prefix
+            Me.MinimumCapacity = table.MinimumCapacity
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Sub New(ByVal info As Global.System.Runtime.Serialization.SerializationInfo, ByVal context As Global.System.Runtime.Serialization.StreamingContext)
+            MyBase.New(info, context)
+            Me.InitVars
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property IDColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnID
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property InventoryIDColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnInventoryID
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property QtyColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnQty
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property PriceColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnPrice
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property SupplierIDColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnSupplierID
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property OrdColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnOrd
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
+         Global.System.ComponentModel.Browsable(false)>  _
+        Public ReadOnly Property Count() As Integer
+            Get
+                Return Me.Rows.Count
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Default ReadOnly Property Item(ByVal index As Integer) As sp_SPPurchaseReceiveDetail_GetPOInvRow
+            Get
+                Return CType(Me.Rows(index),sp_SPPurchaseReceiveDetail_GetPOInvRow)
+            End Get
+        End Property
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Event sp_SPPurchaseReceiveDetail_GetPOInvRowChanging As sp_SPPurchaseReceiveDetail_GetPOInvRowChangeEventHandler
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Event sp_SPPurchaseReceiveDetail_GetPOInvRowChanged As sp_SPPurchaseReceiveDetail_GetPOInvRowChangeEventHandler
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Event sp_SPPurchaseReceiveDetail_GetPOInvRowDeleting As sp_SPPurchaseReceiveDetail_GetPOInvRowChangeEventHandler
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Event sp_SPPurchaseReceiveDetail_GetPOInvRowDeleted As sp_SPPurchaseReceiveDetail_GetPOInvRowChangeEventHandler
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Overloads Sub Addsp_SPPurchaseReceiveDetail_GetPOInvRow(ByVal row As sp_SPPurchaseReceiveDetail_GetPOInvRow)
+            Me.Rows.Add(row)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Overloads Function Addsp_SPPurchaseReceiveDetail_GetPOInvRow(ByVal ID As Integer, ByVal InventoryID As Integer, ByVal Qty As Decimal, ByVal Price As Decimal, ByVal SupplierID As Integer, ByVal Ord As Integer) As sp_SPPurchaseReceiveDetail_GetPOInvRow
+            Dim rowsp_SPPurchaseReceiveDetail_GetPOInvRow As sp_SPPurchaseReceiveDetail_GetPOInvRow = CType(Me.NewRow,sp_SPPurchaseReceiveDetail_GetPOInvRow)
+            Dim columnValuesArray() As Object = New Object() {ID, InventoryID, Qty, Price, SupplierID, Ord}
+            rowsp_SPPurchaseReceiveDetail_GetPOInvRow.ItemArray = columnValuesArray
+            Me.Rows.Add(rowsp_SPPurchaseReceiveDetail_GetPOInvRow)
+            Return rowsp_SPPurchaseReceiveDetail_GetPOInvRow
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Overrides Function Clone() As Global.System.Data.DataTable
+            Dim cln As sp_SPPurchaseReceiveDetail_GetPOInvDataTable = CType(MyBase.Clone,sp_SPPurchaseReceiveDetail_GetPOInvDataTable)
+            cln.InitVars
+            Return cln
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Function CreateInstance() As Global.System.Data.DataTable
+            Return New sp_SPPurchaseReceiveDetail_GetPOInvDataTable()
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Friend Sub InitVars()
+            Me.columnID = MyBase.Columns("ID")
+            Me.columnInventoryID = MyBase.Columns("InventoryID")
+            Me.columnQty = MyBase.Columns("Qty")
+            Me.columnPrice = MyBase.Columns("Price")
+            Me.columnSupplierID = MyBase.Columns("SupplierID")
+            Me.columnOrd = MyBase.Columns("Ord")
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Private Sub InitClass()
+            Me.columnID = New Global.System.Data.DataColumn("ID", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnID)
+            Me.columnInventoryID = New Global.System.Data.DataColumn("InventoryID", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnInventoryID)
+            Me.columnQty = New Global.System.Data.DataColumn("Qty", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnQty)
+            Me.columnPrice = New Global.System.Data.DataColumn("Price", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnPrice)
+            Me.columnSupplierID = New Global.System.Data.DataColumn("SupplierID", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnSupplierID)
+            Me.columnOrd = New Global.System.Data.DataColumn("Ord", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnOrd)
+            Me.columnID.ReadOnly = true
+            Me.columnInventoryID.ReadOnly = true
+            Me.columnQty.ReadOnly = true
+            Me.columnPrice.ReadOnly = true
+            Me.columnSupplierID.ReadOnly = true
+            Me.columnOrd.ReadOnly = true
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function Newsp_SPPurchaseReceiveDetail_GetPOInvRow() As sp_SPPurchaseReceiveDetail_GetPOInvRow
+            Return CType(Me.NewRow,sp_SPPurchaseReceiveDetail_GetPOInvRow)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Function NewRowFromBuilder(ByVal builder As Global.System.Data.DataRowBuilder) As Global.System.Data.DataRow
+            Return New sp_SPPurchaseReceiveDetail_GetPOInvRow(builder)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Function GetRowType() As Global.System.Type
+            Return GetType(sp_SPPurchaseReceiveDetail_GetPOInvRow)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Sub OnRowChanged(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowChanged(e)
+            If (Not (Me.sp_SPPurchaseReceiveDetail_GetPOInvRowChangedEvent) Is Nothing) Then
+                RaiseEvent sp_SPPurchaseReceiveDetail_GetPOInvRowChanged(Me, New sp_SPPurchaseReceiveDetail_GetPOInvRowChangeEvent(CType(e.Row,sp_SPPurchaseReceiveDetail_GetPOInvRow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Sub OnRowChanging(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowChanging(e)
+            If (Not (Me.sp_SPPurchaseReceiveDetail_GetPOInvRowChangingEvent) Is Nothing) Then
+                RaiseEvent sp_SPPurchaseReceiveDetail_GetPOInvRowChanging(Me, New sp_SPPurchaseReceiveDetail_GetPOInvRowChangeEvent(CType(e.Row,sp_SPPurchaseReceiveDetail_GetPOInvRow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Sub OnRowDeleted(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowDeleted(e)
+            If (Not (Me.sp_SPPurchaseReceiveDetail_GetPOInvRowDeletedEvent) Is Nothing) Then
+                RaiseEvent sp_SPPurchaseReceiveDetail_GetPOInvRowDeleted(Me, New sp_SPPurchaseReceiveDetail_GetPOInvRowChangeEvent(CType(e.Row,sp_SPPurchaseReceiveDetail_GetPOInvRow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Overrides Sub OnRowDeleting(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowDeleting(e)
+            If (Not (Me.sp_SPPurchaseReceiveDetail_GetPOInvRowDeletingEvent) Is Nothing) Then
+                RaiseEvent sp_SPPurchaseReceiveDetail_GetPOInvRowDeleting(Me, New sp_SPPurchaseReceiveDetail_GetPOInvRowChangeEvent(CType(e.Row,sp_SPPurchaseReceiveDetail_GetPOInvRow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub Removesp_SPPurchaseReceiveDetail_GetPOInvRow(ByVal row As sp_SPPurchaseReceiveDetail_GetPOInvRow)
+            Me.Rows.Remove(row)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Shared Function GetTypedTableSchema(ByVal xs As Global.System.Xml.Schema.XmlSchemaSet) As Global.System.Xml.Schema.XmlSchemaComplexType
+            Dim type As Global.System.Xml.Schema.XmlSchemaComplexType = New Global.System.Xml.Schema.XmlSchemaComplexType()
+            Dim sequence As Global.System.Xml.Schema.XmlSchemaSequence = New Global.System.Xml.Schema.XmlSchemaSequence()
+            Dim ds As Dataset = New Dataset()
+            Dim any1 As Global.System.Xml.Schema.XmlSchemaAny = New Global.System.Xml.Schema.XmlSchemaAny()
+            any1.Namespace = "http://www.w3.org/2001/XMLSchema"
+            any1.MinOccurs = New Decimal(0)
+            any1.MaxOccurs = Decimal.MaxValue
+            any1.ProcessContents = Global.System.Xml.Schema.XmlSchemaContentProcessing.Lax
+            sequence.Items.Add(any1)
+            Dim any2 As Global.System.Xml.Schema.XmlSchemaAny = New Global.System.Xml.Schema.XmlSchemaAny()
+            any2.Namespace = "urn:schemas-microsoft-com:xml-diffgram-v1"
+            any2.MinOccurs = New Decimal(1)
+            any2.ProcessContents = Global.System.Xml.Schema.XmlSchemaContentProcessing.Lax
+            sequence.Items.Add(any2)
+            Dim attribute1 As Global.System.Xml.Schema.XmlSchemaAttribute = New Global.System.Xml.Schema.XmlSchemaAttribute()
+            attribute1.Name = "namespace"
+            attribute1.FixedValue = ds.Namespace
+            type.Attributes.Add(attribute1)
+            Dim attribute2 As Global.System.Xml.Schema.XmlSchemaAttribute = New Global.System.Xml.Schema.XmlSchemaAttribute()
+            attribute2.Name = "tableTypeName"
+            attribute2.FixedValue = "sp_SPPurchaseReceiveDetail_GetPOInvDataTable"
             type.Attributes.Add(attribute2)
             type.Particle = sequence
             Dim dsSchema As Global.System.Xml.Schema.XmlSchema = ds.GetSchemaSerializable
@@ -7007,38 +8015,6 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Property POID() As Integer
-            Get
-                Try 
-                    Return CType(Me(Me.tablesp_SPPurchaseReceiveHeader_GetData.POIDColumn),Integer)
-                Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'POID' in table 'sp_SPPurchaseReceiveHeader_GetData' is DBNu"& _ 
-                            "ll.", e)
-                End Try
-            End Get
-            Set
-                Me(Me.tablesp_SPPurchaseReceiveHeader_GetData.POIDColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Property PONo() As String
-            Get
-                Try 
-                    Return CType(Me(Me.tablesp_SPPurchaseReceiveHeader_GetData.PONoColumn),String)
-                Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'PONo' in table 'sp_SPPurchaseReceiveHeader_GetData' is DBNu"& _ 
-                            "ll.", e)
-                End Try
-            End Get
-            Set
-                Me(Me.tablesp_SPPurchaseReceiveHeader_GetData.PONoColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
         Public Property WHID() As Integer
             Get
                 Try 
@@ -7194,6 +8170,22 @@ Partial Public Class Dataset
             End Get
             Set
                 Me(Me.tablesp_SPPurchaseReceiveHeader_GetData.DONoColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property NoFaktur() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tablesp_SPPurchaseReceiveHeader_GetData.NoFakturColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'NoFaktur' in table 'sp_SPPurchaseReceiveHeader_GetData' is "& _ 
+                            "DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablesp_SPPurchaseReceiveHeader_GetData.NoFakturColumn) = value
             End Set
         End Property
         
@@ -7426,30 +8418,6 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Function IsPOIDNull() As Boolean
-            Return Me.IsNull(Me.tablesp_SPPurchaseReceiveHeader_GetData.POIDColumn)
-        End Function
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Sub SetPOIDNull()
-            Me(Me.tablesp_SPPurchaseReceiveHeader_GetData.POIDColumn) = Global.System.Convert.DBNull
-        End Sub
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Function IsPONoNull() As Boolean
-            Return Me.IsNull(Me.tablesp_SPPurchaseReceiveHeader_GetData.PONoColumn)
-        End Function
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Sub SetPONoNull()
-            Me(Me.tablesp_SPPurchaseReceiveHeader_GetData.PONoColumn) = Global.System.Convert.DBNull
-        End Sub
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
         Public Function IsWHIDNull() As Boolean
             Return Me.IsNull(Me.tablesp_SPPurchaseReceiveHeader_GetData.WHIDColumn)
         End Function
@@ -7566,6 +8534,18 @@ Partial Public Class Dataset
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
         Public Sub SetDONoNull()
             Me(Me.tablesp_SPPurchaseReceiveHeader_GetData.DONoColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function IsNoFakturNull() As Boolean
+            Return Me.IsNull(Me.tablesp_SPPurchaseReceiveHeader_GetData.NoFakturColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub SetNoFakturNull()
+            Me(Me.tablesp_SPPurchaseReceiveHeader_GetData.NoFakturColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -9702,9 +10682,9 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Property POID() As String
+        Public Property POID() As Integer
             Get
-                Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.POIDColumn),String)
+                Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.POIDColumn),Integer)
             End Get
             Set
                 Me(Me.tablesp_SPPurchaseOrderDetail_GetData.POIDColumn) = value
@@ -9745,10 +10725,10 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Property Qty() As Integer
+        Public Property Qty() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.QtyColumn),Integer)
+                    Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.QtyColumn),Decimal)
                 Catch e As Global.System.InvalidCastException
                     Throw New Global.System.Data.StrongTypingException("The value for column 'Qty' in table 'sp_SPPurchaseOrderDetail_GetData' is DBNull."& _ 
                             "", e)
@@ -9761,10 +10741,10 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Property Weight() As Integer
+        Public Property Weight() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.WeightColumn),Integer)
+                    Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.WeightColumn),Decimal)
                 Catch e As Global.System.InvalidCastException
                     Throw New Global.System.Data.StrongTypingException("The value for column 'Weight' in table 'sp_SPPurchaseOrderDetail_GetData' is DBNu"& _ 
                             "ll.", e)
@@ -9793,10 +10773,10 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Property Price() As Integer
+        Public Property Price() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.PriceColumn),Integer)
+                    Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.PriceColumn),Decimal)
                 Catch e As Global.System.InvalidCastException
                     Throw New Global.System.Data.StrongTypingException("The value for column 'Price' in table 'sp_SPPurchaseOrderDetail_GetData' is DBNul"& _ 
                             "l.", e)
@@ -9825,10 +10805,10 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Property Subtotal() As Integer
+        Public Property Subtotal() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.SubtotalColumn),Integer)
+                    Return CType(Me(Me.tablesp_SPPurchaseOrderDetail_GetData.SubtotalColumn),Decimal)
                 Catch e As Global.System.InvalidCastException
                     Throw New Global.System.Data.StrongTypingException("The value for column 'Subtotal' in table 'sp_SPPurchaseOrderDetail_GetData' is DB"& _ 
                             "Null.", e)
@@ -10156,17 +11136,49 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Property Description() As String
+        Public Property InventoryName() As String
             Get
                 Try 
-                    Return CType(Me(Me.tablesp_SPPurchaseOrder_GetReportDaily.DescriptionColumn),String)
+                    Return CType(Me(Me.tablesp_SPPurchaseOrder_GetReportDaily.InventoryNameColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'Description' in table 'sp_SPPurchaseOrder_GetReportDaily' i"& _ 
-                            "s DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'InventoryName' in table 'sp_SPPurchaseOrder_GetReportDaily'"& _ 
+                            " is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tablesp_SPPurchaseOrder_GetReportDaily.DescriptionColumn) = value
+                Me(Me.tablesp_SPPurchaseOrder_GetReportDaily.InventoryNameColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property Qty() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tablesp_SPPurchaseOrder_GetReportDaily.QtyColumn),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Qty' in table 'sp_SPPurchaseOrder_GetReportDaily' is DBNull"& _ 
+                            ".", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablesp_SPPurchaseOrder_GetReportDaily.QtyColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property Price() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tablesp_SPPurchaseOrder_GetReportDaily.PriceColumn),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Price' in table 'sp_SPPurchaseOrder_GetReportDaily' is DBNu"& _ 
+                            "ll.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablesp_SPPurchaseOrder_GetReportDaily.PriceColumn) = value
             End Set
         End Property
         
@@ -10183,6 +11195,22 @@ Partial Public Class Dataset
             End Get
             Set
                 Me(Me.tablesp_SPPurchaseOrder_GetReportDaily.SubTotalColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property SupplierName() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tablesp_SPPurchaseOrder_GetReportDaily.SupplierNameColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'SupplierName' in table 'sp_SPPurchaseOrder_GetReportDaily' "& _ 
+                            "is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablesp_SPPurchaseOrder_GetReportDaily.SupplierNameColumn) = value
             End Set
         End Property
         
@@ -10211,14 +11239,38 @@ Partial Public Class Dataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Function IsDescriptionNull() As Boolean
-            Return Me.IsNull(Me.tablesp_SPPurchaseOrder_GetReportDaily.DescriptionColumn)
+        Public Function IsInventoryNameNull() As Boolean
+            Return Me.IsNull(Me.tablesp_SPPurchaseOrder_GetReportDaily.InventoryNameColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
-        Public Sub SetDescriptionNull()
-            Me(Me.tablesp_SPPurchaseOrder_GetReportDaily.DescriptionColumn) = Global.System.Convert.DBNull
+        Public Sub SetInventoryNameNull()
+            Me(Me.tablesp_SPPurchaseOrder_GetReportDaily.InventoryNameColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function IsQtyNull() As Boolean
+            Return Me.IsNull(Me.tablesp_SPPurchaseOrder_GetReportDaily.QtyColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub SetQtyNull()
+            Me(Me.tablesp_SPPurchaseOrder_GetReportDaily.QtyColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function IsPriceNull() As Boolean
+            Return Me.IsNull(Me.tablesp_SPPurchaseOrder_GetReportDaily.PriceColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub SetPriceNull()
+            Me(Me.tablesp_SPPurchaseOrder_GetReportDaily.PriceColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -10231,6 +11283,340 @@ Partial Public Class Dataset
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
         Public Sub SetSubTotalNull()
             Me(Me.tablesp_SPPurchaseOrder_GetReportDaily.SubTotalColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function IsSupplierNameNull() As Boolean
+            Return Me.IsNull(Me.tablesp_SPPurchaseOrder_GetReportDaily.SupplierNameColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub SetSupplierNameNull()
+            Me(Me.tablesp_SPPurchaseOrder_GetReportDaily.SupplierNameColumn) = Global.System.Convert.DBNull
+        End Sub
+    End Class
+    
+    '''<summary>
+    '''Represents strongly named DataRow class.
+    '''</summary>
+    Partial Public Class sp_LookUpData_GetCashFlowTypeRow
+        Inherits Global.System.Data.DataRow
+        
+        Private tablesp_LookUpData_GetCashFlowType As sp_LookUpData_GetCashFlowTypeDataTable
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Friend Sub New(ByVal rb As Global.System.Data.DataRowBuilder)
+            MyBase.New(rb)
+            Me.tablesp_LookUpData_GetCashFlowType = CType(Me.Table,sp_LookUpData_GetCashFlowTypeDataTable)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property ID() As Integer
+            Get
+                Return CType(Me(Me.tablesp_LookUpData_GetCashFlowType.IDColumn),Integer)
+            End Get
+            Set
+                Me(Me.tablesp_LookUpData_GetCashFlowType.IDColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property CashName() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tablesp_LookUpData_GetCashFlowType.CashNameColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'CashName' in table 'sp_LookUpData_GetCashFlowType' is DBNul"& _ 
+                            "l.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablesp_LookUpData_GetCashFlowType.CashNameColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function IsCashNameNull() As Boolean
+            Return Me.IsNull(Me.tablesp_LookUpData_GetCashFlowType.CashNameColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub SetCashNameNull()
+            Me(Me.tablesp_LookUpData_GetCashFlowType.CashNameColumn) = Global.System.Convert.DBNull
+        End Sub
+    End Class
+    
+    '''<summary>
+    '''Represents strongly named DataRow class.
+    '''</summary>
+    Partial Public Class sp_SPPurchaseOrderParent_GetDataRow
+        Inherits Global.System.Data.DataRow
+        
+        Private tablesp_SPPurchaseOrderParent_GetData As sp_SPPurchaseOrderParent_GetDataDataTable
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Friend Sub New(ByVal rb As Global.System.Data.DataRowBuilder)
+            MyBase.New(rb)
+            Me.tablesp_SPPurchaseOrderParent_GetData = CType(Me.Table,sp_SPPurchaseOrderParent_GetDataDataTable)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property PODate() As Date
+            Get
+                Return CType(Me(Me.tablesp_SPPurchaseOrderParent_GetData.PODateColumn),Date)
+            End Get
+            Set
+                Me(Me.tablesp_SPPurchaseOrderParent_GetData.PODateColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property GrandTotal() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tablesp_SPPurchaseOrderParent_GetData.GrandTotalColumn),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'GrandTotal' in table 'sp_SPPurchaseOrderParent_GetData' is "& _ 
+                            "DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablesp_SPPurchaseOrderParent_GetData.GrandTotalColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property Value() As Integer
+            Get
+                Try 
+                    Return CType(Me(Me.tablesp_SPPurchaseOrderParent_GetData.ValueColumn),Integer)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Value' in table 'sp_SPPurchaseOrderParent_GetData' is DBNul"& _ 
+                            "l.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablesp_SPPurchaseOrderParent_GetData.ValueColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function IsGrandTotalNull() As Boolean
+            Return Me.IsNull(Me.tablesp_SPPurchaseOrderParent_GetData.GrandTotalColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub SetGrandTotalNull()
+            Me(Me.tablesp_SPPurchaseOrderParent_GetData.GrandTotalColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function IsValueNull() As Boolean
+            Return Me.IsNull(Me.tablesp_SPPurchaseOrderParent_GetData.ValueColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub SetValueNull()
+            Me(Me.tablesp_SPPurchaseOrderParent_GetData.ValueColumn) = Global.System.Convert.DBNull
+        End Sub
+    End Class
+    
+    '''<summary>
+    '''Represents strongly named DataRow class.
+    '''</summary>
+    Partial Public Class sp_SPPurchaseReceiveDetail_GetPOInvRow
+        Inherits Global.System.Data.DataRow
+        
+        Private tablesp_SPPurchaseReceiveDetail_GetPOInv As sp_SPPurchaseReceiveDetail_GetPOInvDataTable
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Friend Sub New(ByVal rb As Global.System.Data.DataRowBuilder)
+            MyBase.New(rb)
+            Me.tablesp_SPPurchaseReceiveDetail_GetPOInv = CType(Me.Table,sp_SPPurchaseReceiveDetail_GetPOInvDataTable)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property ID() As Integer
+            Get
+                Try 
+                    Return CType(Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.IDColumn),Integer)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'ID' in table 'sp_SPPurchaseReceiveDetail_GetPOInv' is DBNul"& _ 
+                            "l.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.IDColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property InventoryID() As Integer
+            Get
+                Try 
+                    Return CType(Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.InventoryIDColumn),Integer)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'InventoryID' in table 'sp_SPPurchaseReceiveDetail_GetPOInv'"& _ 
+                            " is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.InventoryIDColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property Qty() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.QtyColumn),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Qty' in table 'sp_SPPurchaseReceiveDetail_GetPOInv' is DBNu"& _ 
+                            "ll.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.QtyColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property Price() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.PriceColumn),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Price' in table 'sp_SPPurchaseReceiveDetail_GetPOInv' is DB"& _ 
+                            "Null.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.PriceColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property SupplierID() As Integer
+            Get
+                Try 
+                    Return CType(Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.SupplierIDColumn),Integer)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'SupplierID' in table 'sp_SPPurchaseReceiveDetail_GetPOInv' "& _ 
+                            "is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.SupplierIDColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property Ord() As Integer
+            Get
+                Try 
+                    Return CType(Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.OrdColumn),Integer)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Ord' in table 'sp_SPPurchaseReceiveDetail_GetPOInv' is DBNu"& _ 
+                            "ll.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.OrdColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function IsIDNull() As Boolean
+            Return Me.IsNull(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.IDColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub SetIDNull()
+            Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.IDColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function IsInventoryIDNull() As Boolean
+            Return Me.IsNull(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.InventoryIDColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub SetInventoryIDNull()
+            Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.InventoryIDColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function IsQtyNull() As Boolean
+            Return Me.IsNull(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.QtyColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub SetQtyNull()
+            Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.QtyColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function IsPriceNull() As Boolean
+            Return Me.IsNull(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.PriceColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub SetPriceNull()
+            Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.PriceColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function IsSupplierIDNull() As Boolean
+            Return Me.IsNull(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.SupplierIDColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub SetSupplierIDNull()
+            Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.SupplierIDColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Function IsOrdNull() As Boolean
+            Return Me.IsNull(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.OrdColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub SetOrdNull()
+            Me(Me.tablesp_SPPurchaseReceiveDetail_GetPOInv.OrdColumn) = Global.System.Convert.DBNull
         End Sub
     End Class
     
@@ -10688,6 +12074,114 @@ Partial Public Class Dataset
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
         Public ReadOnly Property Row() As sp_SPPurchaseOrder_GetReportDailyRow
+            Get
+                Return Me.eventRow
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property Action() As Global.System.Data.DataRowAction
+            Get
+                Return Me.eventAction
+            End Get
+        End Property
+    End Class
+    
+    '''<summary>
+    '''Row event argument class
+    '''</summary>
+    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+    Public Class sp_LookUpData_GetCashFlowTypeRowChangeEvent
+        Inherits Global.System.EventArgs
+        
+        Private eventRow As sp_LookUpData_GetCashFlowTypeRow
+        
+        Private eventAction As Global.System.Data.DataRowAction
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub New(ByVal row As sp_LookUpData_GetCashFlowTypeRow, ByVal action As Global.System.Data.DataRowAction)
+            MyBase.New
+            Me.eventRow = row
+            Me.eventAction = action
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property Row() As sp_LookUpData_GetCashFlowTypeRow
+            Get
+                Return Me.eventRow
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property Action() As Global.System.Data.DataRowAction
+            Get
+                Return Me.eventAction
+            End Get
+        End Property
+    End Class
+    
+    '''<summary>
+    '''Row event argument class
+    '''</summary>
+    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+    Public Class sp_SPPurchaseOrderParent_GetDataRowChangeEvent
+        Inherits Global.System.EventArgs
+        
+        Private eventRow As sp_SPPurchaseOrderParent_GetDataRow
+        
+        Private eventAction As Global.System.Data.DataRowAction
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub New(ByVal row As sp_SPPurchaseOrderParent_GetDataRow, ByVal action As Global.System.Data.DataRowAction)
+            MyBase.New
+            Me.eventRow = row
+            Me.eventAction = action
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property Row() As sp_SPPurchaseOrderParent_GetDataRow
+            Get
+                Return Me.eventRow
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property Action() As Global.System.Data.DataRowAction
+            Get
+                Return Me.eventAction
+            End Get
+        End Property
+    End Class
+    
+    '''<summary>
+    '''Row event argument class
+    '''</summary>
+    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+    Public Class sp_SPPurchaseReceiveDetail_GetPOInvRowChangeEvent
+        Inherits Global.System.EventArgs
+        
+        Private eventRow As sp_SPPurchaseReceiveDetail_GetPOInvRow
+        
+        Private eventAction As Global.System.Data.DataRowAction
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub New(ByVal row As sp_SPPurchaseReceiveDetail_GetPOInvRow, ByVal action As Global.System.Data.DataRowAction)
+            MyBase.New
+            Me.eventRow = row
+            Me.eventAction = action
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public ReadOnly Property Row() As sp_SPPurchaseReceiveDetail_GetPOInvRow
             Get
                 Return Me.eventRow
             End Get
@@ -11658,8 +13152,6 @@ Namespace DatasetTableAdapters
             tableMapping.ColumnMappings.Add("ID", "ID")
             tableMapping.ColumnMappings.Add("PRVNo", "PRVNo")
             tableMapping.ColumnMappings.Add("PRVDate", "PRVDate")
-            tableMapping.ColumnMappings.Add("POID", "POID")
-            tableMapping.ColumnMappings.Add("PONo", "PONo")
             tableMapping.ColumnMappings.Add("WHID", "WHID")
             tableMapping.ColumnMappings.Add("SupplierID", "SupplierID")
             tableMapping.ColumnMappings.Add("PaymentType", "PaymentType")
@@ -11670,6 +13162,7 @@ Namespace DatasetTableAdapters
             tableMapping.ColumnMappings.Add("DriverName", "DriverName")
             tableMapping.ColumnMappings.Add("VehicleNo", "VehicleNo")
             tableMapping.ColumnMappings.Add("DONo", "DONo")
+            tableMapping.ColumnMappings.Add("NoFaktur", "NoFaktur")
             tableMapping.ColumnMappings.Add("Description", "Description")
             tableMapping.ColumnMappings.Add("DiscPercentage", "DiscPercentage")
             tableMapping.ColumnMappings.Add("DiscValue", "DiscValue")
@@ -13822,18 +15315,17 @@ Namespace DatasetTableAdapters
             tableMapping.SourceTable = "Table"
             tableMapping.DataSetTable = "sp_SPPurchaseOrderDetail_GetData"
             tableMapping.ColumnMappings.Add("ID", "ID")
-            tableMapping.ColumnMappings.Add("POID", "POID")
             tableMapping.ColumnMappings.Add("PONo", "PONo")
             tableMapping.ColumnMappings.Add("InventoryID", "InventoryID")
-            tableMapping.ColumnMappings.Add("Qty", "Qty")
-            tableMapping.ColumnMappings.Add("Weight", "Weight")
             tableMapping.ColumnMappings.Add("UoMID", "UoMID")
-            tableMapping.ColumnMappings.Add("Price", "Price")
             tableMapping.ColumnMappings.Add("Disc", "Disc")
-            tableMapping.ColumnMappings.Add("Subtotal", "Subtotal")
             tableMapping.ColumnMappings.Add("Description", "Description")
             tableMapping.ColumnMappings.Add("ModifiedUser", "ModifiedUser")
             tableMapping.ColumnMappings.Add("SupplierID", "SupplierID")
+            tableMapping.ColumnMappings.Add("POID", "POID")
+            tableMapping.ColumnMappings.Add("Qty", "Qty")
+            tableMapping.ColumnMappings.Add("Weight", "Weight")
+            tableMapping.ColumnMappings.Add("Subtotal", "Subtotal")
             Me._adapter.TableMappings.Add(tableMapping)
             Me._adapter.DeleteCommand = New Global.System.Data.SqlClient.SqlCommand()
             Me._adapter.DeleteCommand.Connection = Me.Connection
@@ -13845,6 +15337,20 @@ Namespace DatasetTableAdapters
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@PONo", Global.System.Data.SqlDbType.VarChar, 25, Global.System.Data.ParameterDirection.Input, 0, 0, "PONo", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@InventoryID", Global.System.Data.SqlDbType.VarChar, 50, Global.System.Data.ParameterDirection.Input, 0, 0, "InventoryID", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@ModifiedUser", Global.System.Data.SqlDbType.VarChar, 200, Global.System.Data.ParameterDirection.Input, 0, 0, "ModifiedUser", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand = New Global.System.Data.SqlClient.SqlCommand()
+            Me._adapter.InsertCommand.Connection = Me.Connection
+            Me._adapter.InsertCommand.CommandText = "dbo.sp_SPPurchaseOrderDetail_InsData"
+            Me._adapter.InsertCommand.CommandType = Global.System.Data.CommandType.StoredProcedure
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@RETURN_VALUE", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.ReturnValue, 10, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@POID", Global.System.Data.SqlDbType.VarChar, 15, Global.System.Data.ParameterDirection.Input, 0, 0, "POID", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@PONo", Global.System.Data.SqlDbType.VarChar, 20, Global.System.Data.ParameterDirection.Input, 0, 0, "PONo", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@SupplierID", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.Input, 10, 0, "SupplierID", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@InventoryID", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.Input, 10, 0, "InventoryID", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Qty", Global.System.Data.SqlDbType.[Decimal], 13, Global.System.Data.ParameterDirection.Input, 25, 5, "Qty", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Price", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.Input, 10, 0, "Price", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Description", Global.System.Data.SqlDbType.VarChar, 100, Global.System.Data.ParameterDirection.Input, 0, 0, "Description", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Subtotal", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.Input, 10, 0, "Subtotal", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@ModifiedUser", Global.System.Data.SqlDbType.VarChar, 100, Global.System.Data.ParameterDirection.Input, 0, 0, "ModifiedUser", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand = New Global.System.Data.SqlClient.SqlCommand()
             Me._adapter.UpdateCommand.Connection = Me.Connection
             Me._adapter.UpdateCommand.CommandText = "dbo.sp_SPPurchaseOrderDetail_UpdData"
@@ -13953,7 +15459,7 @@ Namespace DatasetTableAdapters
                 Me.Adapter.DeleteCommand.Parameters(1).Value = Global.System.DBNull.Value
             End If
             If (POID Is Nothing) Then
-                Me.Adapter.DeleteCommand.Parameters(2).Value = Global.System.DBNull.Value
+                Throw New Global.System.ArgumentNullException("POID")
             Else
                 Me.Adapter.DeleteCommand.Parameters(2).Value = CType(POID,String)
             End If
@@ -13990,6 +15496,71 @@ Namespace DatasetTableAdapters
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
          Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
+         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Insert, true)>  _
+        Public Overloads Overridable Function Insert(ByVal POID As String, ByVal PONo As String, ByVal SupplierID As Global.System.Nullable(Of Integer), ByVal InventoryID As Global.System.Nullable(Of Integer), ByVal Qty As Global.System.Nullable(Of Decimal), ByVal Price As Global.System.Nullable(Of Integer), ByVal Description As String, ByVal Subtotal As Global.System.Nullable(Of Integer), ByVal ModifiedUser As String) As Integer
+            If (POID Is Nothing) Then
+                Throw New Global.System.ArgumentNullException("POID")
+            Else
+                Me.Adapter.InsertCommand.Parameters(1).Value = CType(POID,String)
+            End If
+            If (PONo Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(2).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(2).Value = CType(PONo,String)
+            End If
+            If (SupplierID.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(3).Value = CType(SupplierID.Value,Integer)
+            Else
+                Me.Adapter.InsertCommand.Parameters(3).Value = Global.System.DBNull.Value
+            End If
+            If (InventoryID.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(4).Value = CType(InventoryID.Value,Integer)
+            Else
+                Me.Adapter.InsertCommand.Parameters(4).Value = Global.System.DBNull.Value
+            End If
+            If (Qty.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(5).Value = CType(Qty.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(5).Value = Global.System.DBNull.Value
+            End If
+            If (Price.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(6).Value = CType(Price.Value,Integer)
+            Else
+                Me.Adapter.InsertCommand.Parameters(6).Value = Global.System.DBNull.Value
+            End If
+            If (Description Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(7).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(7).Value = CType(Description,String)
+            End If
+            If (Subtotal.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(8).Value = CType(Subtotal.Value,Integer)
+            Else
+                Me.Adapter.InsertCommand.Parameters(8).Value = Global.System.DBNull.Value
+            End If
+            If (ModifiedUser Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(9).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(9).Value = CType(ModifiedUser,String)
+            End If
+            Dim previousConnectionState As Global.System.Data.ConnectionState = Me.Adapter.InsertCommand.Connection.State
+            If ((Me.Adapter.InsertCommand.Connection.State And Global.System.Data.ConnectionState.Open)  _
+                        <> Global.System.Data.ConnectionState.Open) Then
+                Me.Adapter.InsertCommand.Connection.Open
+            End If
+            Try 
+                Dim returnValue As Integer = Me.Adapter.InsertCommand.ExecuteNonQuery
+                Return returnValue
+            Finally
+                If (previousConnectionState = Global.System.Data.ConnectionState.Closed) Then
+                    Me.Adapter.InsertCommand.Connection.Close
+                End If
+            End Try
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
          Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Update, true)>  _
         Public Overloads Overridable Function Update(ByVal ID As Global.System.Nullable(Of Integer), ByVal POID As String, ByVal SupplierID As Global.System.Nullable(Of Integer), ByVal InventoryID As Global.System.Nullable(Of Integer), ByVal Qty As Global.System.Nullable(Of Decimal), ByVal Price As Global.System.Nullable(Of Decimal), ByVal SubTotal As Global.System.Nullable(Of Integer), ByVal Description As String, ByVal ModifiedUser As String) As Integer
             If (ID.HasValue = true) Then
@@ -13998,7 +15569,7 @@ Namespace DatasetTableAdapters
                 Me.Adapter.UpdateCommand.Parameters(1).Value = Global.System.DBNull.Value
             End If
             If (POID Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(2).Value = Global.System.DBNull.Value
+                Throw New Global.System.ArgumentNullException("POID")
             Else
                 Me.Adapter.UpdateCommand.Parameters(2).Value = CType(POID,String)
             End If
@@ -14359,8 +15930,11 @@ Namespace DatasetTableAdapters
             tableMapping.ColumnMappings.Add("UsageName", "UsageName")
             tableMapping.ColumnMappings.Add("PONo", "PONo")
             tableMapping.ColumnMappings.Add("PODate", "PODate")
-            tableMapping.ColumnMappings.Add("Description", "Description")
+            tableMapping.ColumnMappings.Add("InventoryName", "InventoryName")
+            tableMapping.ColumnMappings.Add("Qty", "Qty")
+            tableMapping.ColumnMappings.Add("Price", "Price")
             tableMapping.ColumnMappings.Add("SubTotal", "SubTotal")
+            tableMapping.ColumnMappings.Add("SupplierName", "SupplierName")
             tableMapping.ColumnMappings.Add("CreatedDate", "CreatedDate")
             Me._adapter.TableMappings.Add(tableMapping)
         End Sub
@@ -14428,6 +16002,569 @@ Namespace DatasetTableAdapters
      Global.System.ComponentModel.DesignerAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterDesigner, Microsoft.VSDesigner"& _ 
         ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"),  _
      Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")>  _
+    Partial Public Class sp_LookUpData_GetCashFlowTypeTableAdapter
+        Inherits Global.System.ComponentModel.Component
+        
+        Private WithEvents _adapter As Global.System.Data.SqlClient.SqlDataAdapter
+        
+        Private _connection As Global.System.Data.SqlClient.SqlConnection
+        
+        Private _transaction As Global.System.Data.SqlClient.SqlTransaction
+        
+        Private _commandCollection() As Global.System.Data.SqlClient.SqlCommand
+        
+        Private _clearBeforeFill As Boolean
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub New()
+            MyBase.New
+            Me.ClearBeforeFill = true
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Friend ReadOnly Property Adapter() As Global.System.Data.SqlClient.SqlDataAdapter
+            Get
+                If (Me._adapter Is Nothing) Then
+                    Me.InitAdapter
+                End If
+                Return Me._adapter
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Friend Property Connection() As Global.System.Data.SqlClient.SqlConnection
+            Get
+                If (Me._connection Is Nothing) Then
+                    Me.InitConnection
+                End If
+                Return Me._connection
+            End Get
+            Set
+                Me._connection = value
+                If (Not (Me.Adapter.InsertCommand) Is Nothing) Then
+                    Me.Adapter.InsertCommand.Connection = value
+                End If
+                If (Not (Me.Adapter.DeleteCommand) Is Nothing) Then
+                    Me.Adapter.DeleteCommand.Connection = value
+                End If
+                If (Not (Me.Adapter.UpdateCommand) Is Nothing) Then
+                    Me.Adapter.UpdateCommand.Connection = value
+                End If
+                Dim i As Integer = 0
+                Do While (i < Me.CommandCollection.Length)
+                    If (Not (Me.CommandCollection(i)) Is Nothing) Then
+                        CType(Me.CommandCollection(i),Global.System.Data.SqlClient.SqlCommand).Connection = value
+                    End If
+                    i = (i + 1)
+                Loop
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Friend Property Transaction() As Global.System.Data.SqlClient.SqlTransaction
+            Get
+                Return Me._transaction
+            End Get
+            Set
+                Me._transaction = value
+                Dim i As Integer = 0
+                Do While (i < Me.CommandCollection.Length)
+                    Me.CommandCollection(i).Transaction = Me._transaction
+                    i = (i + 1)
+                Loop
+                If ((Not (Me.Adapter) Is Nothing)  _
+                            AndAlso (Not (Me.Adapter.DeleteCommand) Is Nothing)) Then
+                    Me.Adapter.DeleteCommand.Transaction = Me._transaction
+                End If
+                If ((Not (Me.Adapter) Is Nothing)  _
+                            AndAlso (Not (Me.Adapter.InsertCommand) Is Nothing)) Then
+                    Me.Adapter.InsertCommand.Transaction = Me._transaction
+                End If
+                If ((Not (Me.Adapter) Is Nothing)  _
+                            AndAlso (Not (Me.Adapter.UpdateCommand) Is Nothing)) Then
+                    Me.Adapter.UpdateCommand.Transaction = Me._transaction
+                End If
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected ReadOnly Property CommandCollection() As Global.System.Data.SqlClient.SqlCommand()
+            Get
+                If (Me._commandCollection Is Nothing) Then
+                    Me.InitCommandCollection
+                End If
+                Return Me._commandCollection
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property ClearBeforeFill() As Boolean
+            Get
+                Return Me._clearBeforeFill
+            End Get
+            Set
+                Me._clearBeforeFill = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Private Sub InitAdapter()
+            Me._adapter = New Global.System.Data.SqlClient.SqlDataAdapter()
+            Dim tableMapping As Global.System.Data.Common.DataTableMapping = New Global.System.Data.Common.DataTableMapping()
+            tableMapping.SourceTable = "Table"
+            tableMapping.DataSetTable = "sp_LookUpData_GetCashFlowType"
+            tableMapping.ColumnMappings.Add("ID", "ID")
+            tableMapping.ColumnMappings.Add("CashName", "CashName")
+            Me._adapter.TableMappings.Add(tableMapping)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Private Sub InitConnection()
+            Me._connection = New Global.System.Data.SqlClient.SqlConnection()
+            Me._connection.ConnectionString = Global.Mod_Purchase.My.MySettings.Default.ConnecctionString
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Private Sub InitCommandCollection()
+            Me._commandCollection = New Global.System.Data.SqlClient.SqlCommand(0) {}
+            Me._commandCollection(0) = New Global.System.Data.SqlClient.SqlCommand()
+            Me._commandCollection(0).Connection = Me.Connection
+            Me._commandCollection(0).CommandText = "dbo.sp_LookUpData_GetCashFlowType"
+            Me._commandCollection(0).CommandType = Global.System.Data.CommandType.StoredProcedure
+            Me._commandCollection(0).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@RETURN_VALUE", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.ReturnValue, 10, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
+         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Fill, true)>  _
+        Public Overloads Overridable Function Fill(ByVal dataTable As Dataset.sp_LookUpData_GetCashFlowTypeDataTable) As Integer
+            Me.Adapter.SelectCommand = Me.CommandCollection(0)
+            If (Me.ClearBeforeFill = true) Then
+                dataTable.Clear
+            End If
+            Dim returnValue As Integer = Me.Adapter.Fill(dataTable)
+            Return returnValue
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
+         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.[Select], true)>  _
+        Public Overloads Overridable Function GetData() As Dataset.sp_LookUpData_GetCashFlowTypeDataTable
+            Me.Adapter.SelectCommand = Me.CommandCollection(0)
+            Dim dataTable As Dataset.sp_LookUpData_GetCashFlowTypeDataTable = New Dataset.sp_LookUpData_GetCashFlowTypeDataTable()
+            Me.Adapter.Fill(dataTable)
+            Return dataTable
+        End Function
+    End Class
+    
+    '''<summary>
+    '''Represents the connection and commands used to retrieve and save data.
+    '''</summary>
+    <Global.System.ComponentModel.DesignerCategoryAttribute("code"),  _
+     Global.System.ComponentModel.ToolboxItem(true),  _
+     Global.System.ComponentModel.DataObjectAttribute(true),  _
+     Global.System.ComponentModel.DesignerAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterDesigner, Microsoft.VSDesigner"& _ 
+        ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"),  _
+     Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")>  _
+    Partial Public Class sp_SPPurchaseOrderParent_GetDataTableAdapter
+        Inherits Global.System.ComponentModel.Component
+        
+        Private WithEvents _adapter As Global.System.Data.SqlClient.SqlDataAdapter
+        
+        Private _connection As Global.System.Data.SqlClient.SqlConnection
+        
+        Private _transaction As Global.System.Data.SqlClient.SqlTransaction
+        
+        Private _commandCollection() As Global.System.Data.SqlClient.SqlCommand
+        
+        Private _clearBeforeFill As Boolean
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub New()
+            MyBase.New
+            Me.ClearBeforeFill = true
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Friend ReadOnly Property Adapter() As Global.System.Data.SqlClient.SqlDataAdapter
+            Get
+                If (Me._adapter Is Nothing) Then
+                    Me.InitAdapter
+                End If
+                Return Me._adapter
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Friend Property Connection() As Global.System.Data.SqlClient.SqlConnection
+            Get
+                If (Me._connection Is Nothing) Then
+                    Me.InitConnection
+                End If
+                Return Me._connection
+            End Get
+            Set
+                Me._connection = value
+                If (Not (Me.Adapter.InsertCommand) Is Nothing) Then
+                    Me.Adapter.InsertCommand.Connection = value
+                End If
+                If (Not (Me.Adapter.DeleteCommand) Is Nothing) Then
+                    Me.Adapter.DeleteCommand.Connection = value
+                End If
+                If (Not (Me.Adapter.UpdateCommand) Is Nothing) Then
+                    Me.Adapter.UpdateCommand.Connection = value
+                End If
+                Dim i As Integer = 0
+                Do While (i < Me.CommandCollection.Length)
+                    If (Not (Me.CommandCollection(i)) Is Nothing) Then
+                        CType(Me.CommandCollection(i),Global.System.Data.SqlClient.SqlCommand).Connection = value
+                    End If
+                    i = (i + 1)
+                Loop
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Friend Property Transaction() As Global.System.Data.SqlClient.SqlTransaction
+            Get
+                Return Me._transaction
+            End Get
+            Set
+                Me._transaction = value
+                Dim i As Integer = 0
+                Do While (i < Me.CommandCollection.Length)
+                    Me.CommandCollection(i).Transaction = Me._transaction
+                    i = (i + 1)
+                Loop
+                If ((Not (Me.Adapter) Is Nothing)  _
+                            AndAlso (Not (Me.Adapter.DeleteCommand) Is Nothing)) Then
+                    Me.Adapter.DeleteCommand.Transaction = Me._transaction
+                End If
+                If ((Not (Me.Adapter) Is Nothing)  _
+                            AndAlso (Not (Me.Adapter.InsertCommand) Is Nothing)) Then
+                    Me.Adapter.InsertCommand.Transaction = Me._transaction
+                End If
+                If ((Not (Me.Adapter) Is Nothing)  _
+                            AndAlso (Not (Me.Adapter.UpdateCommand) Is Nothing)) Then
+                    Me.Adapter.UpdateCommand.Transaction = Me._transaction
+                End If
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected ReadOnly Property CommandCollection() As Global.System.Data.SqlClient.SqlCommand()
+            Get
+                If (Me._commandCollection Is Nothing) Then
+                    Me.InitCommandCollection
+                End If
+                Return Me._commandCollection
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property ClearBeforeFill() As Boolean
+            Get
+                Return Me._clearBeforeFill
+            End Get
+            Set
+                Me._clearBeforeFill = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Private Sub InitAdapter()
+            Me._adapter = New Global.System.Data.SqlClient.SqlDataAdapter()
+            Dim tableMapping As Global.System.Data.Common.DataTableMapping = New Global.System.Data.Common.DataTableMapping()
+            tableMapping.SourceTable = "Table"
+            tableMapping.DataSetTable = "sp_SPPurchaseOrderParent_GetData"
+            tableMapping.ColumnMappings.Add("PODate", "PODate")
+            tableMapping.ColumnMappings.Add("GrandTotal", "GrandTotal")
+            tableMapping.ColumnMappings.Add("Value", "Value")
+            Me._adapter.TableMappings.Add(tableMapping)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Private Sub InitConnection()
+            Me._connection = New Global.System.Data.SqlClient.SqlConnection()
+            Me._connection.ConnectionString = Global.Mod_Purchase.My.MySettings.Default.ConnecctionString
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Private Sub InitCommandCollection()
+            Me._commandCollection = New Global.System.Data.SqlClient.SqlCommand(0) {}
+            Me._commandCollection(0) = New Global.System.Data.SqlClient.SqlCommand()
+            Me._commandCollection(0).Connection = Me.Connection
+            Me._commandCollection(0).CommandText = "dbo.sp_SPPurchaseOrderParent_GetData"
+            Me._commandCollection(0).CommandType = Global.System.Data.CommandType.StoredProcedure
+            Me._commandCollection(0).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@RETURN_VALUE", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.ReturnValue, 10, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._commandCollection(0).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@startdate", Global.System.Data.SqlDbType.DateTime, 8, Global.System.Data.ParameterDirection.Input, 23, 3, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._commandCollection(0).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@enddate", Global.System.Data.SqlDbType.DateTime, 8, Global.System.Data.ParameterDirection.Input, 23, 3, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
+         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Fill, true)>  _
+        Public Overloads Overridable Function Fill(ByVal dataTable As Dataset.sp_SPPurchaseOrderParent_GetDataDataTable, ByVal startdate As Global.System.Nullable(Of Date), ByVal enddate As Global.System.Nullable(Of Date)) As Integer
+            Me.Adapter.SelectCommand = Me.CommandCollection(0)
+            If (startdate.HasValue = true) Then
+                Me.Adapter.SelectCommand.Parameters(1).Value = CType(startdate.Value,Date)
+            Else
+                Me.Adapter.SelectCommand.Parameters(1).Value = Global.System.DBNull.Value
+            End If
+            If (enddate.HasValue = true) Then
+                Me.Adapter.SelectCommand.Parameters(2).Value = CType(enddate.Value,Date)
+            Else
+                Me.Adapter.SelectCommand.Parameters(2).Value = Global.System.DBNull.Value
+            End If
+            If (Me.ClearBeforeFill = true) Then
+                dataTable.Clear
+            End If
+            Dim returnValue As Integer = Me.Adapter.Fill(dataTable)
+            Return returnValue
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
+         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.[Select], true)>  _
+        Public Overloads Overridable Function GetData(ByVal startdate As Global.System.Nullable(Of Date), ByVal enddate As Global.System.Nullable(Of Date)) As Dataset.sp_SPPurchaseOrderParent_GetDataDataTable
+            Me.Adapter.SelectCommand = Me.CommandCollection(0)
+            If (startdate.HasValue = true) Then
+                Me.Adapter.SelectCommand.Parameters(1).Value = CType(startdate.Value,Date)
+            Else
+                Me.Adapter.SelectCommand.Parameters(1).Value = Global.System.DBNull.Value
+            End If
+            If (enddate.HasValue = true) Then
+                Me.Adapter.SelectCommand.Parameters(2).Value = CType(enddate.Value,Date)
+            Else
+                Me.Adapter.SelectCommand.Parameters(2).Value = Global.System.DBNull.Value
+            End If
+            Dim dataTable As Dataset.sp_SPPurchaseOrderParent_GetDataDataTable = New Dataset.sp_SPPurchaseOrderParent_GetDataDataTable()
+            Me.Adapter.Fill(dataTable)
+            Return dataTable
+        End Function
+    End Class
+    
+    '''<summary>
+    '''Represents the connection and commands used to retrieve and save data.
+    '''</summary>
+    <Global.System.ComponentModel.DesignerCategoryAttribute("code"),  _
+     Global.System.ComponentModel.ToolboxItem(true),  _
+     Global.System.ComponentModel.DataObjectAttribute(true),  _
+     Global.System.ComponentModel.DesignerAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterDesigner, Microsoft.VSDesigner"& _ 
+        ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"),  _
+     Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")>  _
+    Partial Public Class sp_SPPurchaseReceiveDetail_GetPOInvTableAdapter
+        Inherits Global.System.ComponentModel.Component
+        
+        Private WithEvents _adapter As Global.System.Data.SqlClient.SqlDataAdapter
+        
+        Private _connection As Global.System.Data.SqlClient.SqlConnection
+        
+        Private _transaction As Global.System.Data.SqlClient.SqlTransaction
+        
+        Private _commandCollection() As Global.System.Data.SqlClient.SqlCommand
+        
+        Private _clearBeforeFill As Boolean
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Sub New()
+            MyBase.New
+            Me.ClearBeforeFill = true
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected Friend ReadOnly Property Adapter() As Global.System.Data.SqlClient.SqlDataAdapter
+            Get
+                If (Me._adapter Is Nothing) Then
+                    Me.InitAdapter
+                End If
+                Return Me._adapter
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Friend Property Connection() As Global.System.Data.SqlClient.SqlConnection
+            Get
+                If (Me._connection Is Nothing) Then
+                    Me.InitConnection
+                End If
+                Return Me._connection
+            End Get
+            Set
+                Me._connection = value
+                If (Not (Me.Adapter.InsertCommand) Is Nothing) Then
+                    Me.Adapter.InsertCommand.Connection = value
+                End If
+                If (Not (Me.Adapter.DeleteCommand) Is Nothing) Then
+                    Me.Adapter.DeleteCommand.Connection = value
+                End If
+                If (Not (Me.Adapter.UpdateCommand) Is Nothing) Then
+                    Me.Adapter.UpdateCommand.Connection = value
+                End If
+                Dim i As Integer = 0
+                Do While (i < Me.CommandCollection.Length)
+                    If (Not (Me.CommandCollection(i)) Is Nothing) Then
+                        CType(Me.CommandCollection(i),Global.System.Data.SqlClient.SqlCommand).Connection = value
+                    End If
+                    i = (i + 1)
+                Loop
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Friend Property Transaction() As Global.System.Data.SqlClient.SqlTransaction
+            Get
+                Return Me._transaction
+            End Get
+            Set
+                Me._transaction = value
+                Dim i As Integer = 0
+                Do While (i < Me.CommandCollection.Length)
+                    Me.CommandCollection(i).Transaction = Me._transaction
+                    i = (i + 1)
+                Loop
+                If ((Not (Me.Adapter) Is Nothing)  _
+                            AndAlso (Not (Me.Adapter.DeleteCommand) Is Nothing)) Then
+                    Me.Adapter.DeleteCommand.Transaction = Me._transaction
+                End If
+                If ((Not (Me.Adapter) Is Nothing)  _
+                            AndAlso (Not (Me.Adapter.InsertCommand) Is Nothing)) Then
+                    Me.Adapter.InsertCommand.Transaction = Me._transaction
+                End If
+                If ((Not (Me.Adapter) Is Nothing)  _
+                            AndAlso (Not (Me.Adapter.UpdateCommand) Is Nothing)) Then
+                    Me.Adapter.UpdateCommand.Transaction = Me._transaction
+                End If
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Protected ReadOnly Property CommandCollection() As Global.System.Data.SqlClient.SqlCommand()
+            Get
+                If (Me._commandCollection Is Nothing) Then
+                    Me.InitCommandCollection
+                End If
+                Return Me._commandCollection
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Public Property ClearBeforeFill() As Boolean
+            Get
+                Return Me._clearBeforeFill
+            End Get
+            Set
+                Me._clearBeforeFill = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Private Sub InitAdapter()
+            Me._adapter = New Global.System.Data.SqlClient.SqlDataAdapter()
+            Dim tableMapping As Global.System.Data.Common.DataTableMapping = New Global.System.Data.Common.DataTableMapping()
+            tableMapping.SourceTable = "Table"
+            tableMapping.DataSetTable = "sp_SPPurchaseReceiveDetail_GetPOInv"
+            tableMapping.ColumnMappings.Add("ID", "ID")
+            tableMapping.ColumnMappings.Add("InventoryID", "InventoryID")
+            tableMapping.ColumnMappings.Add("Qty", "Qty")
+            tableMapping.ColumnMappings.Add("Price", "Price")
+            tableMapping.ColumnMappings.Add("SupplierID", "SupplierID")
+            tableMapping.ColumnMappings.Add("Ord", "Ord")
+            Me._adapter.TableMappings.Add(tableMapping)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Private Sub InitConnection()
+            Me._connection = New Global.System.Data.SqlClient.SqlConnection()
+            Me._connection.ConnectionString = Global.Mod_Purchase.My.MySettings.Default.ConnecctionString
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
+        Private Sub InitCommandCollection()
+            Me._commandCollection = New Global.System.Data.SqlClient.SqlCommand(0) {}
+            Me._commandCollection(0) = New Global.System.Data.SqlClient.SqlCommand()
+            Me._commandCollection(0).Connection = Me.Connection
+            Me._commandCollection(0).CommandText = "dbo.sp_SPPurchaseReceiveDetail_GetPOInv"
+            Me._commandCollection(0).CommandType = Global.System.Data.CommandType.StoredProcedure
+            Me._commandCollection(0).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@RETURN_VALUE", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.ReturnValue, 10, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._commandCollection(0).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@SupplierID", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.Input, 10, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
+         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Fill, true)>  _
+        Public Overloads Overridable Function Fill(ByVal dataTable As Dataset.sp_SPPurchaseReceiveDetail_GetPOInvDataTable, ByVal SupplierID As Global.System.Nullable(Of Integer)) As Integer
+            Me.Adapter.SelectCommand = Me.CommandCollection(0)
+            If (SupplierID.HasValue = true) Then
+                Me.Adapter.SelectCommand.Parameters(1).Value = CType(SupplierID.Value,Integer)
+            Else
+                Me.Adapter.SelectCommand.Parameters(1).Value = Global.System.DBNull.Value
+            End If
+            If (Me.ClearBeforeFill = true) Then
+                dataTable.Clear
+            End If
+            Dim returnValue As Integer = Me.Adapter.Fill(dataTable)
+            Return returnValue
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
+         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.[Select], true)>  _
+        Public Overloads Overridable Function GetData(ByVal SupplierID As Global.System.Nullable(Of Integer)) As Dataset.sp_SPPurchaseReceiveDetail_GetPOInvDataTable
+            Me.Adapter.SelectCommand = Me.CommandCollection(0)
+            If (SupplierID.HasValue = true) Then
+                Me.Adapter.SelectCommand.Parameters(1).Value = CType(SupplierID.Value,Integer)
+            Else
+                Me.Adapter.SelectCommand.Parameters(1).Value = Global.System.DBNull.Value
+            End If
+            Dim dataTable As Dataset.sp_SPPurchaseReceiveDetail_GetPOInvDataTable = New Dataset.sp_SPPurchaseReceiveDetail_GetPOInvDataTable()
+            Me.Adapter.Fill(dataTable)
+            Return dataTable
+        End Function
+    End Class
+    
+    '''<summary>
+    '''Represents the connection and commands used to retrieve and save data.
+    '''</summary>
+    <Global.System.ComponentModel.DesignerCategoryAttribute("code"),  _
+     Global.System.ComponentModel.ToolboxItem(true),  _
+     Global.System.ComponentModel.DataObjectAttribute(true),  _
+     Global.System.ComponentModel.DesignerAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterDesigner, Microsoft.VSDesigner"& _ 
+        ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"),  _
+     Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")>  _
     Partial Public Class QueriesTableAdapter
         Inherits Global.System.ComponentModel.Component
         
@@ -14447,7 +16584,7 @@ Namespace DatasetTableAdapters
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>  _
         Private Sub InitCommandCollection()
-            Me._commandCollection = New Global.System.Data.IDbCommand(6) {}
+            Me._commandCollection = New Global.System.Data.IDbCommand(7) {}
             Me._commandCollection(0) = New Global.System.Data.SqlClient.SqlCommand()
             CType(Me._commandCollection(0),Global.System.Data.SqlClient.SqlCommand).Connection = New Global.System.Data.SqlClient.SqlConnection(Global.Mod_Purchase.My.MySettings.Default.ConnecctionString)
             CType(Me._commandCollection(0),Global.System.Data.SqlClient.SqlCommand).CommandText = "dbo.sp_SPPurchaseReceiveHeader_GetPRVNo"
@@ -14511,6 +16648,19 @@ Namespace DatasetTableAdapters
             CType(Me._commandCollection(6),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@PODate", Global.System.Data.SqlDbType.[Date], 3, Global.System.Data.ParameterDirection.Input, 10, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             CType(Me._commandCollection(6),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@UsageID", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.Input, 10, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             CType(Me._commandCollection(6),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@ModifiedUser", Global.System.Data.SqlDbType.VarChar, 100, Global.System.Data.ParameterDirection.Input, 0, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._commandCollection(7) = New Global.System.Data.SqlClient.SqlCommand()
+            CType(Me._commandCollection(7),Global.System.Data.SqlClient.SqlCommand).Connection = New Global.System.Data.SqlClient.SqlConnection(Global.Mod_Purchase.My.MySettings.Default.ConnecctionString)
+            CType(Me._commandCollection(7),Global.System.Data.SqlClient.SqlCommand).CommandText = "dbo.sp_TCashFlow_InsUpdData"
+            CType(Me._commandCollection(7),Global.System.Data.SqlClient.SqlCommand).CommandType = Global.System.Data.CommandType.StoredProcedure
+            CType(Me._commandCollection(7),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@RETURN_VALUE", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.ReturnValue, 10, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            CType(Me._commandCollection(7),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TransactionDate", Global.System.Data.SqlDbType.DateTime, 8, Global.System.Data.ParameterDirection.Input, 23, 3, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            CType(Me._commandCollection(7),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TransactionID", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.Input, 10, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            CType(Me._commandCollection(7),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TransactionNo", Global.System.Data.SqlDbType.VarChar, 50, Global.System.Data.ParameterDirection.Input, 0, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            CType(Me._commandCollection(7),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TransactionType", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.Input, 10, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            CType(Me._commandCollection(7),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@CashFlowType", Global.System.Data.SqlDbType.TinyInt, 1, Global.System.Data.ParameterDirection.Input, 3, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            CType(Me._commandCollection(7),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@CashType", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.Input, 10, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            CType(Me._commandCollection(7),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@CashValue", Global.System.Data.SqlDbType.Int, 4, Global.System.Data.ParameterDirection.Input, 10, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            CType(Me._commandCollection(7),Global.System.Data.SqlClient.SqlCommand).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@CreatedUser", Global.System.Data.SqlDbType.VarChar, 50, Global.System.Data.ParameterDirection.Input, 0, 0, Nothing, Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -14813,6 +16963,72 @@ Namespace DatasetTableAdapters
                 command.Parameters(3).Value = Global.System.DBNull.Value
             Else
                 command.Parameters(3).Value = CType(ModifiedUser,String)
+            End If
+            Dim previousConnectionState As Global.System.Data.ConnectionState = command.Connection.State
+            If ((command.Connection.State And Global.System.Data.ConnectionState.Open)  _
+                        <> Global.System.Data.ConnectionState.Open) Then
+                command.Connection.Open
+            End If
+            Dim returnValue As Object
+            Try 
+                returnValue = command.ExecuteScalar
+            Finally
+                If (previousConnectionState = Global.System.Data.ConnectionState.Closed) Then
+                    command.Connection.Close
+                End If
+            End Try
+            If ((returnValue Is Nothing)  _
+                        OrElse (returnValue.GetType Is GetType(Global.System.DBNull))) Then
+                Return Nothing
+            Else
+                Return CType(returnValue,Object)
+            End If
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")>  _
+        Public Overloads Overridable Function sp_TCashFlow_InsUpdData(ByVal TransactionDate As Global.System.Nullable(Of Date), ByVal TransactionID As Global.System.Nullable(Of Integer), ByVal TransactionNo As String, ByVal TransactionType As Global.System.Nullable(Of Integer), ByVal CashFlowType As Global.System.Nullable(Of Byte), ByVal CashType As Global.System.Nullable(Of Integer), ByVal CashValue As Global.System.Nullable(Of Integer), ByVal CreatedUser As String) As Object
+            Dim command As Global.System.Data.SqlClient.SqlCommand = CType(Me.CommandCollection(7),Global.System.Data.SqlClient.SqlCommand)
+            If (TransactionDate.HasValue = true) Then
+                command.Parameters(1).Value = CType(TransactionDate.Value,Date)
+            Else
+                command.Parameters(1).Value = Global.System.DBNull.Value
+            End If
+            If (TransactionID.HasValue = true) Then
+                command.Parameters(2).Value = CType(TransactionID.Value,Integer)
+            Else
+                command.Parameters(2).Value = Global.System.DBNull.Value
+            End If
+            If (TransactionNo Is Nothing) Then
+                command.Parameters(3).Value = Global.System.DBNull.Value
+            Else
+                command.Parameters(3).Value = CType(TransactionNo,String)
+            End If
+            If (TransactionType.HasValue = true) Then
+                command.Parameters(4).Value = CType(TransactionType.Value,Integer)
+            Else
+                command.Parameters(4).Value = Global.System.DBNull.Value
+            End If
+            If (CashFlowType.HasValue = true) Then
+                command.Parameters(5).Value = CType(CashFlowType.Value,Byte)
+            Else
+                command.Parameters(5).Value = Global.System.DBNull.Value
+            End If
+            If (CashType.HasValue = true) Then
+                command.Parameters(6).Value = CType(CashType.Value,Integer)
+            Else
+                command.Parameters(6).Value = Global.System.DBNull.Value
+            End If
+            If (CashValue.HasValue = true) Then
+                command.Parameters(7).Value = CType(CashValue.Value,Integer)
+            Else
+                command.Parameters(7).Value = Global.System.DBNull.Value
+            End If
+            If (CreatedUser Is Nothing) Then
+                command.Parameters(8).Value = Global.System.DBNull.Value
+            Else
+                command.Parameters(8).Value = CType(CreatedUser,String)
             End If
             Dim previousConnectionState As Global.System.Data.ConnectionState = command.Connection.State
             If ((command.Connection.State And Global.System.Data.ConnectionState.Open)  _
