@@ -1,0 +1,395 @@
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\bin\Debug\AHR_POS.exe.config
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.exe
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.xml
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.pdb
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\bin\Debug\AHR_POS.exe
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\bin\Debug\AHR_POS.pdb
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\bin\Debug\AHR_POS.xml
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Front.resources
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Home.resources
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_User.resources
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.Resources.resources
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.RibbonForm1.resources
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Map.resources
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.RibbonForm3.resources
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.vbproj.GenerateResource.Cache
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.exe.licenses
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.vbprojResolveAssemblyReference.cache
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.Form1.resources
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Order.resources
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Cashier.resources
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_GiftCard.resources
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_MenuMemo.resources
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Payment.resources
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_SplitCheck.resources
+D:\-- [ACE] --\~~ AHR - Default Resto ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_SplitBill.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\bin\Debug\AHR_POS.exe.config
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\bin\Debug\AHR_POS.exe
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\bin\Debug\AHR_POS.pdb
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\bin\Debug\AHR_POS.xml
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.vbprojResolveAssemblyReference.cache
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Form1.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_MenuOpenOrder.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_OrderCashier.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_CustomerEnter.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Keyboard.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Order.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Front.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_GiftCard.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Home.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_MenuMemo.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_OrderWaitress.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_PackageOrder.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Payment.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Reservation.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_ReservationSchedule.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_BillCombine.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_SplitCheck.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_User.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Void.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Resources.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.RibbonForm1.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.RibbonForm3.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Frm_BillSplit.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_BillInvoicePrint.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_BillInvoicePackagePrint.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_PrintOrder.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_PrintWorkOrder.resources
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.vbproj.GenerateResource.Cache
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.exe.licenses
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.exe
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.xml
+D:\-- [ACE] --\~~ AHR - Resto Default ~~\Front\AHR_POS\obj\Debug\AHR_POS.pdb
+D:\-- Project --\Resto\Front\AHR_POS\bin\Debug\AHR_POS.exe.config
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.exe
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.xml
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.pdb
+D:\-- Project --\Resto\Front\AHR_POS\bin\Debug\AHR_POS.exe
+D:\-- Project --\Resto\Front\AHR_POS\bin\Debug\AHR_POS.pdb
+D:\-- Project --\Resto\Front\AHR_POS\bin\Debug\AHR_POS.xml
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.vbprojResolveAssemblyReference.cache
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Form1.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_MenuOpenOrder.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_OrderCashier.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_CustomerEnter.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Keyboard.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Order.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Front.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_GiftCard.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Home.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_MenuMemo.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_OrderWaitress.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_PackageOrder.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Payment.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Reservation.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_ReservationSchedule.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_BillCombine.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_SplitCheck.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_User.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Void.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Resources.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.RibbonForm1.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.RibbonForm3.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_BillSplit.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_BillInvoicePrint.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_BillInvoicePackagePrint.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_PrintOrder.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_PrintWorkOrder.resources
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.vbproj.GenerateResource.Cache
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.exe.licenses
+D:\== Project ==\Front\AHR_POS\bin\Debug\AHR_POS.exe.config
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.exe
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.xml
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.pdb
+D:\== Project ==\Front\AHR_POS\bin\Debug\AHR_POS.exe
+D:\== Project ==\Front\AHR_POS\bin\Debug\AHR_POS.pdb
+D:\== Project ==\Front\AHR_POS\bin\Debug\AHR_POS.xml
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.vbprojResolveAssemblyReference.cache
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Form1.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_MenuOpenOrder.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_OrderCashier.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_CustomerEnter.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Keyboard.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Order.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Front.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_GiftCard.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Home.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_MenuMemo.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_OrderWaitress.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_PackageOrder.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Payment.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Reservation.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_ReservationSchedule.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_BillCombine.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_SplitCheck.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_User.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Void.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Resources.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.RibbonForm1.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.RibbonForm3.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Frm_BillSplit.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_BillInvoicePrint.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_BillInvoicePackagePrint.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_PrintOrder.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_PrintWorkOrder.resources
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.vbproj.GenerateResource.Cache
+D:\== Project ==\Front\AHR_POS\obj\Debug\AHR_POS.exe.licenses
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_BillInvoicePackagePrintPreview.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\bin\Debug\AHR_POS.exe.config
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.exe
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.xml
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.pdb
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\bin\Debug\AHR_POS.exe
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\bin\Debug\AHR_POS.pdb
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\bin\Debug\AHR_POS.xml
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.vbprojResolveAssemblyReference.cache
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Form1.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_MenuOpenOrder.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_OrderCashier.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_CustomerEnter.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Keyboard.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Order.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Front.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_GiftCard.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Home.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_MenuMemo.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_OrderWaitress.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_PackageOrder.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Payment.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Reservation.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_ReservationSchedule.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_BillCombine.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_SplitCheck.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_User.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Void.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Resources.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.RibbonForm1.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.RibbonForm3.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_BillSplit.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_BillInvoicePackagePrintPreview.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_BillInvoicePrint.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_BillInvoicePackagePrint.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_PrintOrder.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_PrintWorkOrder.resources
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.vbproj.GenerateResource.Cache
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.exe.licenses
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\bin\Debug\Microsoft.Data.ConnectionUI.Dialog.dll
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\bin\Debug\Microsoft.Data.ConnectionUI.dll
+D:\== Project ==\-- [Resto] --\Front\AHR_POS\obj\Debug\AHR_POS.Frm_ChangeSetting.resources
+D:\-- Project --\Resto\Front\AHR_POS\bin\Debug\Microsoft.Data.ConnectionUI.Dialog.dll
+D:\-- Project --\Resto\Front\AHR_POS\bin\Debug\Microsoft.Data.ConnectionUI.dll
+D:\-- Project --\Resto\Front\AHR_POS\obj\Debug\AHR_POS.Frm_ChangeSetting.resources
+D:\-- [Abadi Solusindo] --\Resto\Front\AHR_POS\bin\Debug\AHR_POS.exe.config
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\AHR_POS.exe.config
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.vbprojResolveAssemblyReference.cache
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Form1.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_ChangeSetting.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_MapTable.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_MenuOpenOrder.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Order.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_OrderCashier.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_CustomerEnter.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Keyboard.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Front.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_GiftCard.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Home.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_MenuMemo.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_OrderWaitress.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_PackageOrder.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Payment.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Reservation.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_ReservationSchedule.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_BillCombine.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_User.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_Void.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Resources.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.RibbonForm1.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.RibbonForm3.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Frm_BillSplit.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_BillInvoicePackagePrintPreview.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_BillInvoicePrint.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_BillInvoicePackagePrint.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_OneDayCash.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_PrintOrder.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.Rpt_PrintWorkOrder.resources
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.vbproj.GenerateResource.Cache
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.exe.licenses
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\AHR_POS.exe
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\AHR_POS.pdb
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\AHR_POS.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Charts.v16.2.Core.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.CodeParser.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Data.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.PivotGrid.v16.2.Core.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Utils.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Utils.v16.2.UI.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraBars.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraCharts.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraReports.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraReports.v16.2.Extensions.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraNavBar.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraRichEdit.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.DataAccess.v16.2.UI.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.DataAccess.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraCharts.v16.2.Extensions.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraPivotGrid.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraGauges.v16.2.Core.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Office.v16.2.Core.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Diagram.v16.2.Core.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraDiagram.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Xpo.v16.2.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Data.v16.2.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Utils.v16.2.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraBars.v16.2.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraCharts.v16.2.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.PivotGrid.v16.2.Core.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Utils.v16.2.UI.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraReports.v16.2.Extensions.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraReports.v16.2.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraNavBar.v16.2.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraRichEdit.v16.2.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.DataAccess.v16.2.UI.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.DataAccess.v16.2.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraPivotGrid.v16.2.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraGauges.v16.2.Core.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Office.v16.2.Core.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Diagram.v16.2.Core.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.XtraDiagram.v16.2.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\DevExpress.Xpo.v16.2.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.XtraCharts.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.XtraCharts.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.XtraCharts.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.XtraCharts.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.PivotGrid.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.PivotGrid.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.PivotGrid.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.PivotGrid.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.Utils.v16.2.UI.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.Utils.v16.2.UI.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.Utils.v16.2.UI.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.Utils.v16.2.UI.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.XtraReports.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.XtraReports.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.XtraReports.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.XtraReports.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.DataAccess.v16.2.UI.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.DataAccess.v16.2.UI.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.DataAccess.v16.2.UI.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.DataAccess.v16.2.UI.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.DataAccess.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.DataAccess.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.DataAccess.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.DataAccess.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.XtraPivotGrid.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.XtraPivotGrid.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.XtraPivotGrid.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.XtraPivotGrid.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.XtraGauges.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.XtraGauges.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.XtraGauges.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.XtraGauges.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\de\DevExpress.Xpo.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\es\DevExpress.Xpo.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ja\DevExpress.Xpo.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\bin\Debug\ru\DevExpress.Xpo.v16.2.resources.dll
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.exe
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.xml
+D:\[PROJECT - 2016]\Keboen Rodjo\Front\AHR_POS\obj\Debug\AHR_POS.pdb
+D:\[Project - 2017]\Keboen Rodjo\POS\AHR_POS\bin\Debug\AHR_POS.exe.config
+D:\[Project - 2017]\Keboen Rodjo\POS\AHR_POS\obj\Debug\AHR_POS.exe
+D:\[Project - 2017]\Keboen Rodjo\POS\AHR_POS\obj\Debug\AHR_POS.xml
+D:\[Project - 2017]\Keboen Rodjo\POS\AHR_POS\obj\Debug\AHR_POS.pdb

@@ -1,0 +1,42 @@
+﻿Public Class Rpt_OneDayCash
+    Dim OrderDate As Date
+    Dim EmployeeName As String
+    Dim Cashier As String
+
+    Private Sub XrLabel8_BeforePrint(sender As Object, e As Printing.PrintEventArgs) Handles XrLabel8.BeforePrint
+        If (XrLabel8.Text <> "") Then
+            If (XrLabel8.Text = False) Then
+                XrLabel1.Font = New Font(XrLabel1.Font.FontFamily, XrLabel1.Font.Size, FontStyle.Regular)
+                XrLabel2.Font = New Font(XrLabel2.Font.FontFamily, XrLabel2.Font.Size, FontStyle.Regular)
+            Else
+                XrLabel1.Font = New Font(XrLabel1.Font.FontFamily, XrLabel1.Font.Size, FontStyle.Strikeout)
+                XrLabel2.Font = New Font(XrLabel2.Font.FontFamily, XrLabel2.Font.Size, FontStyle.Strikeout)
+            End If
+        End If
+    End Sub
+
+    Private Sub Rpt_OneDayCash_DataSourceDemanded(sender As Object, e As EventArgs) Handles MyBase.DataSourceDemanded
+        Me.Sp_POSReport_Transaction_GetOneDayReportTableAdapter1.Fill(Me.DataSet_Report1.sp_POSReport_Transaction_GetOneDayReport, OrderDate, Cashier)
+
+    End Sub
+    Public Sub New()
+
+        ' This call is required by the designer.
+        InitializeComponent()
+
+        ' Add any initialization after the InitializeComponent() call.
+
+    End Sub
+
+    Public Sub New(ByVal TOrderDate As Date, ByVal TName As String, ByVal _Cashier As String)
+        InitializeComponent()
+
+        OrderDate = TOrderDate
+        EmployeeName = TName
+        Cashier = _Cashier
+    End Sub
+
+    Private Sub XrLabel12_BeforePrint(sender As Object, e As Printing.PrintEventArgs) Handles XrLabel12.BeforePrint
+        XrLabel12.Text = EmployeeName
+    End Sub
+End Class

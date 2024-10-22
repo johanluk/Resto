@@ -1,0 +1,232 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Public Class Rpt_PrintOrder
+    Inherits DevExpress.XtraReports.UI.XtraReport
+
+    'XtraReport overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        If disposing AndAlso components IsNot Nothing Then
+            components.Dispose()
+        End If
+        MyBase.Dispose(disposing)
+    End Sub
+
+    'Required by the Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Designer
+    'It can be modified using the Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.Detail = New DevExpress.XtraReports.UI.DetailBand()
+        Me.XrLabel9 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel1 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.TopMargin = New DevExpress.XtraReports.UI.TopMarginBand()
+        Me.XrLabel5 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLine1 = New DevExpress.XtraReports.UI.XRLine()
+        Me.XrPageInfo2 = New DevExpress.XtraReports.UI.XRPageInfo()
+        Me.XrLabel_TableName = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel_Ket = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel33 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.BottomMargin = New DevExpress.XtraReports.UI.BottomMarginBand()
+        Me.Sp_POSReportTransaction_GetDataPrintOrderDetailTableAdapter1 = New POS.DataSet_ReportTableAdapters.sp_POSReportTransaction_GetDataPrintOrderDetailTableAdapter()
+        Me.DataSet_Report1 = New POS.DataSet_Report()
+        Me.ReportFooter = New DevExpress.XtraReports.UI.ReportFooterBand()
+        Me.Sp_POS_Checker_PrintOrderDetailTableAdapter1 = New POS.DataSet_ReportTableAdapters.sp_POS_Checker_PrintOrderDetailTableAdapter()
+        CType(Me.DataSet_Report1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+        '
+        'Detail
+        '
+        Me.Detail.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLabel9, Me.XrLabel1})
+        Me.Detail.Dpi = 254.0!
+        Me.Detail.Font = New DevExpress.Drawing.DXFont("Segoe UI", 12.0!)
+        Me.Detail.HeightF = 42.94083!
+        Me.Detail.Name = "Detail"
+        Me.Detail.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254.0!)
+        Me.Detail.StylePriority.UseFont = False
+        Me.Detail.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft
+        '
+        'XrLabel9
+        '
+        Me.XrLabel9.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "sp_POS_Checker_PrintOrderDetail.Qty", "{0:n0}")})
+        Me.XrLabel9.Dpi = 254.0!
+        Me.XrLabel9.LocationFloat = New DevExpress.Utils.PointFloat(0!, 0!)
+        Me.XrLabel9.Name = "XrLabel9"
+        Me.XrLabel9.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel9.SizeF = New System.Drawing.SizeF(82.02084!, 42.94083!)
+        Me.XrLabel9.StylePriority.UseTextAlignment = False
+        Me.XrLabel9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel1
+        '
+        Me.XrLabel1.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "sp_POS_Checker_PrintOrderDetail.MenuName")})
+        Me.XrLabel1.Dpi = 254.0!
+        Me.XrLabel1.Font = New DevExpress.Drawing.DXFont("Segoe UI", 12.0!)
+        Me.XrLabel1.LocationFloat = New DevExpress.Utils.PointFloat(82.02084!, 0!)
+        Me.XrLabel1.Name = "XrLabel1"
+        Me.XrLabel1.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel1.SizeF = New System.Drawing.SizeF(557.9791!, 42.94083!)
+        Me.XrLabel1.StylePriority.UseFont = False
+        Me.XrLabel1.StylePriority.UseTextAlignment = False
+        Me.XrLabel1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleJustify
+        '
+        'TopMargin
+        '
+        Me.TopMargin.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLabel5, Me.XrLine1, Me.XrPageInfo2, Me.XrLabel_TableName, Me.XrLabel_Ket, Me.XrLabel33})
+        Me.TopMargin.Dpi = 254.0!
+        Me.TopMargin.Font = New DevExpress.Drawing.DXFont("Segoe UI", 8.0!)
+        Me.TopMargin.HeightF = 118.2291!
+        Me.TopMargin.Name = "TopMargin"
+        Me.TopMargin.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254.0!)
+        Me.TopMargin.StylePriority.UseFont = False
+        Me.TopMargin.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft
+        '
+        'XrLabel5
+        '
+        Me.XrLabel5.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "sp_POS_Checker_PrintOrderDetail.OrderNo")})
+        Me.XrLabel5.Dpi = 254.0!
+        Me.XrLabel5.Font = New DevExpress.Drawing.DXFont("Segoe UI", 9.0!)
+        Me.XrLabel5.LocationFloat = New DevExpress.Utils.PointFloat(0.0004037221!, 0!)
+        Me.XrLabel5.Name = "XrLabel5"
+        Me.XrLabel5.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel5.SizeF = New System.Drawing.SizeF(299.3751!, 39.99998!)
+        Me.XrLabel5.StylePriority.UseFont = False
+        Me.XrLabel5.StylePriority.UseTextAlignment = False
+        Me.XrLabel5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
+        '
+        'XrLine1
+        '
+        Me.XrLine1.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Solid
+        Me.XrLine1.Borders = DevExpress.XtraPrinting.BorderSide.Bottom
+        Me.XrLine1.BorderWidth = 1.0!
+        Me.XrLine1.Dpi = 254.0!
+        Me.XrLine1.LineStyle = DevExpress.Drawing.DXDashStyle.Custom
+        Me.XrLine1.LineWidth = 5
+        Me.XrLine1.LocationFloat = New DevExpress.Utils.PointFloat(0.0004037221!, 98.22915!)
+        Me.XrLine1.Name = "XrLine1"
+        Me.XrLine1.SizeF = New System.Drawing.SizeF(796.5621!, 19.99998!)
+        Me.XrLine1.StylePriority.UseBorderDashStyle = False
+        Me.XrLine1.StylePriority.UseBorders = False
+        Me.XrLine1.StylePriority.UseBorderWidth = False
+        '
+        'XrPageInfo2
+        '
+        Me.XrPageInfo2.Dpi = 254.0!
+        Me.XrPageInfo2.Font = New DevExpress.Drawing.DXFont("Segoe UI", 9.0!)
+        Me.XrPageInfo2.Format = "{0:HH:mm}"
+        Me.XrPageInfo2.LocationFloat = New DevExpress.Utils.PointFloat(550.7295!, 0.00004037221!)
+        Me.XrPageInfo2.Name = "XrPageInfo2"
+        Me.XrPageInfo2.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrPageInfo2.PageInfo = DevExpress.XtraPrinting.PageInfo.DateTime
+        Me.XrPageInfo2.SizeF = New System.Drawing.SizeF(89.27069!, 39.99994!)
+        Me.XrPageInfo2.StylePriority.UseFont = False
+        Me.XrPageInfo2.StylePriority.UseTextAlignment = False
+        Me.XrPageInfo2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel_TableName
+        '
+        Me.XrLabel_TableName.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "sp_POS_Checker_PrintOrderDetail.TableName")})
+        Me.XrLabel_TableName.Dpi = 254.0!
+        Me.XrLabel_TableName.Font = New DevExpress.Drawing.DXFont("Segoe UI", 10.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel_TableName.LocationFloat = New DevExpress.Utils.PointFloat(351.8958!, 39.99998!)
+        Me.XrLabel_TableName.Name = "XrLabel_TableName"
+        Me.XrLabel_TableName.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel_TableName.SizeF = New System.Drawing.SizeF(288.1042!, 58.22918!)
+        Me.XrLabel_TableName.StylePriority.UseFont = False
+        Me.XrLabel_TableName.StylePriority.UseTextAlignment = False
+        Me.XrLabel_TableName.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel_Ket
+        '
+        Me.XrLabel_Ket.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "sp_POS_Checker_PrintOrderDetail.StatTambahan")})
+        Me.XrLabel_Ket.Dpi = 254.0!
+        Me.XrLabel_Ket.Font = New DevExpress.Drawing.DXFont("Segoe UI", 9.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel_Ket.LocationFloat = New DevExpress.Utils.PointFloat(299.3755!, 0!)
+        Me.XrLabel_Ket.Name = "XrLabel_Ket"
+        Me.XrLabel_Ket.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel_Ket.SizeF = New System.Drawing.SizeF(219.3955!, 44.99996!)
+        Me.XrLabel_Ket.StylePriority.UseFont = False
+        Me.XrLabel_Ket.StylePriority.UseTextAlignment = False
+        Me.XrLabel_Ket.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel33
+        '
+        Me.XrLabel33.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "sp_POS_Checker_PrintOrderDetail.EmployeeName")})
+        Me.XrLabel33.Dpi = 254.0!
+        Me.XrLabel33.LocationFloat = New DevExpress.Utils.PointFloat(0.0004037221!, 48.22917!)
+        Me.XrLabel33.Name = "XrLabel33"
+        Me.XrLabel33.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel33.SizeF = New System.Drawing.SizeF(322.0002!, 44.99996!)
+        Me.XrLabel33.StylePriority.UseTextAlignment = False
+        Me.XrLabel33.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
+        '
+        'BottomMargin
+        '
+        Me.BottomMargin.Dpi = 254.0!
+        Me.BottomMargin.HeightF = 0!
+        Me.BottomMargin.Name = "BottomMargin"
+        Me.BottomMargin.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254.0!)
+        Me.BottomMargin.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft
+        '
+        'Sp_POSReportTransaction_GetDataPrintOrderDetailTableAdapter1
+        '
+        Me.Sp_POSReportTransaction_GetDataPrintOrderDetailTableAdapter1.ClearBeforeFill = True
+        '
+        'DataSet_Report1
+        '
+        Me.DataSet_Report1.DataSetName = "DataSet_Report"
+        Me.DataSet_Report1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'ReportFooter
+        '
+        Me.ReportFooter.Dpi = 254.0!
+        Me.ReportFooter.Font = New DevExpress.Drawing.DXFont("Segoe UI", 8.0!)
+        Me.ReportFooter.HeightF = 0!
+        Me.ReportFooter.Name = "ReportFooter"
+        Me.ReportFooter.StylePriority.UseFont = False
+        '
+        'Sp_POS_Checker_PrintOrderDetailTableAdapter1
+        '
+        Me.Sp_POS_Checker_PrintOrderDetailTableAdapter1.ClearBeforeFill = True
+        '
+        'Rpt_PrintOrder
+        '
+        Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() {Me.Detail, Me.TopMargin, Me.BottomMargin, Me.ReportFooter})
+        Me.DataAdapter = Me.Sp_POS_Checker_PrintOrderDetailTableAdapter1
+        Me.DataMember = "sp_POS_Checker_PrintOrderDetail"
+        Me.DataSource = Me.DataSet_Report1
+        Me.DesignerOptions.ShowDesignerHints = False
+        Me.DesignerOptions.ShowExportWarnings = False
+        Me.DesignerOptions.ShowPrintingWarnings = False
+        Me.Dpi = 254.0!
+        Me.Margins = New DevExpress.Drawing.DXMargins(0, 60, 118, 0)
+        Me.PageHeight = 2794
+        Me.PageWidth = 760
+        Me.PaperKind = DevExpress.Drawing.Printing.DXPaperKind.Custom
+        Me.ReportUnit = DevExpress.XtraReports.UI.ReportUnit.TenthsOfAMillimeter
+        Me.ScriptLanguage = DevExpress.XtraReports.ScriptLanguage.VisualBasic
+        Me.ShowPrintMarginsWarning = False
+        Me.SnapGridSize = 25.0!
+        Me.Version = "17.1"
+        CType(Me.DataSet_Report1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
+
+    End Sub
+    Friend WithEvents Detail As DevExpress.XtraReports.UI.DetailBand
+    Friend WithEvents TopMargin As DevExpress.XtraReports.UI.TopMarginBand
+    Friend WithEvents BottomMargin As DevExpress.XtraReports.UI.BottomMarginBand
+    Friend WithEvents XrLabel1 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel9 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents Sp_POSReportTransaction_GetDataPrintOrderDetailTableAdapter1 As POS.DataSet_ReportTableAdapters.sp_POSReportTransaction_GetDataPrintOrderDetailTableAdapter
+    Friend WithEvents DataSet_Report1 As POS.DataSet_Report
+    Friend WithEvents ReportFooter As DevExpress.XtraReports.UI.ReportFooterBand
+    Friend WithEvents Sp_POS_Checker_PrintOrderDetailTableAdapter1 As DataSet_ReportTableAdapters.sp_POS_Checker_PrintOrderDetailTableAdapter
+    Friend WithEvents XrLabel5 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLine1 As DevExpress.XtraReports.UI.XRLine
+    Friend WithEvents XrPageInfo2 As DevExpress.XtraReports.UI.XRPageInfo
+    Friend WithEvents XrLabel_TableName As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel_Ket As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel33 As DevExpress.XtraReports.UI.XRLabel
+End Class

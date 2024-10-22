@@ -1,0 +1,83 @@
+﻿Imports DevExpress.XtraPrinting
+Imports System.Drawing.Printing
+
+Public Class Rpt_BillInvoicePackagePrint
+
+    Dim OrderID As Integer = 0
+    Dim Mode As Integer = 0
+
+    Dim Balance, Promo, PromoValue, PPN, PPNValue, DP, Other As Integer
+
+    Private WithEvents printingSystem1 As New PrintingSystem()
+
+    Public Sub New()
+
+        ' This call is required by the designer.
+        InitializeComponent()
+        FillDataAdapter()
+
+        ' Add any initialization after the InitializeComponent() call.
+
+    End Sub
+    Public Sub New(ByVal TempOrderID As Integer, ByVal TempMode As Integer, ByVal TBalance As Integer, ByVal TPromo As Integer, ByVal TPromoValue As Integer, ByVal TPPN As Integer, ByVal TPPNValue As Integer, ByVal TDP As Integer, ByVal TOther As Integer)
+
+        ' This call is required by the designer.
+        InitializeComponent()
+        FillDataAdapter()
+
+        OrderID = TempOrderID
+
+        Balance = TBalance
+        Promo = TPromo
+        PromoValue = TPromoValue
+        PPN = TPPN
+        PPNValue = TPPNValue
+        DP = TDP
+        Other = TOther
+        ' Add any initialization after the InitializeComponent() call.
+
+    End Sub
+
+
+    Private Sub Rpt_BillInvoice_DataSourceDemanded(sender As Object, e As EventArgs) Handles MyBase.DataSourceDemanded
+        FillDataAdapter()
+
+    End Sub
+
+    Sub FillDataAdapter()
+        Me.Sp_POSReportTransaction_GetDataInvoiceHeaderTableAdapter.ClearBeforeFill = True
+        If (OrderID <> 0) Then
+            Me.Sp_POSReportTransaction_GetDataInvoiceHeaderTableAdapter.Fill(Me.DataSet_Report1.sp_POSReportTransaction_GetDataInvoiceHeader,
+                                                                                      OrderID, Mode,
+                                                                                      Balance, Promo, PromoValue, PPN, PPNValue, DP, Other, 0
+)
+            Me.Sp_POSReportTransaction_GetDataInvoiceDetailTableAdapter1.Fill(Me.DataSet_Report1.sp_POSReportTransaction_GetDataInvoiceDetail,
+                                                                                             OrderID, Mode
+                                                                                            )
+            Me.Sp_POSReportTransaction_GetDataInvoiceDetailPackageTableAdapter.Fill(Me.DataSet_Report1.sp_POSReportTransaction_GetDataInvoiceDetailPackage, OrderID)
+        End If
+
+    End Sub
+
+
+
+    Private Sub XrLabel32_BeforePrint(sender As Object, e As System.ComponentModel.CancelEventArgs)
+        XrLabel32.Text = My.Settings.UserName
+    End Sub
+
+    Private Sub XrLabel1_BeforePrint(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles XrLabel1.BeforePrint
+        If (CInt(XrLabel9.Text) > 1) Then
+            XrLabel1.Text = XrLabel1.Text + vbNewLine + "@ " + XrLabel3.Text
+        End If
+
+    End Sub
+
+    Private Sub Detail1_BeforePrint(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles Detail1.BeforePrint
+        If Detail1.Report.RowCount = 0 Then
+            e.Cancel = True
+        Else
+            e.Cancel = False
+        End If
+    End Sub
+
+End Class

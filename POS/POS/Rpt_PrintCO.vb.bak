@@ -1,0 +1,56 @@
+﻿Imports DevExpress.XtraPrinting
+Imports System.Drawing.Printing
+
+Public Class Rpt_PrintCO
+
+    Dim OrderNo As String = ""
+    Dim OrderID As Integer = 0
+    Dim TableName As String = ""
+    Dim Mode As Integer = 0
+    Dim EmployeeID As Integer = 0
+    Dim CreatedDate As DateTime
+
+
+    Private WithEvents printingSystem1 As New PrintingSystem()
+
+    Public Sub New()
+
+        ' This call is required by the designer.
+        InitializeComponent()
+
+        ' Add any initialization after the InitializeComponent() call.
+
+    End Sub
+    Public Sub New(ByVal _OrderNo As String, ByVal TempOrderID As Integer, ByVal _TableName As String, ByVal TempMode As Integer, ByVal TEmployeeID As Integer, ByVal TCreatedDate As DateTime)
+        ' This call is required by the designer.
+        InitializeComponent()
+        FillDataAdapter()
+
+        OrderNo = _OrderNo
+        OrderID = TempOrderID
+        TableName = _TableName
+        Mode = TempMode
+        EmployeeID = TEmployeeID
+        CreatedDate = TCreatedDate
+        ' Add any initialization after the InitializeComponent() call.
+
+    End Sub
+
+
+    Private Sub Rpt_BillInvoice_DataSourceDemanded(sender As Object, e As EventArgs) Handles MyBase.DataSourceDemanded
+        FillDataAdapter()
+
+    End Sub
+
+    Sub FillDataAdapter()
+        Me.Sp_POSReportTransaction_GetDataPrintOrderDetailTableAdapter1.Fill(Me.DataSet_Report1.sp_POSReportTransaction_GetDataPrintOrderDetail,
+                                                                                  OrderID, Mode, EmployeeID
+                                                                                 )
+    End Sub
+
+    Private Sub Rpt_PrintCO_BeforePrint(sender As Object, e As PrintEventArgs) Handles MyBase.BeforePrint
+        XrLabel_TableName.Text = TableName
+        XrLabel_OrderNo.Text = OrderNo
+        XrLabel27.Text = CreatedDate.ToString(("HH:mm"))
+    End Sub
+End Class

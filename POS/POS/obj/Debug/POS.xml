@@ -1,0 +1,1011 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+POS
+</name>
+</assembly>
+<members>
+<member name="T:POS.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:POS.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:POS.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:POS.My.Resources.Resources.close_window_100px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:POS.My.Resources.Resources.next_page_100px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:POS.My.Resources.Resources.plus___48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:POS.DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDMenuType_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDMenuCategory_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDMenu_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDTable_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDTableFloor_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderHeader_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDetail_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDetailMemo_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDMenuMemo_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDetailCheck_GetDataHeaderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDetailCheck_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSReservationHeader_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDTableReserved_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDTableReservation_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDetail_CombinePreviewGetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSTransaction_GetReservationPriceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDBank_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDCustomer_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_MD_MDMenuOpenOrder_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDPackageHeader_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDPackageDetail_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDEmployee_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDelivery_GetDataHistoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDOrderType_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDVoidReason_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_LoginEntryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.View_POS_OrderTypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_OrderHeader_GetListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_OrderDetail_GetDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.View_MenuType_ListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.View_POS_MenuCategory_FrontListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.View_POS_MenuList_MainListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_GetTableListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_GetServerListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_ChangePasswordDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_CheckerSequenceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDMenuType_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDMenuCategory_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDMenu_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDTable_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDTableFloor_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderHeader_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDetail_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDetailMemo_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDMenuMemo_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDetailCheck_GetDataHeaderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDetailCheck_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSReservationHeader_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDTableReserved_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDTableReservation_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDetail_CombinePreviewGetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSTransaction_GetReservationPriceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDBank_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDCustomer_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_MD_MDMenuOpenOrder_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDPackageHeader_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDPackageDetail_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDEmployee_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDelivery_GetDataHistoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDOrderType_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDVoidReason_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_LoginEntryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.View_POS_OrderTypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_OrderHeader_GetListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_OrderDetail_GetDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.View_MenuType_ListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.View_POS_MenuCategory_FrontListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.View_POS_MenuList_MainListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_GetTableListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_GetServerListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_ChangePasswordRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_CheckerSequenceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDMenuType_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDMenuCategory_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDMenu_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDTable_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDTableFloor_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderHeader_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDetail_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDetailMemo_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDMenuMemo_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDetailCheck_GetDataHeaderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDetailCheck_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSReservationHeader_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDTableReserved_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDTableReservation_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDetail_CombinePreviewGetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSTransaction_GetReservationPriceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDBank_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDCustomer_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_MD_MDMenuOpenOrder_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDPackageHeader_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDPackageDetail_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDEmployee_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POSOrderDelivery_GetDataHistoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDOrderType_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_MDVoidReason_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_LoginEntryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.View_POS_OrderTypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_OrderHeader_GetListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_OrderDetail_GetDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.View_MenuType_ListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.View_POS_MenuCategory_FrontListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.View_POS_MenuList_MainListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_GetTableListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_GetServerListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_ChangePasswordRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet.sp_POS_CheckerSequenceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_MDMenuType_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_MDMenuCategory_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_MDMenu_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_MDTable_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_MDTableFloor_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POSOrderHeader_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POSOrderDetail_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POSOrderDetailMemo_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_MDMenuMemo_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POSOrderDetailCheck_GetDataHeaderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POSOrderDetailCheck_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POSReservationHeader_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_MDTableReserved_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_MDTableReservation_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POSOrderDetail_CombinePreviewGetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POSTransaction_GetReservationPriceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_MDBank_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_MDCustomer_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_MD_MDMenuOpenOrder_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_MDPackageHeader_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_MDPackageDetail_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_MDEmployee_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POSOrderDelivery_GetDataHistoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_MDOrderType_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_MDVoidReason_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_LoginEntryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.View_POS_OrderTypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_OrderHeader_GetListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_OrderDetail_GetDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.View_MenuType_ListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.View_POS_MenuCategory_FrontListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.View_POS_MenuList_MainListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_GetTableListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_GetServerListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_ChangePasswordTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.sp_POS_CheckerSequenceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:POS.DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(POS.DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:POS.DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(POS.DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:POS.DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(POS.DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:POS.DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:POS.DataSetTableAdapters.TableAdapterManager.UpdateAll(POS.DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:POS.DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:POS.DataSet_POS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:POS.DataSet_POSTableAdapters.QueriesTableAdapter_POS">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSet_Report">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReportTransaction_GetDataInvoiceDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReportTransaction_GetDataInvoiceHeaderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReportTransaction_GetDataPrintOrderDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReportTransaction_GetDataPrintOrderDetailMemoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReportTransaction_GetDataInvoiceDetailPackageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReport_Transaction_GetOneDayReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POS_Checker_PrintOrderDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReportTransaction_GetDataInvoiceDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReportTransaction_GetDataInvoiceHeaderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReportTransaction_GetDataPrintOrderDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReportTransaction_GetDataPrintOrderDetailMemoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReportTransaction_GetDataInvoiceDetailPackageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReport_Transaction_GetOneDayReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POS_Checker_PrintOrderDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReportTransaction_GetDataInvoiceDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReportTransaction_GetDataInvoiceHeaderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReportTransaction_GetDataPrintOrderDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReportTransaction_GetDataPrintOrderDetailMemoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReportTransaction_GetDataInvoiceDetailPackageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POSReport_Transaction_GetOneDayReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet_Report.sp_POS_Checker_PrintOrderDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:POS.DataSet_ReportTableAdapters.sp_POSReportTransaction_GetDataInvoiceDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSet_ReportTableAdapters.sp_POSReportTransaction_GetDataInvoiceHeaderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSet_ReportTableAdapters.sp_POSReportTransaction_GetDataPrintOrderDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSet_ReportTableAdapters.sp_POSReportTransaction_GetDataPrintOrderDetailMemoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSet_ReportTableAdapters.sp_POSReportTransaction_GetDataInvoiceDetailPackageTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSet_ReportTableAdapters.sp_POSReport_Transaction_GetOneDayReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSet_ReportTableAdapters.sp_POS_Checker_PrintOrderDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSet_ReportTableAdapters.QueriesTableAdapter_Report">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:POS.DataSet_ReportTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:POS.DataSet_ReportTableAdapters.TableAdapterManager.UpdateUpdatedRows(POS.DataSet_Report,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:POS.DataSet_ReportTableAdapters.TableAdapterManager.UpdateInsertedRows(POS.DataSet_Report,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:POS.DataSet_ReportTableAdapters.TableAdapterManager.UpdateDeletedRows(POS.DataSet_Report,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:POS.DataSet_ReportTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:POS.DataSet_ReportTableAdapters.TableAdapterManager.UpdateAll(POS.DataSet_Report)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:POS.DataSet_ReportTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:POS.DataSet_ReportTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
