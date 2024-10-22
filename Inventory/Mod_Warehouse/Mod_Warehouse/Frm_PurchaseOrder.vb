@@ -117,7 +117,7 @@ Public Class Frm_PurchaseOrder
 
                 'End If
 
-                Me.QueriesTableAdapter.sp_SPPurchaseOrderDetail_InsData(Ed_TransactionNo.EditValue.ToString(),
+                Me.QueriesTableAdapter.sp_SPPurchaseOrderDetail_InsData(CInt(Ed_TransactionNo.Tag), Ed_TransactionNo.EditValue.ToString(),
                                                                         CInt(LUE_Supplier.EditValue),
                                                                         CInt(LUE_Inv.EditValue),
                                                                         CInt(Ed_Qty.EditValue),
@@ -280,6 +280,8 @@ Public Class Frm_PurchaseOrder
         LCGroup_List.Enabled = True
         LCGroup_Detail.Enabled = True
 
+        isNew = True
+
         RefreshData()
     End Sub
 
@@ -328,6 +330,8 @@ Public Class Frm_PurchaseOrder
             End If
             LCGroup_Header.Enabled = False
             LCGroup_List.Enabled = True
+
+            isNew = True
 
             Sp_SPPurchaseOrderDetail_GetDataTableAdapter.Fill(Me.Dataset.sp_SPPurchaseOrderDetail_GetData, Ed_TransactionNo.EditValue.ToString())
         Catch ex As Exception

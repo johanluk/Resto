@@ -1,4 +1,7 @@
-﻿Imports DevExpress.XtraEditors
+﻿Imports DevExpress.Utils.Menu
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement.ListView
+Imports DevExpress.XtraBars.Alerter
+Imports DevExpress.XtraEditors
 Imports DevExpress.XtraGrid.Views.Grid
 
 Public Class Frm_Purchasing
@@ -87,9 +90,17 @@ Public Class Frm_Purchasing
         'TODO: This line of code loads data into the 'Dataset.sp_LookUpData_GetSupplier' table. You can move, or remove it, as needed.
         Me.Sp_LookUpData_GetSupplierTableAdapter.Fill(Me.Dataset.sp_LookUpData_GetSupplier)
 
+        Me.Sp_SPPurchaseReceiveDetail_GetPOInvTableAdapter.Fill(Me.Dataset.sp_SPPurchaseReceiveDetail_GetPOInv, 0)
+
+        UserModified = System.Environment.GetEnvironmentVariable("COMPUTERNAME") & "/" & My.Settings.UserName
+        Dataset.sp_SPPurchaseReceiveDetail_GetData.Columns("ModifiedUser").DefaultValue = UserModified
+        Dataset.sp_SPPurchaseReceiveHeader_GetData.Columns("ModifiedUser").DefaultValue = UserModified
     End Sub
 
 
+    Private Sub SB_RefreshHeader_Click(sender As Object, e As EventArgs) Handles SB_RefreshHeader.Click
+        FillDataAdapter_Header()
+    End Sub
     Sub FillDataAdapter_Header()
         Try
             Me.Sp_SPPurchaseReceiveHeader_GetDataTableAdapter.Fill(Me.Dataset.sp_SPPurchaseReceiveHeader_GetData, (DateEditStart.DateTime), (DateEditEnd.DateTime))
@@ -107,13 +118,42 @@ Public Class Frm_Purchasing
         RowFocus = e.RowHandle
     End Sub
 
+    Private Sub SB_NewTransaction_Click(sender As Object, e As EventArgs) Handles SB_NewTransaction.Click
+
+        Try
+
+            Sp_SPPurchaseReceiveDetail_GetDataTableAdapter.Fill(Me.Dataset.sp_SPPurchaseReceiveDetail_GetData, -1)
+            Sp_SPPurchaseReceiveHeader_GetDataBindingSource.AddNew()
+            DisplayDetail()
+            MRNoTextEdit.EditValue = "AUTO"
+
+            MRDateDateEdit.DateTime = Now
+
+            GV_Detail.OptionsView.NewItemRowPosition = NewItemRowPosition.Top
+
+            LCItem_CreateNew.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never
+            LCItem_SBContinue.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always
+            LCItem_SaveUpdateHeader.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never
+            LCGroup_Supplier.Enabled = True
+            SB_AddSupplier.Enabled = True
+            CE_PPn.Checked = False
+            'Sp_SPMaterialReceiveDetail_GetDataTableAdapter.Fill(Me.DataSet.sp_SPMaterialReceiveDetail_GetData, -1)
+            isNew = True
+
+        Catch ex As Exception
+            AlertControl.Show(Me, "New Procedure", ex.Message)
+        End Try
+
+
+    End Sub
+
     Private Sub GV_Header_DoubleClick(sender As Object, e As EventArgs) Handles GV_Header.DoubleClick
 
         GV_Detail.OptionsView.NewItemRowPosition = NewItemRowPosition.Top
         Sp_SPPurchaseReceiveDetail_GetDataTableAdapter.Fill(Me.Dataset.sp_SPPurchaseReceiveDetail_GetData, CInt(GV_Header.GetRowCellValue(GV_Header.GetSelectedRows(0), colID_Header)))
 
 
-        'DetailLayout()
+        DisplayDetail()
 
         SB_AddSupplier.Enabled = False
         LCGroup_Supplier.Enabled = False
@@ -127,4 +167,82 @@ Public Class Frm_Purchasing
 
     End Sub
 
+
+    Sub DisplayHome()
+        LCGroup_Det.Expanded = False
+        LCGroup_Header.Expanded = True
+    End Sub
+
+    Private Sub SB_Continue_Click(sender As Object, e As EventArgs) Handles SB_Continue.Click
+
+
+        Try
+
+            If IsDBNull(SearchLookUpEdit_Supplier.EditValue) Then
+                AlertControl.Show(Me, "Error on Input Data", "Supplier masih belum terisi")
+                Exit Sub
+            End If
+            MRNoTextEdit.EditValue = Me.QueriesTableAdapter.fn_InvoiceHeader_GetInvoiceNoAndID(1, "AUTO", 23, MRDateDateEdit.DateTime)
+
+
+            Me.Sp_SPPurchaseReceiveHeader_GetDataBindingSource.EndEdit()
+            Me.Validate()
+            Me.TableAdapterManager.UpdateAll(Me.Dataset)
+
+            MRNoTextEdit.Tag = Me.QueriesTableAdapter.fn_InvoiceHeader_GetInvoiceNoAndID(0, MRNoTextEdit.EditValue.ToString, 23, MRDateDateEdit.DateTime)
+            'Sp_SPPurchase_GetInventoryDataTableAdapter.Fill(Me.DataSet.sp_SPPurchase_GetInventoryData, 23, 0, CInt(IIf(IsDBNull(SearchLookUpEdit1.EditValue), 0, SearchLookUpEdit1.EditValue)))
+
+            '  Sp_SPMaterialReceiveHeader_GetDataGridControl.DataSource = Me.Sp_SPMaterialReceiveHeader_GetDataBindingSource
+            'Me.Sp_SPMaterialReceiveHeader_GetDataTableAdapter.Fill(Me.DataSet.sp_SPMaterialReceiveHeader_GetData, (MRDateDateEdit.DateTime), (MRDateDateEdit.DateTime))
+            isNew = True
+
+
+            LCItem_SBContinue.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never
+            LCItem_SaveUpdateHeader.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always
+            LCGroup_Supplier.Enabled = False
+
+
+        Catch ex As Exception
+            AlertControl.Show(Me, "Error on Input Data", ex.Message)
+        End Try
+    End Sub
+
+    Private Sub SB_Back_Click(sender As Object, e As EventArgs) Handles SB_Back.Click
+        Sp_SPPurchaseReceiveDetail_GetDataBindingSource.CancelEdit()
+        Sp_SPPurchaseReceiveHeader_GetDataBindingSource.CancelEdit()
+
+        DisplayHome()
+    End Sub
+
+
+    '--------------------------- Detail
+
+
+    Private Sub GV_DetailPO_PopupMenuShowing(sender As Object, e As PopupMenuShowingEventArgs) Handles GV_DetailPO.PopupMenuShowing
+        Dim view As GridView = CType(sender, GridView)
+        If e.MenuType = DevExpress.XtraGrid.Views.Grid.GridMenuType.Row Then
+            Dim rowHandle As Integer = e.HitInfo.RowHandle()
+            e.Menu.Items.Clear()
+
+            Dim menuDetail As New DXMenuItem("&Masukkan Pesanan",
+          AddressOf OnImport, ImageCollection.Images(0))
+            menuDetail.Tag = New RowInfo(view, rowHandle)
+            e.Menu.Items.Add(menuDetail)
+
+        Else
+
+
+        End If
+    End Sub
+
+    Sub OnImport(ByVal sender As Object, ByVal e As EventArgs)
+        RowFocus = GV_DetailPO.FocusedRowHandle
+
+    End Sub
+
+
+    Sub DisplayDetail()
+        LCGroup_Det.Expanded = True
+        LCGroup_Header.Expanded = False
+    End Sub
 End Class

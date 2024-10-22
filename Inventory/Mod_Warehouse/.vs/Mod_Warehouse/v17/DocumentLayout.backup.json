@@ -1,36 +1,52 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Git\\Resto\\Inventory\\Mod_Warehouse\\",
+  "WorkspaceRootPath": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|c:\\git\\resto\\inventory\\mod_warehouse\\mod_warehouse\\frm_cashflowtransaction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|solutionrelative:mod_warehouse\\frm_cashflowtransaction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|d:\\project\\vb\\giit\\resto\\inventory\\mod_warehouse\\mod_warehouse\\frm_purchasing.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|solutionrelative:mod_warehouse\\frm_purchasing.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|c:\\git\\resto\\inventory\\mod_warehouse\\mod_warehouse\\frm_cashflowtransaction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|solutionrelative:mod_warehouse\\frm_cashflowtransaction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|d:\\project\\vb\\giit\\resto\\inventory\\mod_warehouse\\mod_warehouse\\frm_purchasing.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|solutionrelative:mod_warehouse\\frm_purchasing.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|c:\\git\\resto\\inventory\\mod_warehouse\\mod_warehouse\\frm_purchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|solutionrelative:mod_warehouse\\frm_purchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|C:\\Git\\Resto\\Inventory\\Mod_Warehouse\\mod_warehouse\\frm_purchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|d:\\project\\vb\\giit\\resto\\inventory\\mod_warehouse\\mod_warehouse\\frm_purchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|solutionrelative:mod_warehouse\\frm_purchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|c:\\git\\resto\\inventory\\mod_warehouse\\mod_warehouse\\dataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|d:\\project\\vb\\giit\\resto\\inventory\\mod_warehouse\\mod_warehouse\\dataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
       "RelativeMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|solutionrelative:mod_warehouse\\dataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|d:\\project\\vb\\giit\\resto\\inventory\\mod_warehouse\\mod_warehouse\\frm_purchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|solutionrelative:mod_warehouse\\frm_purchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|d:\\project\\vb\\giit\\resto\\inventory\\mod_warehouse\\mod_warehouse\\frm_inventoryout.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|solutionrelative:mod_warehouse\\frm_inventoryout.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|d:\\project\\vb\\giit\\resto\\inventory\\mod_warehouse\\mod_warehouse\\frm_transactiondaily.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|solutionrelative:mod_warehouse\\frm_transactiondaily.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Mod_Warehouse||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|c:\\git\\resto\\inventory\\mod_warehouse\\mod_warehouse\\frm_purchasing.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|solutionrelative:mod_warehouse\\frm_purchasing.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|d:\\project\\vb\\giit\\resto\\inventory\\mod_warehouse\\mod_warehouse\\frm_bills.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|solutionrelative:mod_warehouse\\frm_bills.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|c:\\git\\resto\\inventory\\mod_warehouse\\mod_warehouse\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|8998e48e-b89a-4034-b66e-353d8c1fdc2e"
+      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|d:\\project\\vb\\giit\\resto\\inventory\\mod_warehouse\\mod_warehouse\\frm_masterdata.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|solutionrelative:mod_warehouse\\frm_masterdata.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|d:\\project\\vb\\giit\\resto\\inventory\\mod_warehouse\\mod_warehouse\\frm_masterdata.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|solutionrelative:mod_warehouse\\frm_masterdata.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8730841-4A01-4725-8C3C-4F2C9BD2D23A}|Mod_Warehouse\\Mod_Warehouse.vbproj|d:\\project\\vb\\giit\\resto\\inventory\\mod_warehouse\\mod_warehouse\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|8998e48e-b89a-4034-b66e-353d8c1fdc2e"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,94 +56,142 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Frm_CashFlowTransaction.vb",
-              "DocumentMoniker": "C:\\Git\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_CashFlowTransaction.vb",
-              "RelativeDocumentMoniker": "Mod_Warehouse\\Frm_CashFlowTransaction.vb",
-              "ToolTip": "C:\\Git\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_CashFlowTransaction.vb",
-              "RelativeToolTip": "Mod_Warehouse\\Frm_CashFlowTransaction.vb",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Frm_PurchaseOrder.vb [Design]",
+              "DocumentMoniker": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_PurchaseOrder.vb",
+              "RelativeDocumentMoniker": "Mod_Warehouse\\Frm_PurchaseOrder.vb",
+              "ToolTip": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_PurchaseOrder.vb [Design]",
+              "RelativeToolTip": "Mod_Warehouse\\Frm_PurchaseOrder.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-24T13:14:13.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T12:07:26.497Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Frm_Bills.vb [Design]",
+              "DocumentMoniker": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_Bills.vb",
+              "RelativeDocumentMoniker": "Mod_Warehouse\\Frm_Bills.vb",
+              "ToolTip": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_Bills.vb [Design]",
+              "RelativeToolTip": "Mod_Warehouse\\Frm_Bills.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-21T10:54:00.296Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Frm_Purchasing.vb [Design]",
+              "DocumentMoniker": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_Purchasing.vb",
+              "RelativeDocumentMoniker": "Mod_Warehouse\\Frm_Purchasing.vb",
+              "ToolTip": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_Purchasing.vb [Design]",
+              "RelativeToolTip": "Mod_Warehouse\\Frm_Purchasing.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-21T10:53:30.708Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Frm_CashFlowTransaction.vb [Design]",
-              "DocumentMoniker": "C:\\Git\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_CashFlowTransaction.vb",
-              "RelativeDocumentMoniker": "Mod_Warehouse\\Frm_CashFlowTransaction.vb",
-              "ToolTip": "C:\\Git\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_CashFlowTransaction.vb [Design]",
-              "RelativeToolTip": "Mod_Warehouse\\Frm_CashFlowTransaction.vb [Design]",
+              "Title": "Frm_Purchasing.vb",
+              "DocumentMoniker": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_Purchasing.vb",
+              "RelativeDocumentMoniker": "Mod_Warehouse\\Frm_Purchasing.vb",
+              "ToolTip": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_Purchasing.vb",
+              "RelativeToolTip": "Mod_Warehouse\\Frm_Purchasing.vb",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAiwI8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-24T13:10:31.732Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Frm_Purchasing.Designer.vb",
-              "DocumentMoniker": "C:\\Git\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_Purchasing.Designer.vb",
-              "RelativeDocumentMoniker": "Mod_Warehouse\\Frm_Purchasing.Designer.vb",
-              "ToolTip": "C:\\Git\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_Purchasing.Designer.vb",
-              "RelativeToolTip": "Mod_Warehouse\\Frm_Purchasing.Designer.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-24T11:45:17.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Dataset.xsd",
-              "DocumentMoniker": "C:\\Git\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Dataset.xsd",
-              "RelativeDocumentMoniker": "Mod_Warehouse\\Dataset.xsd",
-              "ToolTip": "C:\\Git\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Dataset.xsd",
-              "RelativeToolTip": "Mod_Warehouse\\Dataset.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2024-09-24T11:45:19.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Frm_PurchaseOrder.vb [Design]",
-              "DocumentMoniker": "C:\\Git\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_PurchaseOrder.vb",
-              "RelativeDocumentMoniker": "Mod_Warehouse\\Frm_PurchaseOrder.vb",
-              "ToolTip": "C:\\Git\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_PurchaseOrder.vb [Design]",
-              "RelativeToolTip": "Mod_Warehouse\\Frm_PurchaseOrder.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-23T13:01:55.933Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Frm_PurchaseOrder.vb",
-              "DocumentMoniker": "C:\\Git\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_PurchaseOrder.vb",
-              "RelativeDocumentMoniker": "Mod_Warehouse\\Frm_PurchaseOrder.vb",
-              "ToolTip": "C:\\Git\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_PurchaseOrder.vb",
-              "RelativeToolTip": "Mod_Warehouse\\Frm_PurchaseOrder.vb",
-              "ViewState": "AgIAAE4BAAAAAAAAAAAwwGMBAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-24T11:50:35.378Z",
+              "WhenOpened": "2024-10-21T13:01:28.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Frm_InventoryOut.vb [Design]",
+              "DocumentMoniker": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_InventoryOut.vb",
+              "RelativeDocumentMoniker": "Mod_Warehouse\\Frm_InventoryOut.vb",
+              "ToolTip": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_InventoryOut.vb [Design]",
+              "RelativeToolTip": "Mod_Warehouse\\Frm_InventoryOut.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-21T12:59:03.546Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Frm_MasterData.vb",
+              "DocumentMoniker": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_MasterData.vb",
+              "RelativeDocumentMoniker": "Mod_Warehouse\\Frm_MasterData.vb",
+              "ToolTip": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_MasterData.vb",
+              "RelativeToolTip": "Mod_Warehouse\\Frm_MasterData.vb",
+              "ViewState": "AgIAADwAAAAAAAAAAAAiwFMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-21T06:15:06.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dataset.xsd",
+              "DocumentMoniker": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Dataset.xsd",
+              "RelativeDocumentMoniker": "Mod_Warehouse\\Dataset.xsd",
+              "ToolTip": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Dataset.xsd",
+              "RelativeToolTip": "Mod_Warehouse\\Dataset.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-10-20T18:05:55.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Frm_PurchaseOrder.vb",
+              "DocumentMoniker": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_PurchaseOrder.vb",
+              "RelativeDocumentMoniker": "Mod_Warehouse\\Frm_PurchaseOrder.vb",
+              "ToolTip": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_PurchaseOrder.vb",
+              "RelativeToolTip": "Mod_Warehouse\\Frm_PurchaseOrder.vb",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAUwPwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-21T12:30:23.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Frm_TransactionDaily.vb [Design]",
+              "DocumentMoniker": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_TransactionDaily.vb",
+              "RelativeDocumentMoniker": "Mod_Warehouse\\Frm_TransactionDaily.vb",
+              "ToolTip": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_TransactionDaily.vb [Design]",
+              "RelativeToolTip": "Mod_Warehouse\\Frm_TransactionDaily.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-21T12:58:58.06Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Mod_Warehouse",
-              "DocumentMoniker": "C:\\Git\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Mod_Warehouse.vbproj",
+              "DocumentMoniker": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Mod_Warehouse.vbproj",
               "RelativeDocumentMoniker": "Mod_Warehouse\\Mod_Warehouse.vbproj",
-              "ToolTip": "C:\\Git\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Mod_Warehouse.vbproj",
+              "ToolTip": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Mod_Warehouse.vbproj",
               "RelativeToolTip": "Mod_Warehouse\\Mod_Warehouse.vbproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-23T13:10:21.892Z",
+              "WhenOpened": "2024-10-20T17:59:33.276Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Frm_MasterData.vb [Design]",
+              "DocumentMoniker": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_MasterData.vb",
+              "RelativeDocumentMoniker": "Mod_Warehouse\\Frm_MasterData.vb",
+              "ToolTip": "D:\\Project\\VB\\Giit\\Resto\\Inventory\\Mod_Warehouse\\Mod_Warehouse\\Frm_MasterData.vb [Design]",
+              "RelativeToolTip": "Mod_Warehouse\\Frm_MasterData.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-20T17:59:11.526Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

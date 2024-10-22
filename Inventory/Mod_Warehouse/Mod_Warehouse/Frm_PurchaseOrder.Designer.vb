@@ -91,23 +91,23 @@ Partial Class Frm_PurchaseOrder
         Me.LayoutControlGroup2 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlItem9 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem1 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem10 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.EmptySpaceItem3 = New DevExpress.XtraLayout.EmptySpaceItem()
         Me.LayoutControlItem11 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.EmptySpaceItem5 = New DevExpress.XtraLayout.EmptySpaceItem()
         Me.LayoutControlItem18 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.EmptySpaceItem3 = New DevExpress.XtraLayout.EmptySpaceItem()
+        Me.LayoutControlItem10 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LCGroup_List = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlItem2 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LCGroup_Detail = New DevExpress.XtraLayout.LayoutControlGroup()
-        Me.LayoutControlItem15 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.EmptySpaceItem4 = New DevExpress.XtraLayout.EmptySpaceItem()
         Me.LayoutControlItem12 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.EmptySpaceItem4 = New DevExpress.XtraLayout.EmptySpaceItem()
+        Me.LCGroup_Detail = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlItem7 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem5 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem16 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem6 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem3 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem17 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem15 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.EmptySpaceItem5 = New DevExpress.XtraLayout.EmptySpaceItem()
         Me.LCGroup_Header = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlItem4 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem8 = New DevExpress.XtraLayout.LayoutControlItem()
@@ -166,23 +166,23 @@ Partial Class Frm_PurchaseOrder
         CType(Me.LayoutControlGroup2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EmptySpaceItem3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem11, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EmptySpaceItem5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EmptySpaceItem3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LCGroup_List, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LCGroup_Detail, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EmptySpaceItem4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EmptySpaceItem4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LCGroup_Detail, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem16, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EmptySpaceItem5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LCGroup_Header, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem8, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -199,7 +199,7 @@ Partial Class Frm_PurchaseOrder
         Me.RibbonControl.Location = New System.Drawing.Point(0, 0)
         Me.RibbonControl.MaxItemId = 2
         Me.RibbonControl.Name = "RibbonControl"
-        Me.RibbonControl.Size = New System.Drawing.Size(1120, 72)
+        Me.RibbonControl.Size = New System.Drawing.Size(1375, 72)
         Me.RibbonControl.StatusBar = Me.RibbonStatusBar
         '
         'BB_New
@@ -213,7 +213,7 @@ Partial Class Frm_PurchaseOrder
         Me.RibbonStatusBar.Location = New System.Drawing.Point(0, 620)
         Me.RibbonStatusBar.Name = "RibbonStatusBar"
         Me.RibbonStatusBar.Ribbon = Me.RibbonControl
-        Me.RibbonStatusBar.Size = New System.Drawing.Size(1120, 33)
+        Me.RibbonStatusBar.Size = New System.Drawing.Size(1375, 33)
         '
         'LayoutControl1
         '
@@ -240,19 +240,20 @@ Partial Class Frm_PurchaseOrder
         Me.LayoutControl1.Location = New System.Drawing.Point(0, 72)
         Me.LayoutControl1.Name = "LayoutControl1"
         Me.LayoutControl1.Root = Me.LayoutControlGroup1
-        Me.LayoutControl1.Size = New System.Drawing.Size(1120, 548)
+        Me.LayoutControl1.Size = New System.Drawing.Size(1375, 548)
         Me.LayoutControl1.TabIndex = 2
         Me.LayoutControl1.Text = "LayoutControl1"
         '
         'Sp_SPPurchaseOrderParent_GetDataGridControl
         '
         Me.Sp_SPPurchaseOrderParent_GetDataGridControl.DataSource = Me.Sp_SPPurchaseOrderParent_GetDataBindingSource
-        Me.Sp_SPPurchaseOrderParent_GetDataGridControl.Location = New System.Drawing.Point(24, 71)
+        Me.Sp_SPPurchaseOrderParent_GetDataGridControl.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(14, 11, 14, 11)
+        Me.Sp_SPPurchaseOrderParent_GetDataGridControl.Location = New System.Drawing.Point(24, 104)
         Me.Sp_SPPurchaseOrderParent_GetDataGridControl.MainView = Me.GV_Parent
         Me.Sp_SPPurchaseOrderParent_GetDataGridControl.Margin = New System.Windows.Forms.Padding(2)
         Me.Sp_SPPurchaseOrderParent_GetDataGridControl.MenuManager = Me.RibbonControl
         Me.Sp_SPPurchaseOrderParent_GetDataGridControl.Name = "Sp_SPPurchaseOrderParent_GetDataGridControl"
-        Me.Sp_SPPurchaseOrderParent_GetDataGridControl.Size = New System.Drawing.Size(310, 244)
+        Me.Sp_SPPurchaseOrderParent_GetDataGridControl.Size = New System.Drawing.Size(403, 201)
         Me.Sp_SPPurchaseOrderParent_GetDataGridControl.TabIndex = 27
         Me.Sp_SPPurchaseOrderParent_GetDataGridControl.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GV_Parent})
         '
@@ -291,7 +292,7 @@ Partial Class Frm_PurchaseOrder
         '
         'colGrandTotal_Parent
         '
-        Me.colGrandTotal_Parent.Caption = "Total Keperluan"
+        Me.colGrandTotal_Parent.Caption = "Total Pembelanjaan"
         Me.colGrandTotal_Parent.DisplayFormat.FormatString = "n0"
         Me.colGrandTotal_Parent.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
         Me.colGrandTotal_Parent.FieldName = "GrandTotal"
@@ -322,11 +323,11 @@ Partial Class Frm_PurchaseOrder
         'SB_NewTransaction
         '
         Me.SB_NewTransaction.ImageOptions.Image = CType(resources.GetObject("SB_NewTransaction.ImageOptions.Image"), System.Drawing.Image)
-        Me.SB_NewTransaction.Location = New System.Drawing.Point(839, 134)
+        Me.SB_NewTransaction.Location = New System.Drawing.Point(443, 500)
         Me.SB_NewTransaction.Margin = New System.Windows.Forms.Padding(2)
         Me.SB_NewTransaction.Name = "SB_NewTransaction"
         Me.SB_NewTransaction.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light
-        Me.SB_NewTransaction.Size = New System.Drawing.Size(192, 36)
+        Me.SB_NewTransaction.Size = New System.Drawing.Size(153, 36)
         Me.SB_NewTransaction.StyleController = Me.LayoutControl1
         Me.SB_NewTransaction.TabIndex = 27
         Me.SB_NewTransaction.Text = "Barang Baru"
@@ -334,18 +335,18 @@ Partial Class Frm_PurchaseOrder
         'Ed_Price
         '
         Me.Ed_Price.EditValue = New Decimal(New Integer() {0, 0, 0, 0})
-        Me.Ed_Price.Location = New System.Drawing.Point(983, 104)
+        Me.Ed_Price.Location = New System.Drawing.Point(1208, 104)
         Me.Ed_Price.Margin = New System.Windows.Forms.Padding(2)
         Me.Ed_Price.MenuManager = Me.RibbonControl
         Me.Ed_Price.Name = "Ed_Price"
         Me.Ed_Price.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.Ed_Price.Size = New System.Drawing.Size(113, 26)
+        Me.Ed_Price.Size = New System.Drawing.Size(143, 26)
         Me.Ed_Price.StyleController = Me.LayoutControl1
         Me.Ed_Price.TabIndex = 26
         '
         'LUE_Supplier
         '
-        Me.LUE_Supplier.Location = New System.Drawing.Point(747, 44)
+        Me.LUE_Supplier.Location = New System.Drawing.Point(967, 44)
         Me.LUE_Supplier.Margin = New System.Windows.Forms.Padding(2)
         Me.LUE_Supplier.MenuManager = Me.RibbonControl
         Me.LUE_Supplier.Name = "LUE_Supplier"
@@ -353,8 +354,9 @@ Partial Class Frm_PurchaseOrder
         Me.LUE_Supplier.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("SupplierName", "Nama Supplier", 71, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.[Default])})
         Me.LUE_Supplier.Properties.DataSource = Me.SpLookUpDataGetSupplierBindingSource
         Me.LUE_Supplier.Properties.DisplayMember = "SupplierName"
+        Me.LUE_Supplier.Properties.NullText = "-- Pilih Supplier"
         Me.LUE_Supplier.Properties.ValueMember = "ID"
-        Me.LUE_Supplier.Size = New System.Drawing.Size(349, 26)
+        Me.LUE_Supplier.Size = New System.Drawing.Size(384, 26)
         Me.LUE_Supplier.StyleController = Me.LayoutControl1
         Me.LUE_Supplier.TabIndex = 25
         '
@@ -366,22 +368,22 @@ Partial Class Frm_PurchaseOrder
         'Ed_Qty
         '
         Me.Ed_Qty.EditValue = New Decimal(New Integer() {0, 0, 0, 0})
-        Me.Ed_Qty.Location = New System.Drawing.Point(747, 104)
+        Me.Ed_Qty.Location = New System.Drawing.Point(967, 104)
         Me.Ed_Qty.Margin = New System.Windows.Forms.Padding(2)
         Me.Ed_Qty.MenuManager = Me.RibbonControl
         Me.Ed_Qty.Name = "Ed_Qty"
         Me.Ed_Qty.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.Ed_Qty.Size = New System.Drawing.Size(125, 26)
+        Me.Ed_Qty.Size = New System.Drawing.Size(183, 26)
         Me.Ed_Qty.StyleController = Me.LayoutControl1
         Me.Ed_Qty.TabIndex = 24
         '
         'Ed_TransactionNo
         '
-        Me.Ed_TransactionNo.Location = New System.Drawing.Point(469, 44)
+        Me.Ed_TransactionNo.Location = New System.Drawing.Point(562, 44)
         Me.Ed_TransactionNo.Margin = New System.Windows.Forms.Padding(2)
         Me.Ed_TransactionNo.MenuManager = Me.RibbonControl
         Me.Ed_TransactionNo.Name = "Ed_TransactionNo"
-        Me.Ed_TransactionNo.Size = New System.Drawing.Size(108, 26)
+        Me.Ed_TransactionNo.Size = New System.Drawing.Size(220, 26)
         Me.Ed_TransactionNo.StyleController = Me.LayoutControl1
         Me.Ed_TransactionNo.TabIndex = 21
         '
@@ -389,20 +391,21 @@ Partial Class Frm_PurchaseOrder
         '
         Me.SB_Back.ImageOptions.Image = CType(resources.GetObject("SB_Back.ImageOptions.Image"), System.Drawing.Image)
         Me.SB_Back.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter
-        Me.SB_Back.Location = New System.Drawing.Point(605, 44)
+        Me.SB_Back.Location = New System.Drawing.Point(810, 44)
         Me.SB_Back.Margin = New System.Windows.Forms.Padding(2)
+        Me.SB_Back.MinimumSize = New System.Drawing.Size(0, 80)
         Me.SB_Back.Name = "SB_Back"
         Me.SB_Back.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light
-        Me.SB_Back.Size = New System.Drawing.Size(31, 25)
+        Me.SB_Back.Size = New System.Drawing.Size(46, 80)
         Me.SB_Back.StyleController = Me.LayoutControl1
         Me.SB_Back.TabIndex = 19
         '
         'SB_New
         '
-        Me.SB_New.Location = New System.Drawing.Point(362, 147)
+        Me.SB_New.Location = New System.Drawing.Point(455, 147)
         Me.SB_New.Margin = New System.Windows.Forms.Padding(2)
         Me.SB_New.Name = "SB_New"
-        Me.SB_New.Size = New System.Drawing.Size(215, 23)
+        Me.SB_New.Size = New System.Drawing.Size(327, 23)
         Me.SB_New.StyleController = Me.LayoutControl1
         Me.SB_New.TabIndex = 18
         Me.SB_New.Text = "Transaksi Baru"
@@ -410,7 +413,7 @@ Partial Class Frm_PurchaseOrder
         'Label_Subtotal
         '
         Me.Label_Subtotal.DataBindings.Add(New System.Windows.Forms.Binding("Tag", Me.SpSPPurchaseOrderHeaderGetDataBindingSource, "ID", True))
-        Me.Label_Subtotal.Location = New System.Drawing.Point(1013, 518)
+        Me.Label_Subtotal.Location = New System.Drawing.Point(1268, 500)
         Me.Label_Subtotal.Margin = New System.Windows.Forms.Padding(2)
         Me.Label_Subtotal.Name = "Label_Subtotal"
         Me.Label_Subtotal.Size = New System.Drawing.Size(95, 18)
@@ -425,7 +428,7 @@ Partial Class Frm_PurchaseOrder
         '
         'LookUp_Usage
         '
-        Me.LookUp_Usage.Location = New System.Drawing.Point(469, 104)
+        Me.LookUp_Usage.Location = New System.Drawing.Point(562, 104)
         Me.LookUp_Usage.Margin = New System.Windows.Forms.Padding(2)
         Me.LookUp_Usage.MenuManager = Me.RibbonControl
         Me.LookUp_Usage.Name = "LookUp_Usage"
@@ -435,7 +438,7 @@ Partial Class Frm_PurchaseOrder
         Me.LookUp_Usage.Properties.DisplayMember = "UsageName"
         Me.LookUp_Usage.Properties.NullText = "-- Pilih Keperluan"
         Me.LookUp_Usage.Properties.ValueMember = "ID"
-        Me.LookUp_Usage.Size = New System.Drawing.Size(108, 26)
+        Me.LookUp_Usage.Size = New System.Drawing.Size(220, 26)
         Me.LookUp_Usage.StyleController = Me.LayoutControl1
         Me.LookUp_Usage.TabIndex = 16
         '
@@ -447,23 +450,25 @@ Partial Class Frm_PurchaseOrder
         'Ed_Subtotal
         '
         Me.Ed_Subtotal.EditValue = New Decimal(New Integer() {0, 0, 0, 0})
-        Me.Ed_Subtotal.Location = New System.Drawing.Point(711, 139)
+        Me.Ed_Subtotal.Location = New System.Drawing.Point(1011, 453)
         Me.Ed_Subtotal.Margin = New System.Windows.Forms.Padding(2)
         Me.Ed_Subtotal.MenuManager = Me.RibbonControl
         Me.Ed_Subtotal.Name = "Ed_Subtotal"
         Me.Ed_Subtotal.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.Ed_Subtotal.Properties.MaskSettings.Set("mask", "n0")
-        Me.Ed_Subtotal.Size = New System.Drawing.Size(125, 26)
+        Me.Ed_Subtotal.Size = New System.Drawing.Size(341, 26)
         Me.Ed_Subtotal.StyleController = Me.LayoutControl1
         Me.Ed_Subtotal.TabIndex = 15
         '
         'SB_Search
         '
         Me.SB_Search.ImageOptions.Image = CType(resources.GetObject("SB_Search.ImageOptions.Image"), System.Drawing.Image)
-        Me.SB_Search.Location = New System.Drawing.Point(283, 44)
+        Me.SB_Search.Location = New System.Drawing.Point(376, 44)
         Me.SB_Search.Margin = New System.Windows.Forms.Padding(2)
+        Me.SB_Search.MinimumSize = New System.Drawing.Size(0, 50)
         Me.SB_Search.Name = "SB_Search"
-        Me.SB_Search.Size = New System.Drawing.Size(51, 15)
+        Me.SB_Search.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light
+        Me.SB_Search.Size = New System.Drawing.Size(51, 50)
         Me.SB_Search.StyleController = Me.LayoutControl1
         Me.SB_Search.TabIndex = 14
         Me.SB_Search.Text = "Cari"
@@ -471,7 +476,7 @@ Partial Class Frm_PurchaseOrder
         'Dt_End
         '
         Me.Dt_End.EditValue = New Date(2024, 8, 21, 20, 35, 50, 651)
-        Me.Dt_End.Location = New System.Drawing.Point(196, 44)
+        Me.Dt_End.Location = New System.Drawing.Point(109, 74)
         Me.Dt_End.Margin = New System.Windows.Forms.Padding(2)
         Me.Dt_End.MenuManager = Me.RibbonControl
         Me.Dt_End.Name = "Dt_End"
@@ -479,14 +484,14 @@ Partial Class Frm_PurchaseOrder
         Me.Dt_End.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.Dt_End.Properties.MaskSettings.Set("mask", "dd MMM yyyy")
         Me.Dt_End.Properties.UseMaskAsDisplayFormat = True
-        Me.Dt_End.Size = New System.Drawing.Size(67, 26)
+        Me.Dt_End.Size = New System.Drawing.Size(171, 26)
         Me.Dt_End.StyleController = Me.LayoutControl1
         Me.Dt_End.TabIndex = 13
         '
         'Dt_Start
         '
         Me.Dt_Start.EditValue = New Date(2024, 8, 21, 20, 35, 50, 651)
-        Me.Dt_Start.Location = New System.Drawing.Point(99, 44)
+        Me.Dt_Start.Location = New System.Drawing.Point(109, 44)
         Me.Dt_Start.Margin = New System.Windows.Forms.Padding(2)
         Me.Dt_Start.MenuManager = Me.RibbonControl
         Me.Dt_Start.Name = "Dt_Start"
@@ -494,14 +499,14 @@ Partial Class Frm_PurchaseOrder
         Me.Dt_Start.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.Dt_Start.Properties.MaskSettings.Set("mask", "dd MMM yyyy")
         Me.Dt_Start.Properties.UseMaskAsDisplayFormat = True
-        Me.Dt_Start.Size = New System.Drawing.Size(53, 26)
+        Me.Dt_Start.Size = New System.Drawing.Size(171, 26)
         Me.Dt_Start.StyleController = Me.LayoutControl1
         Me.Dt_Start.TabIndex = 12
         '
         'Date_Request
         '
         Me.Date_Request.EditValue = Nothing
-        Me.Date_Request.Location = New System.Drawing.Point(469, 74)
+        Me.Date_Request.Location = New System.Drawing.Point(562, 74)
         Me.Date_Request.Margin = New System.Windows.Forms.Padding(2)
         Me.Date_Request.MenuManager = Me.RibbonControl
         Me.Date_Request.Name = "Date_Request"
@@ -509,18 +514,18 @@ Partial Class Frm_PurchaseOrder
         Me.Date_Request.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.Date_Request.Properties.MaskSettings.Set("mask", "dd MMM yyyy")
         Me.Date_Request.Properties.UseMaskAsDisplayFormat = True
-        Me.Date_Request.Size = New System.Drawing.Size(108, 26)
+        Me.Date_Request.Size = New System.Drawing.Size(220, 26)
         Me.Date_Request.StyleController = Me.LayoutControl1
         Me.Date_Request.TabIndex = 11
         '
         'SB_Submit
         '
         Me.SB_Submit.ImageOptions.Image = CType(resources.GetObject("SB_Submit.ImageOptions.Image"), System.Drawing.Image)
-        Me.SB_Submit.Location = New System.Drawing.Point(1035, 134)
+        Me.SB_Submit.Location = New System.Drawing.Point(1221, 134)
         Me.SB_Submit.Margin = New System.Windows.Forms.Padding(2)
         Me.SB_Submit.Name = "SB_Submit"
         Me.SB_Submit.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light
-        Me.SB_Submit.Size = New System.Drawing.Size(61, 28)
+        Me.SB_Submit.Size = New System.Drawing.Size(130, 36)
         Me.SB_Submit.StyleController = Me.LayoutControl1
         Me.SB_Submit.TabIndex = 10
         Me.SB_Submit.Text = "Submit"
@@ -528,13 +533,13 @@ Partial Class Frm_PurchaseOrder
         'GC_PODetail
         '
         Me.GC_PODetail.DataSource = Me.SpSPPurchaseOrderDetailGetDataBindingSource
-        Me.GC_PODetail.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.GC_PODetail.Location = New System.Drawing.Point(362, 218)
+        Me.GC_PODetail.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(21, 15, 21, 15)
+        Me.GC_PODetail.Location = New System.Drawing.Point(455, 218)
         Me.GC_PODetail.MainView = Me.GV_Detail
         Me.GC_PODetail.MenuManager = Me.RibbonControl
         Me.GC_PODetail.Name = "GC_PODetail"
         Me.GC_PODetail.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.Repo_Num, Me.Repo_Des, Me.Repo_Desc, Me.Repo_LUE_Inv, Me.Repo_LUE_Sup, Me.Repo_LUE_UoM})
-        Me.GC_PODetail.Size = New System.Drawing.Size(734, 284)
+        Me.GC_PODetail.Size = New System.Drawing.Size(896, 226)
         Me.GC_PODetail.TabIndex = 5
         Me.GC_PODetail.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GV_Detail})
         '
@@ -748,13 +753,13 @@ Partial Class Frm_PurchaseOrder
         'GridControl1
         '
         Me.GridControl1.DataSource = Me.SpSPPurchaseOrderHeaderGetDataBindingSource
-        Me.GridControl1.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.GridControl1.Location = New System.Drawing.Point(24, 319)
+        Me.GridControl1.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(21, 15, 21, 15)
+        Me.GridControl1.Location = New System.Drawing.Point(24, 309)
         Me.GridControl1.MainView = Me.GV_Header
         Me.GridControl1.MenuManager = Me.RibbonControl
         Me.GridControl1.Name = "GridControl1"
         Me.GridControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.Repository_LUE_Usage})
-        Me.GridControl1.Size = New System.Drawing.Size(310, 205)
+        Me.GridControl1.Size = New System.Drawing.Size(403, 215)
         Me.GridControl1.TabIndex = 4
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GV_Header})
         '
@@ -774,16 +779,18 @@ Partial Class Frm_PurchaseOrder
         Me.colID_Header.Name = "colID_Header"
         Me.colID_Header.OptionsColumn.AllowEdit = False
         Me.colID_Header.OptionsColumn.AllowFocus = False
-        Me.colID_Header.Visible = True
-        Me.colID_Header.VisibleIndex = 0
         '
         'colPONo_Header
         '
+        Me.colPONo_Header.Caption = "No. Tx"
         Me.colPONo_Header.FieldName = "PONo"
         Me.colPONo_Header.Name = "colPONo_Header"
         Me.colPONo_Header.OptionsColumn.AllowEdit = False
         Me.colPONo_Header.OptionsColumn.AllowFocus = False
         Me.colPONo_Header.OptionsFilter.AllowFilter = False
+        Me.colPONo_Header.Visible = True
+        Me.colPONo_Header.VisibleIndex = 0
+        Me.colPONo_Header.Width = 355
         '
         'colPODate_Header
         '
@@ -794,8 +801,6 @@ Partial Class Frm_PurchaseOrder
         Me.colPODate_Header.Name = "colPODate_Header"
         Me.colPODate_Header.OptionsColumn.AllowEdit = False
         Me.colPODate_Header.OptionsColumn.AllowFocus = False
-        Me.colPODate_Header.Visible = True
-        Me.colPODate_Header.VisibleIndex = 1
         '
         'colisVoid_Header
         '
@@ -826,8 +831,10 @@ Partial Class Frm_PurchaseOrder
         Me.colGrandTotal_Header.Name = "colGrandTotal_Header"
         Me.colGrandTotal_Header.OptionsColumn.AllowEdit = False
         Me.colGrandTotal_Header.OptionsColumn.AllowFocus = False
+        Me.colGrandTotal_Header.OptionsFilter.AllowFilter = False
         Me.colGrandTotal_Header.Visible = True
         Me.colGrandTotal_Header.VisibleIndex = 2
+        Me.colGrandTotal_Header.Width = 359
         '
         'colUsageID
         '
@@ -840,8 +847,8 @@ Partial Class Frm_PurchaseOrder
         Me.colUsageID.OptionsColumn.AllowFocus = False
         Me.colUsageID.OptionsFilter.AllowFilter = False
         Me.colUsageID.Visible = True
-        Me.colUsageID.VisibleIndex = 3
-        Me.colUsageID.Width = 50
+        Me.colUsageID.VisibleIndex = 1
+        Me.colUsageID.Width = 447
         '
         'Repository_LUE_Usage
         '
@@ -855,7 +862,7 @@ Partial Class Frm_PurchaseOrder
         '
         'LUE_Inv
         '
-        Me.LUE_Inv.Location = New System.Drawing.Point(747, 74)
+        Me.LUE_Inv.Location = New System.Drawing.Point(967, 74)
         Me.LUE_Inv.Margin = New System.Windows.Forms.Padding(2)
         Me.LUE_Inv.MenuManager = Me.RibbonControl
         Me.LUE_Inv.Name = "LUE_Inv"
@@ -863,8 +870,9 @@ Partial Class Frm_PurchaseOrder
         Me.LUE_Inv.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("InventoryName", "Nama Barang", 75, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.[Default])})
         Me.LUE_Inv.Properties.DataSource = Me.SpLookUpDataGetInventoryBindingSource
         Me.LUE_Inv.Properties.DisplayMember = "InventoryName"
+        Me.LUE_Inv.Properties.NullText = "-- Pilih Penggunaan"
         Me.LUE_Inv.Properties.ValueMember = "ID"
-        Me.LUE_Inv.Size = New System.Drawing.Size(349, 26)
+        Me.LUE_Inv.Size = New System.Drawing.Size(384, 26)
         Me.LUE_Inv.StyleController = Me.LayoutControl1
         Me.LUE_Inv.TabIndex = 23
         '
@@ -872,119 +880,102 @@ Partial Class Frm_PurchaseOrder
         '
         Me.LayoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
         Me.LayoutControlGroup1.GroupBordersVisible = False
-        Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.EmptySpaceItem2, Me.LayoutControlItem14, Me.LayoutControlGroup2, Me.LCGroup_List, Me.LCGroup_Detail, Me.LCGroup_Header})
+        Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.EmptySpaceItem2, Me.LayoutControlItem14, Me.LayoutControlGroup2, Me.LCGroup_List, Me.LCGroup_Detail, Me.LCGroup_Header, Me.LayoutControlItem17})
         Me.LayoutControlGroup1.Name = "LayoutControlGroup1"
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(1120, 548)
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(1375, 548)
         Me.LayoutControlGroup1.TextVisible = False
         '
         'EmptySpaceItem2
         '
         Me.EmptySpaceItem2.AllowHotTrack = False
-        Me.EmptySpaceItem2.Location = New System.Drawing.Point(338, 506)
+        Me.EmptySpaceItem2.Location = New System.Drawing.Point(588, 488)
         Me.EmptySpaceItem2.Name = "EmptySpaceItem2"
-        Me.EmptySpaceItem2.Size = New System.Drawing.Size(663, 22)
+        Me.EmptySpaceItem2.Size = New System.Drawing.Size(668, 40)
         Me.EmptySpaceItem2.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlItem14
         '
         Me.LayoutControlItem14.Control = Me.Label_Subtotal
-        Me.LayoutControlItem14.Location = New System.Drawing.Point(1001, 506)
+        Me.LayoutControlItem14.Location = New System.Drawing.Point(1256, 488)
         Me.LayoutControlItem14.Name = "LayoutControlItem14"
-        Me.LayoutControlItem14.Size = New System.Drawing.Size(99, 22)
+        Me.LayoutControlItem14.Size = New System.Drawing.Size(99, 40)
         Me.LayoutControlItem14.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem14.TextVisible = False
         '
         'LayoutControlGroup2
         '
-        Me.LayoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem9, Me.LayoutControlItem1, Me.LayoutControlItem10, Me.EmptySpaceItem3, Me.LayoutControlItem11, Me.EmptySpaceItem5, Me.LayoutControlItem18})
+        Me.LayoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem9, Me.LayoutControlItem1, Me.LayoutControlItem11, Me.LayoutControlItem18, Me.EmptySpaceItem3, Me.LayoutControlItem10})
         Me.LayoutControlGroup2.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup2.Name = "LayoutControlGroup2"
-        Me.LayoutControlGroup2.Size = New System.Drawing.Size(338, 528)
+        Me.LayoutControlGroup2.Size = New System.Drawing.Size(431, 528)
         Me.LayoutControlGroup2.Text = "Filter"
         '
         'LayoutControlItem9
         '
         Me.LayoutControlItem9.Control = Me.Dt_Start
         Me.LayoutControlItem9.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlItem9.MaxSize = New System.Drawing.Size(132, 20)
-        Me.LayoutControlItem9.MinSize = New System.Drawing.Size(132, 20)
         Me.LayoutControlItem9.Name = "LayoutControlItem9"
-        Me.LayoutControlItem9.Size = New System.Drawing.Size(132, 20)
-        Me.LayoutControlItem9.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
+        Me.LayoutControlItem9.Size = New System.Drawing.Size(260, 30)
         Me.LayoutControlItem9.Text = "Tgl. Awal :"
-        Me.LayoutControlItem9.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.AutoSize
-        Me.LayoutControlItem9.TextSize = New System.Drawing.Size(70, 18)
+        Me.LayoutControlItem9.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
+        Me.LayoutControlItem9.TextSize = New System.Drawing.Size(80, 18)
         Me.LayoutControlItem9.TextToControlDistance = 5
         '
         'LayoutControlItem1
         '
         Me.LayoutControlItem1.Control = Me.GridControl1
-        Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 275)
+        Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 265)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
-        Me.LayoutControlItem1.Size = New System.Drawing.Size(314, 209)
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(407, 219)
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem1.TextVisible = False
-        '
-        'LayoutControlItem10
-        '
-        Me.LayoutControlItem10.Control = Me.Dt_End
-        Me.LayoutControlItem10.Location = New System.Drawing.Point(132, 0)
-        Me.LayoutControlItem10.MaxSize = New System.Drawing.Size(111, 20)
-        Me.LayoutControlItem10.MinSize = New System.Drawing.Size(111, 20)
-        Me.LayoutControlItem10.Name = "LayoutControlItem10"
-        Me.LayoutControlItem10.Size = New System.Drawing.Size(111, 20)
-        Me.LayoutControlItem10.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
-        Me.LayoutControlItem10.Text = " s/d :"
-        Me.LayoutControlItem10.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.AutoSize
-        Me.LayoutControlItem10.TextSize = New System.Drawing.Size(35, 18)
-        Me.LayoutControlItem10.TextToControlDistance = 5
-        '
-        'EmptySpaceItem3
-        '
-        Me.EmptySpaceItem3.AllowHotTrack = False
-        Me.EmptySpaceItem3.Location = New System.Drawing.Point(243, 0)
-        Me.EmptySpaceItem3.Name = "EmptySpaceItem3"
-        Me.EmptySpaceItem3.Size = New System.Drawing.Size(16, 20)
-        Me.EmptySpaceItem3.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlItem11
         '
         Me.LayoutControlItem11.Control = Me.SB_Search
-        Me.LayoutControlItem11.Location = New System.Drawing.Point(259, 0)
+        Me.LayoutControlItem11.Location = New System.Drawing.Point(352, 0)
         Me.LayoutControlItem11.MaxSize = New System.Drawing.Size(55, 19)
         Me.LayoutControlItem11.MinSize = New System.Drawing.Size(55, 19)
         Me.LayoutControlItem11.Name = "LayoutControlItem11"
-        Me.LayoutControlItem11.Size = New System.Drawing.Size(55, 20)
+        Me.LayoutControlItem11.Size = New System.Drawing.Size(55, 60)
         Me.LayoutControlItem11.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem11.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem11.TextVisible = False
         '
-        'EmptySpaceItem5
-        '
-        Me.EmptySpaceItem5.AllowHotTrack = False
-        Me.EmptySpaceItem5.Location = New System.Drawing.Point(0, 20)
-        Me.EmptySpaceItem5.MaxSize = New System.Drawing.Size(314, 7)
-        Me.EmptySpaceItem5.MinSize = New System.Drawing.Size(314, 7)
-        Me.EmptySpaceItem5.Name = "EmptySpaceItem5"
-        Me.EmptySpaceItem5.Size = New System.Drawing.Size(314, 7)
-        Me.EmptySpaceItem5.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
-        Me.EmptySpaceItem5.TextSize = New System.Drawing.Size(0, 0)
-        '
         'LayoutControlItem18
         '
         Me.LayoutControlItem18.Control = Me.Sp_SPPurchaseOrderParent_GetDataGridControl
-        Me.LayoutControlItem18.Location = New System.Drawing.Point(0, 27)
+        Me.LayoutControlItem18.Location = New System.Drawing.Point(0, 60)
         Me.LayoutControlItem18.Name = "LayoutControlItem18"
-        Me.LayoutControlItem18.Size = New System.Drawing.Size(314, 248)
+        Me.LayoutControlItem18.Size = New System.Drawing.Size(407, 205)
         Me.LayoutControlItem18.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem18.TextVisible = False
         '
+        'EmptySpaceItem3
+        '
+        Me.EmptySpaceItem3.AllowHotTrack = False
+        Me.EmptySpaceItem3.Location = New System.Drawing.Point(260, 0)
+        Me.EmptySpaceItem3.Name = "EmptySpaceItem3"
+        Me.EmptySpaceItem3.Size = New System.Drawing.Size(92, 60)
+        Me.EmptySpaceItem3.TextSize = New System.Drawing.Size(0, 0)
+        '
+        'LayoutControlItem10
+        '
+        Me.LayoutControlItem10.Control = Me.Dt_End
+        Me.LayoutControlItem10.Location = New System.Drawing.Point(0, 30)
+        Me.LayoutControlItem10.Name = "LayoutControlItem10"
+        Me.LayoutControlItem10.Size = New System.Drawing.Size(260, 30)
+        Me.LayoutControlItem10.Text = "Tgl. Akhir :"
+        Me.LayoutControlItem10.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
+        Me.LayoutControlItem10.TextSize = New System.Drawing.Size(80, 18)
+        Me.LayoutControlItem10.TextToControlDistance = 5
+        '
         'LCGroup_List
         '
-        Me.LCGroup_List.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem2})
-        Me.LCGroup_List.Location = New System.Drawing.Point(338, 174)
+        Me.LCGroup_List.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem2, Me.LayoutControlItem12, Me.EmptySpaceItem4})
+        Me.LCGroup_List.Location = New System.Drawing.Point(431, 174)
         Me.LCGroup_List.Name = "LCGroup_List"
-        Me.LCGroup_List.Size = New System.Drawing.Size(762, 332)
+        Me.LCGroup_List.Size = New System.Drawing.Size(924, 314)
         Me.LCGroup_List.Text = "Daftar Pemesanan"
         '
         'LayoutControlItem2
@@ -992,56 +983,44 @@ Partial Class Frm_PurchaseOrder
         Me.LayoutControlItem2.Control = Me.GC_PODetail
         Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem2.Name = "LayoutControlItem2"
-        Me.LayoutControlItem2.Size = New System.Drawing.Size(738, 288)
+        Me.LayoutControlItem2.Size = New System.Drawing.Size(900, 230)
         Me.LayoutControlItem2.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem2.TextVisible = False
-        '
-        'LCGroup_Detail
-        '
-        Me.LCGroup_Detail.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem15, Me.EmptySpaceItem4, Me.LayoutControlItem12, Me.LayoutControlItem7, Me.LayoutControlItem5, Me.LayoutControlItem16, Me.LayoutControlItem6, Me.LayoutControlItem3, Me.LayoutControlItem17})
-        Me.LCGroup_Detail.Location = New System.Drawing.Point(581, 0)
-        Me.LCGroup_Detail.Name = "LCGroup_Detail"
-        Me.LCGroup_Detail.Size = New System.Drawing.Size(519, 174)
-        Me.LCGroup_Detail.Text = "Detail"
-        '
-        'LayoutControlItem15
-        '
-        Me.LayoutControlItem15.Control = Me.SB_Back
-        Me.LayoutControlItem15.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlItem15.MaxSize = New System.Drawing.Size(35, 29)
-        Me.LayoutControlItem15.MinSize = New System.Drawing.Size(35, 29)
-        Me.LayoutControlItem15.Name = "LayoutControlItem15"
-        Me.LayoutControlItem15.Size = New System.Drawing.Size(35, 29)
-        Me.LayoutControlItem15.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
-        Me.LayoutControlItem15.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem15.TextVisible = False
-        '
-        'EmptySpaceItem4
-        '
-        Me.EmptySpaceItem4.AllowHotTrack = False
-        Me.EmptySpaceItem4.Location = New System.Drawing.Point(0, 29)
-        Me.EmptySpaceItem4.Name = "EmptySpaceItem4"
-        Me.EmptySpaceItem4.Size = New System.Drawing.Size(35, 61)
-        Me.EmptySpaceItem4.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlItem12
         '
         Me.LayoutControlItem12.Control = Me.Ed_Subtotal
-        Me.LayoutControlItem12.Location = New System.Drawing.Point(0, 90)
+        Me.LayoutControlItem12.Location = New System.Drawing.Point(450, 230)
         Me.LayoutControlItem12.Name = "LayoutControlItem12"
         Me.LayoutControlItem12.Padding = New DevExpress.XtraLayout.Utils.Padding(1, 1, 7, 7)
-        Me.LayoutControlItem12.Size = New System.Drawing.Size(234, 40)
+        Me.LayoutControlItem12.Size = New System.Drawing.Size(450, 40)
         Me.LayoutControlItem12.Text = "Nominal :"
         Me.LayoutControlItem12.TextSize = New System.Drawing.Size(95, 18)
+        '
+        'EmptySpaceItem4
+        '
+        Me.EmptySpaceItem4.AllowHotTrack = False
+        Me.EmptySpaceItem4.Location = New System.Drawing.Point(0, 230)
+        Me.EmptySpaceItem4.Name = "EmptySpaceItem4"
+        Me.EmptySpaceItem4.Size = New System.Drawing.Size(450, 40)
+        Me.EmptySpaceItem4.TextSize = New System.Drawing.Size(0, 0)
+        '
+        'LCGroup_Detail
+        '
+        Me.LCGroup_Detail.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem7, Me.LayoutControlItem5, Me.LayoutControlItem16, Me.LayoutControlItem6, Me.LayoutControlItem3, Me.LayoutControlItem15, Me.EmptySpaceItem5})
+        Me.LCGroup_Detail.Location = New System.Drawing.Point(786, 0)
+        Me.LCGroup_Detail.Name = "LCGroup_Detail"
+        Me.LCGroup_Detail.Size = New System.Drawing.Size(569, 174)
+        Me.LCGroup_Detail.Text = "Detail"
         '
         'LayoutControlItem7
         '
         Me.LayoutControlItem7.Control = Me.SB_Submit
-        Me.LayoutControlItem7.Location = New System.Drawing.Point(430, 90)
-        Me.LayoutControlItem7.MaxSize = New System.Drawing.Size(65, 32)
-        Me.LayoutControlItem7.MinSize = New System.Drawing.Size(65, 32)
+        Me.LayoutControlItem7.Location = New System.Drawing.Point(411, 90)
+        Me.LayoutControlItem7.MaxSize = New System.Drawing.Size(134, 40)
+        Me.LayoutControlItem7.MinSize = New System.Drawing.Size(134, 40)
         Me.LayoutControlItem7.Name = "LayoutControlItem7"
-        Me.LayoutControlItem7.Size = New System.Drawing.Size(65, 40)
+        Me.LayoutControlItem7.Size = New System.Drawing.Size(134, 40)
         Me.LayoutControlItem7.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem7.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem7.TextVisible = False
@@ -1049,54 +1028,79 @@ Partial Class Frm_PurchaseOrder
         'LayoutControlItem5
         '
         Me.LayoutControlItem5.Control = Me.LUE_Inv
-        Me.LayoutControlItem5.Location = New System.Drawing.Point(35, 30)
+        Me.LayoutControlItem5.Location = New System.Drawing.Point(50, 30)
         Me.LayoutControlItem5.Name = "LayoutControlItem5"
-        Me.LayoutControlItem5.Size = New System.Drawing.Size(460, 30)
+        Me.LayoutControlItem5.Size = New System.Drawing.Size(495, 30)
         Me.LayoutControlItem5.Text = "Pemesanan :"
         Me.LayoutControlItem5.TextSize = New System.Drawing.Size(95, 18)
         '
         'LayoutControlItem16
         '
         Me.LayoutControlItem16.Control = Me.LUE_Supplier
-        Me.LayoutControlItem16.Location = New System.Drawing.Point(35, 0)
+        Me.LayoutControlItem16.Location = New System.Drawing.Point(50, 0)
         Me.LayoutControlItem16.Name = "LayoutControlItem16"
-        Me.LayoutControlItem16.Size = New System.Drawing.Size(460, 30)
+        Me.LayoutControlItem16.Size = New System.Drawing.Size(495, 30)
         Me.LayoutControlItem16.Text = "Supplier :"
         Me.LayoutControlItem16.TextSize = New System.Drawing.Size(95, 18)
         '
         'LayoutControlItem6
         '
         Me.LayoutControlItem6.Control = Me.Ed_Qty
-        Me.LayoutControlItem6.Location = New System.Drawing.Point(35, 60)
+        Me.LayoutControlItem6.Location = New System.Drawing.Point(50, 60)
         Me.LayoutControlItem6.Name = "LayoutControlItem6"
-        Me.LayoutControlItem6.Size = New System.Drawing.Size(236, 30)
+        Me.LayoutControlItem6.Size = New System.Drawing.Size(294, 30)
         Me.LayoutControlItem6.Text = "Jumlah :"
         Me.LayoutControlItem6.TextSize = New System.Drawing.Size(95, 18)
         '
         'LayoutControlItem3
         '
         Me.LayoutControlItem3.Control = Me.Ed_Price
-        Me.LayoutControlItem3.Location = New System.Drawing.Point(271, 60)
+        Me.LayoutControlItem3.Location = New System.Drawing.Point(344, 60)
         Me.LayoutControlItem3.Name = "LayoutControlItem3"
-        Me.LayoutControlItem3.Size = New System.Drawing.Size(224, 30)
+        Me.LayoutControlItem3.Size = New System.Drawing.Size(201, 30)
         Me.LayoutControlItem3.Text = "Harga :"
-        Me.LayoutControlItem3.TextSize = New System.Drawing.Size(95, 18)
+        Me.LayoutControlItem3.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.AutoSize
+        Me.LayoutControlItem3.TextSize = New System.Drawing.Size(49, 18)
+        Me.LayoutControlItem3.TextToControlDistance = 5
         '
         'LayoutControlItem17
         '
         Me.LayoutControlItem17.Control = Me.SB_NewTransaction
-        Me.LayoutControlItem17.Location = New System.Drawing.Point(234, 90)
+        Me.LayoutControlItem17.Location = New System.Drawing.Point(431, 488)
+        Me.LayoutControlItem17.MaxSize = New System.Drawing.Size(157, 40)
+        Me.LayoutControlItem17.MinSize = New System.Drawing.Size(157, 40)
         Me.LayoutControlItem17.Name = "LayoutControlItem17"
-        Me.LayoutControlItem17.Size = New System.Drawing.Size(196, 40)
+        Me.LayoutControlItem17.Size = New System.Drawing.Size(157, 40)
+        Me.LayoutControlItem17.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem17.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem17.TextVisible = False
+        '
+        'LayoutControlItem15
+        '
+        Me.LayoutControlItem15.Control = Me.SB_Back
+        Me.LayoutControlItem15.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlItem15.MaxSize = New System.Drawing.Size(60, 60)
+        Me.LayoutControlItem15.MinSize = New System.Drawing.Size(40, 60)
+        Me.LayoutControlItem15.Name = "LayoutControlItem15"
+        Me.LayoutControlItem15.Size = New System.Drawing.Size(50, 90)
+        Me.LayoutControlItem15.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
+        Me.LayoutControlItem15.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem15.TextVisible = False
+        '
+        'EmptySpaceItem5
+        '
+        Me.EmptySpaceItem5.AllowHotTrack = False
+        Me.EmptySpaceItem5.Location = New System.Drawing.Point(0, 90)
+        Me.EmptySpaceItem5.Name = "EmptySpaceItem5"
+        Me.EmptySpaceItem5.Size = New System.Drawing.Size(411, 40)
+        Me.EmptySpaceItem5.TextSize = New System.Drawing.Size(0, 0)
         '
         'LCGroup_Header
         '
         Me.LCGroup_Header.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem4, Me.LayoutControlItem8, Me.LayoutControlItem13, Me.LCItem_NewTransaction, Me.EmptySpaceItem1})
-        Me.LCGroup_Header.Location = New System.Drawing.Point(338, 0)
+        Me.LCGroup_Header.Location = New System.Drawing.Point(431, 0)
         Me.LCGroup_Header.Name = "LCGroup_Header"
-        Me.LCGroup_Header.Size = New System.Drawing.Size(243, 174)
+        Me.LCGroup_Header.Size = New System.Drawing.Size(355, 174)
         Me.LCGroup_Header.Text = "Transaksi"
         '
         'LayoutControlItem4
@@ -1104,7 +1108,7 @@ Partial Class Frm_PurchaseOrder
         Me.LayoutControlItem4.Control = Me.Ed_TransactionNo
         Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem4.Name = "LayoutControlItem4"
-        Me.LayoutControlItem4.Size = New System.Drawing.Size(219, 30)
+        Me.LayoutControlItem4.Size = New System.Drawing.Size(331, 30)
         Me.LayoutControlItem4.Text = "No. Tx :"
         Me.LayoutControlItem4.TextSize = New System.Drawing.Size(95, 18)
         '
@@ -1113,7 +1117,7 @@ Partial Class Frm_PurchaseOrder
         Me.LayoutControlItem8.Control = Me.Date_Request
         Me.LayoutControlItem8.Location = New System.Drawing.Point(0, 30)
         Me.LayoutControlItem8.Name = "LayoutControlItem8"
-        Me.LayoutControlItem8.Size = New System.Drawing.Size(219, 30)
+        Me.LayoutControlItem8.Size = New System.Drawing.Size(331, 30)
         Me.LayoutControlItem8.Text = "Tgl. Request :"
         Me.LayoutControlItem8.TextSize = New System.Drawing.Size(95, 18)
         '
@@ -1122,7 +1126,7 @@ Partial Class Frm_PurchaseOrder
         Me.LayoutControlItem13.Control = Me.LookUp_Usage
         Me.LayoutControlItem13.Location = New System.Drawing.Point(0, 60)
         Me.LayoutControlItem13.Name = "LayoutControlItem13"
-        Me.LayoutControlItem13.Size = New System.Drawing.Size(219, 30)
+        Me.LayoutControlItem13.Size = New System.Drawing.Size(331, 30)
         Me.LayoutControlItem13.Text = "Keperluan :"
         Me.LayoutControlItem13.TextSize = New System.Drawing.Size(95, 18)
         '
@@ -1131,7 +1135,7 @@ Partial Class Frm_PurchaseOrder
         Me.LCItem_NewTransaction.Control = Me.SB_New
         Me.LCItem_NewTransaction.Location = New System.Drawing.Point(0, 103)
         Me.LCItem_NewTransaction.Name = "LCItem_NewTransaction"
-        Me.LCItem_NewTransaction.Size = New System.Drawing.Size(219, 27)
+        Me.LCItem_NewTransaction.Size = New System.Drawing.Size(331, 27)
         Me.LCItem_NewTransaction.TextSize = New System.Drawing.Size(0, 0)
         Me.LCItem_NewTransaction.TextVisible = False
         '
@@ -1139,11 +1143,8 @@ Partial Class Frm_PurchaseOrder
         '
         Me.EmptySpaceItem1.AllowHotTrack = False
         Me.EmptySpaceItem1.Location = New System.Drawing.Point(0, 90)
-        Me.EmptySpaceItem1.MaxSize = New System.Drawing.Size(219, 0)
-        Me.EmptySpaceItem1.MinSize = New System.Drawing.Size(219, 7)
         Me.EmptySpaceItem1.Name = "EmptySpaceItem1"
-        Me.EmptySpaceItem1.Size = New System.Drawing.Size(219, 13)
-        Me.EmptySpaceItem1.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
+        Me.EmptySpaceItem1.Size = New System.Drawing.Size(331, 13)
         Me.EmptySpaceItem1.TextSize = New System.Drawing.Size(0, 0)
         '
         'Sp_SPPurchaseOrderHeader_GetDataTableAdapter
@@ -1189,7 +1190,7 @@ Partial Class Frm_PurchaseOrder
         Me.Appearance.Options.UseFont = True
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1120, 653)
+        Me.ClientSize = New System.Drawing.Size(1375, 653)
         Me.Controls.Add(Me.LayoutControl1)
         Me.Controls.Add(Me.RibbonStatusBar)
         Me.Controls.Add(Me.RibbonControl)
@@ -1241,23 +1242,23 @@ Partial Class Frm_PurchaseOrder
         CType(Me.LayoutControlGroup2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EmptySpaceItem3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem11, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EmptySpaceItem5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EmptySpaceItem3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LCGroup_List, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LCGroup_Detail, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EmptySpaceItem4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EmptySpaceItem4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LCGroup_Detail, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem16, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EmptySpaceItem5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LCGroup_Header, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem8, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1305,7 +1306,6 @@ Partial Class Frm_PurchaseOrder
     Friend WithEvents LayoutControlItem9 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents LayoutControlItem10 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents LayoutControlItem11 As DevExpress.XtraLayout.LayoutControlItem
-    Friend WithEvents EmptySpaceItem3 As DevExpress.XtraLayout.EmptySpaceItem
     Friend WithEvents Repo_Num As DevExpress.XtraEditors.Repository.RepositoryItemTextEdit
     Friend WithEvents Repo_Des As DevExpress.XtraEditors.Repository.RepositoryItemTextEdit
     Friend WithEvents AlertControl As DevExpress.XtraBars.Alerter.AlertControl
@@ -1330,8 +1330,6 @@ Partial Class Frm_PurchaseOrder
     Friend WithEvents colUsageID As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents Repository_LUE_Usage As DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
     Friend WithEvents LCGroup_Detail As DevExpress.XtraLayout.LayoutControlGroup
-    Friend WithEvents EmptySpaceItem4 As DevExpress.XtraLayout.EmptySpaceItem
-    Friend WithEvents EmptySpaceItem5 As DevExpress.XtraLayout.EmptySpaceItem
     Friend WithEvents Repo_Desc As DevExpress.XtraEditors.Repository.RepositoryItemMemoEdit
     Friend WithEvents colID As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colPOID_Detail As DevExpress.XtraGrid.Columns.GridColumn
@@ -1373,4 +1371,7 @@ Partial Class Frm_PurchaseOrder
     Friend WithEvents colGrandTotal_Parent As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colValue_Parent As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents LayoutControlItem18 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents EmptySpaceItem3 As DevExpress.XtraLayout.EmptySpaceItem
+    Friend WithEvents EmptySpaceItem4 As DevExpress.XtraLayout.EmptySpaceItem
+    Friend WithEvents EmptySpaceItem5 As DevExpress.XtraLayout.EmptySpaceItem
 End Class

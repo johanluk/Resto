@@ -11,7 +11,7 @@
       <Value Profile="(Default)">Data Source=.;Initial Catalog=db_KR_Resto_SP;User ID=sa;Password=adm1n;TrustServerCertificate=True</Value>
     </Setting>
     <Setting Name="UserName" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">sa</Value>
     </Setting>
   </Settings>
 </SettingsFile>

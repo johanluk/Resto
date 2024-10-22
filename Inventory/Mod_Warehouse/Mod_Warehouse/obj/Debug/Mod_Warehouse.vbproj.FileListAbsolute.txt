@@ -269,6 +269,7 @@ D:\Project\VB\Giit\Resto\Inventory\Mod_Warehouse\Mod_Warehouse\obj\Debug\Mod_Pur
 D:\Project\VB\Giit\Resto\Inventory\Mod_Warehouse\Mod_Warehouse\obj\Debug\Mod_Warehouse.vbproj.GenerateResource.cache
 D:\Project\VB\Giit\Resto\Inventory\Mod_Warehouse\Mod_Warehouse\obj\Debug\Mod_Purchase.exe.licenses
 D:\Project\VB\Giit\Resto\Inventory\Mod_Warehouse\Mod_Warehouse\obj\Debug\Mod_Warehouse.vbproj.CoreCompileInputs.cache
-D:\Project\VB\Giit\Resto\Inventory\Mod_Warehouse\Mod_Warehouse\obj\Debug\Mod_Warehouse.vbproj.CopyComplete
 D:\Project\VB\Giit\Resto\Inventory\Mod_Warehouse\Mod_Warehouse\obj\Debug\Mod_Purchase.exe
 D:\Project\VB\Giit\Resto\Inventory\Mod_Warehouse\Mod_Warehouse\obj\Debug\Mod_Purchase.pdb
+D:\Project\VB\Giit\Resto\Inventory\Mod_Warehouse\Mod_Warehouse\obj\Debug\Mod_Ware.57031287.Up2Date
+D:\Project\VB\Giit\Resto\Inventory\Mod_Warehouse\Mod_Warehouse\obj\Debug\Mod_Purchase.Frm_Bills.resources
