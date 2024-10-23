@@ -435,4 +435,7 @@
   <metadata name="Sp_POS_CheckerSequenceTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>1065, 247</value>
   </metadata>
+  <metadata name="Sp_POSReportTransaction_GetDataInvoiceDetailTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 284</value>
+  </metadata>
 </root>

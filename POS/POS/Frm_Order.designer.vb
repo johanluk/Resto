@@ -296,6 +296,7 @@ Partial Class Frm_Order
         Me.Sp_POS_MDBank_GetDataTableAdapter = New POS.DataSetTableAdapters.sp_POS_MDBank_GetDataTableAdapter()
         Me.AlertControl = New DevExpress.XtraBars.Alerter.AlertControl(Me.components)
         Me.Sp_POS_CheckerSequenceTableAdapter = New POS.DataSetTableAdapters.sp_POS_CheckerSequenceTableAdapter()
+        Me.Sp_POSReportTransaction_GetDataInvoiceDetailTableAdapter = New POS.DataSet_ReportTableAdapters.sp_POSReportTransaction_GetDataInvoiceDetailTableAdapter()
         CType(Me.RepositoryItemLookUpEdit_OrderTypeName, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ViewPOSOrderTypeBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSet, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -505,7 +506,7 @@ Partial Class Frm_Order
         '
         'colOrderDate_OrderList
         '
-        Me.colOrderDate_OrderList.DisplayFormat.FormatString = "HH:mm:ss"
+        Me.colOrderDate_OrderList.DisplayFormat.FormatString = "HH.mm"
         Me.colOrderDate_OrderList.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime
         Me.colOrderDate_OrderList.FieldName = "OrderDate"
         Me.colOrderDate_OrderList.MinWidth = 30
@@ -580,6 +581,7 @@ Partial Class Frm_Order
         '
         'PanelControl3
         '
+        Me.PanelControl3.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PanelControl3.Controls.Add(Me.SB_CloseFlyOut1)
         Me.PanelControl3.Controls.Add(Me.SB_Next)
         Me.PanelControl3.Controls.Add(Me.RadioGroup_OrderType)
@@ -839,7 +841,7 @@ Partial Class Frm_Order
         Me.GridControl_OrderList.Margin = New System.Windows.Forms.Padding(4)
         Me.GridControl_OrderList.Name = "GridControl_OrderList"
         Me.GridControl_OrderList.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemLookUpEdit_OrderTypeName})
-        Me.GridControl_OrderList.Size = New System.Drawing.Size(1308, 697)
+        Me.GridControl_OrderList.Size = New System.Drawing.Size(1308, 606)
         Me.GridControl_OrderList.TabIndex = 42
         Me.GridControl_OrderList.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.TileView_OrderList})
         '
@@ -850,7 +852,7 @@ Partial Class Frm_Order
         '
         'TileView_OrderList
         '
-        Me.TileView_OrderList.Appearance.ItemNormal.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.TileView_OrderList.Appearance.ItemNormal.BackColor = System.Drawing.Color.Yellow
         Me.TileView_OrderList.Appearance.ItemNormal.BackColor2 = System.Drawing.Color.Green
         Me.TileView_OrderList.Appearance.ItemNormal.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.TileView_OrderList.Appearance.ItemNormal.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical
@@ -927,6 +929,7 @@ Partial Class Frm_Order
         Me.TileView_OrderList.GridControl = Me.GridControl_OrderList
         Me.TileView_OrderList.Name = "TileView_OrderList"
         Me.TileView_OrderList.OptionsTiles.HorizontalContentAlignment = DevExpress.Utils.HorzAlignment.Near
+        Me.TileView_OrderList.OptionsTiles.ItemBackgroundImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft
         Me.TileView_OrderList.OptionsTiles.ItemSize = New System.Drawing.Size(300, 120)
         Me.TileView_OrderList.OptionsTiles.RowCount = 0
         Me.TileView_OrderList.SortInfo.AddRange(New DevExpress.XtraGrid.Columns.GridColumnSortInfo() {New DevExpress.XtraGrid.Columns.GridColumnSortInfo(Me.colTableType_OrderList, DevExpress.Data.ColumnSortOrder.Ascending)})
@@ -1099,7 +1102,7 @@ Partial Class Frm_Order
         '
         Me.SB_CancelMove.Appearance.Font = New System.Drawing.Font("Segoe UI", 25.0!)
         Me.SB_CancelMove.Appearance.Options.UseFont = True
-        Me.SB_CancelMove.Location = New System.Drawing.Point(213, 99)
+        Me.SB_CancelMove.Location = New System.Drawing.Point(213, 102)
         Me.SB_CancelMove.Margin = New System.Windows.Forms.Padding(4)
         Me.SB_CancelMove.Name = "SB_CancelMove"
         Me.SB_CancelMove.Size = New System.Drawing.Size(185, 50)
@@ -1111,7 +1114,7 @@ Partial Class Frm_Order
         '
         Me.SB_UpdateTable.Appearance.Font = New System.Drawing.Font("Segoe UI", 25.0!)
         Me.SB_UpdateTable.Appearance.Options.UseFont = True
-        Me.SB_UpdateTable.Location = New System.Drawing.Point(12, 99)
+        Me.SB_UpdateTable.Location = New System.Drawing.Point(12, 102)
         Me.SB_UpdateTable.Margin = New System.Windows.Forms.Padding(4)
         Me.SB_UpdateTable.Name = "SB_UpdateTable"
         Me.SB_UpdateTable.Size = New System.Drawing.Size(197, 50)
@@ -1121,7 +1124,7 @@ Partial Class Frm_Order
         '
         'SearchLookUpEdit_TableMove
         '
-        Me.SearchLookUpEdit_TableMove.Location = New System.Drawing.Point(12, 43)
+        Me.SearchLookUpEdit_TableMove.Location = New System.Drawing.Point(12, 44)
         Me.SearchLookUpEdit_TableMove.Margin = New System.Windows.Forms.Padding(4)
         Me.SearchLookUpEdit_TableMove.Name = "SearchLookUpEdit_TableMove"
         Me.SearchLookUpEdit_TableMove.Properties.Appearance.Font = New System.Drawing.Font("Segoe UI", 25.0!)
@@ -1134,7 +1137,7 @@ Partial Class Frm_Order
         Me.SearchLookUpEdit_TableMove.Properties.NullText = ""
         Me.SearchLookUpEdit_TableMove.Properties.PopupView = Me.GridView1
         Me.SearchLookUpEdit_TableMove.Properties.ValueMember = "ID"
-        Me.SearchLookUpEdit_TableMove.Size = New System.Drawing.Size(386, 52)
+        Me.SearchLookUpEdit_TableMove.Size = New System.Drawing.Size(386, 54)
         Me.SearchLookUpEdit_TableMove.StyleController = Me.LayoutControl2
         Me.SearchLookUpEdit_TableMove.TabIndex = 4
         '
@@ -1190,7 +1193,7 @@ Partial Class Frm_Order
         Me.LayoutControlItem4.CustomizationFormText = "Meja :"
         Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem4.Name = "LayoutControlItem2"
-        Me.LayoutControlItem4.Size = New System.Drawing.Size(390, 87)
+        Me.LayoutControlItem4.Size = New System.Drawing.Size(390, 90)
         Me.LayoutControlItem4.Text = ".:: Pindah Meja ::."
         Me.LayoutControlItem4.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem4.TextSize = New System.Drawing.Size(142, 28)
@@ -1199,18 +1202,18 @@ Partial Class Frm_Order
         '
         Me.LayoutControlItem5.Control = Me.SB_UpdateTable
         Me.LayoutControlItem5.CustomizationFormText = "LayoutControlItem5"
-        Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 87)
+        Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 90)
         Me.LayoutControlItem5.Name = "LayoutControlItem5"
-        Me.LayoutControlItem5.Size = New System.Drawing.Size(201, 117)
+        Me.LayoutControlItem5.Size = New System.Drawing.Size(201, 114)
         Me.LayoutControlItem5.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem5.TextVisible = False
         '
         'LayoutControlItem9
         '
         Me.LayoutControlItem9.Control = Me.SB_CancelMove
-        Me.LayoutControlItem9.Location = New System.Drawing.Point(201, 87)
+        Me.LayoutControlItem9.Location = New System.Drawing.Point(201, 90)
         Me.LayoutControlItem9.Name = "LayoutControlItem9"
-        Me.LayoutControlItem9.Size = New System.Drawing.Size(189, 117)
+        Me.LayoutControlItem9.Size = New System.Drawing.Size(189, 114)
         Me.LayoutControlItem9.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem9.TextVisible = False
         '
@@ -1260,7 +1263,7 @@ Partial Class Frm_Order
         '
         Me.SB_CancelServer.Appearance.Font = New System.Drawing.Font("Segoe UI", 25.0!)
         Me.SB_CancelServer.Appearance.Options.UseFont = True
-        Me.SB_CancelServer.Location = New System.Drawing.Point(174, 99)
+        Me.SB_CancelServer.Location = New System.Drawing.Point(174, 102)
         Me.SB_CancelServer.Margin = New System.Windows.Forms.Padding(4)
         Me.SB_CancelServer.Name = "SB_CancelServer"
         Me.SB_CancelServer.Size = New System.Drawing.Size(149, 50)
@@ -1272,7 +1275,7 @@ Partial Class Frm_Order
         '
         Me.SB_SubmitServer.Appearance.Font = New System.Drawing.Font("Segoe UI", 25.0!)
         Me.SB_SubmitServer.Appearance.Options.UseFont = True
-        Me.SB_SubmitServer.Location = New System.Drawing.Point(12, 99)
+        Me.SB_SubmitServer.Location = New System.Drawing.Point(12, 102)
         Me.SB_SubmitServer.Margin = New System.Windows.Forms.Padding(4)
         Me.SB_SubmitServer.Name = "SB_SubmitServer"
         Me.SB_SubmitServer.Size = New System.Drawing.Size(158, 50)
@@ -1282,7 +1285,7 @@ Partial Class Frm_Order
         '
         'SearchLookUpEdit1
         '
-        Me.SearchLookUpEdit1.Location = New System.Drawing.Point(12, 43)
+        Me.SearchLookUpEdit1.Location = New System.Drawing.Point(12, 44)
         Me.SearchLookUpEdit1.Margin = New System.Windows.Forms.Padding(4)
         Me.SearchLookUpEdit1.Name = "SearchLookUpEdit1"
         Me.SearchLookUpEdit1.Properties.Appearance.Font = New System.Drawing.Font("Segoe UI", 25.0!)
@@ -1295,7 +1298,7 @@ Partial Class Frm_Order
         Me.SearchLookUpEdit1.Properties.NullText = ""
         Me.SearchLookUpEdit1.Properties.PopupView = Me.GridView2
         Me.SearchLookUpEdit1.Properties.ValueMember = "ID"
-        Me.SearchLookUpEdit1.Size = New System.Drawing.Size(311, 52)
+        Me.SearchLookUpEdit1.Size = New System.Drawing.Size(311, 54)
         Me.SearchLookUpEdit1.StyleController = Me.LayoutControl3
         Me.SearchLookUpEdit1.TabIndex = 4
         '
@@ -1351,7 +1354,7 @@ Partial Class Frm_Order
         Me.LayoutControlItem6.CustomizationFormText = "Meja :"
         Me.LayoutControlItem6.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem6.Name = "LayoutControlItem2"
-        Me.LayoutControlItem6.Size = New System.Drawing.Size(315, 87)
+        Me.LayoutControlItem6.Size = New System.Drawing.Size(315, 90)
         Me.LayoutControlItem6.Text = ".:: Runner ::."
         Me.LayoutControlItem6.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem6.TextSize = New System.Drawing.Size(96, 28)
@@ -1360,18 +1363,18 @@ Partial Class Frm_Order
         '
         Me.LayoutControlItem7.Control = Me.SB_SubmitServer
         Me.LayoutControlItem7.CustomizationFormText = "LayoutControlItem5"
-        Me.LayoutControlItem7.Location = New System.Drawing.Point(0, 87)
+        Me.LayoutControlItem7.Location = New System.Drawing.Point(0, 90)
         Me.LayoutControlItem7.Name = "LayoutControlItem5"
-        Me.LayoutControlItem7.Size = New System.Drawing.Size(162, 117)
+        Me.LayoutControlItem7.Size = New System.Drawing.Size(162, 114)
         Me.LayoutControlItem7.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem7.TextVisible = False
         '
         'LayoutControlItem8
         '
         Me.LayoutControlItem8.Control = Me.SB_CancelServer
-        Me.LayoutControlItem8.Location = New System.Drawing.Point(162, 87)
+        Me.LayoutControlItem8.Location = New System.Drawing.Point(162, 90)
         Me.LayoutControlItem8.Name = "LayoutControlItem9"
-        Me.LayoutControlItem8.Size = New System.Drawing.Size(153, 117)
+        Me.LayoutControlItem8.Size = New System.Drawing.Size(153, 114)
         Me.LayoutControlItem8.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem8.TextVisible = False
         '
@@ -1422,7 +1425,7 @@ Partial Class Frm_Order
         '
         Me.SB_CancelChange.Appearance.Font = New System.Drawing.Font("Segoe UI", 25.0!)
         Me.SB_CancelChange.Appearance.Options.UseFont = True
-        Me.SB_CancelChange.Location = New System.Drawing.Point(271, 126)
+        Me.SB_CancelChange.Location = New System.Drawing.Point(271, 132)
         Me.SB_CancelChange.Margin = New System.Windows.Forms.Padding(4)
         Me.SB_CancelChange.Name = "SB_CancelChange"
         Me.SB_CancelChange.Size = New System.Drawing.Size(149, 50)
@@ -1434,7 +1437,7 @@ Partial Class Frm_Order
         '
         Me.SB_ChangePassword.Appearance.Font = New System.Drawing.Font("Segoe UI", 25.0!)
         Me.SB_ChangePassword.Appearance.Options.UseFont = True
-        Me.SB_ChangePassword.Location = New System.Drawing.Point(12, 126)
+        Me.SB_ChangePassword.Location = New System.Drawing.Point(12, 132)
         Me.SB_ChangePassword.Margin = New System.Windows.Forms.Padding(4)
         Me.SB_ChangePassword.Name = "SB_ChangePassword"
         Me.SB_ChangePassword.Size = New System.Drawing.Size(255, 50)
@@ -1444,37 +1447,37 @@ Partial Class Frm_Order
         '
         'Edit_OldPass
         '
-        Me.Edit_OldPass.Location = New System.Drawing.Point(168, 12)
+        Me.Edit_OldPass.Location = New System.Drawing.Point(176, 12)
         Me.Edit_OldPass.Margin = New System.Windows.Forms.Padding(4)
         Me.Edit_OldPass.Name = "Edit_OldPass"
         Me.Edit_OldPass.Properties.Appearance.Font = New System.Drawing.Font("Segoe UI", 15.0!)
         Me.Edit_OldPass.Properties.Appearance.Options.UseFont = True
         Me.Edit_OldPass.Properties.PasswordChar = Global.Microsoft.VisualBasic.ChrW(35)
-        Me.Edit_OldPass.Size = New System.Drawing.Size(252, 34)
+        Me.Edit_OldPass.Size = New System.Drawing.Size(244, 36)
         Me.Edit_OldPass.StyleController = Me.LayoutControl4
         Me.Edit_OldPass.TabIndex = 4
         '
         'Edit_NewPass
         '
-        Me.Edit_NewPass.Location = New System.Drawing.Point(168, 50)
+        Me.Edit_NewPass.Location = New System.Drawing.Point(176, 52)
         Me.Edit_NewPass.Margin = New System.Windows.Forms.Padding(4)
         Me.Edit_NewPass.Name = "Edit_NewPass"
         Me.Edit_NewPass.Properties.Appearance.Font = New System.Drawing.Font("Segoe UI", 15.0!)
         Me.Edit_NewPass.Properties.Appearance.Options.UseFont = True
         Me.Edit_NewPass.Properties.PasswordChar = Global.Microsoft.VisualBasic.ChrW(35)
-        Me.Edit_NewPass.Size = New System.Drawing.Size(252, 34)
+        Me.Edit_NewPass.Size = New System.Drawing.Size(244, 36)
         Me.Edit_NewPass.StyleController = Me.LayoutControl4
         Me.Edit_NewPass.TabIndex = 4
         '
         'Edit_CheckPass
         '
-        Me.Edit_CheckPass.Location = New System.Drawing.Point(168, 88)
+        Me.Edit_CheckPass.Location = New System.Drawing.Point(176, 92)
         Me.Edit_CheckPass.Margin = New System.Windows.Forms.Padding(4)
         Me.Edit_CheckPass.Name = "Edit_CheckPass"
         Me.Edit_CheckPass.Properties.Appearance.Font = New System.Drawing.Font("Segoe UI", 15.0!)
         Me.Edit_CheckPass.Properties.Appearance.Options.UseFont = True
         Me.Edit_CheckPass.Properties.PasswordChar = Global.Microsoft.VisualBasic.ChrW(35)
-        Me.Edit_CheckPass.Size = New System.Drawing.Size(252, 34)
+        Me.Edit_CheckPass.Size = New System.Drawing.Size(244, 36)
         Me.Edit_CheckPass.StyleController = Me.LayoutControl4
         Me.Edit_CheckPass.TabIndex = 4
         '
@@ -1500,7 +1503,7 @@ Partial Class Frm_Order
         Me.LayoutControlItem10.CustomizationFormText = "Meja :"
         Me.LayoutControlItem10.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem10.Name = "LayoutControlItem2"
-        Me.LayoutControlItem10.Size = New System.Drawing.Size(412, 38)
+        Me.LayoutControlItem10.Size = New System.Drawing.Size(412, 40)
         Me.LayoutControlItem10.Text = "Kata Kunci Lama :"
         Me.LayoutControlItem10.TextLocation = DevExpress.Utils.Locations.Left
         Me.LayoutControlItem10.TextSize = New System.Drawing.Size(152, 28)
@@ -1509,18 +1512,18 @@ Partial Class Frm_Order
         '
         Me.LayoutControlItem11.Control = Me.SB_ChangePassword
         Me.LayoutControlItem11.CustomizationFormText = "LayoutControlItem5"
-        Me.LayoutControlItem11.Location = New System.Drawing.Point(0, 114)
+        Me.LayoutControlItem11.Location = New System.Drawing.Point(0, 120)
         Me.LayoutControlItem11.Name = "LayoutControlItem5"
-        Me.LayoutControlItem11.Size = New System.Drawing.Size(259, 130)
+        Me.LayoutControlItem11.Size = New System.Drawing.Size(259, 124)
         Me.LayoutControlItem11.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem11.TextVisible = False
         '
         'LayoutControlItem12
         '
         Me.LayoutControlItem12.Control = Me.SB_CancelChange
-        Me.LayoutControlItem12.Location = New System.Drawing.Point(259, 114)
+        Me.LayoutControlItem12.Location = New System.Drawing.Point(259, 120)
         Me.LayoutControlItem12.Name = "LayoutControlItem9"
-        Me.LayoutControlItem12.Size = New System.Drawing.Size(153, 130)
+        Me.LayoutControlItem12.Size = New System.Drawing.Size(153, 124)
         Me.LayoutControlItem12.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem12.TextVisible = False
         '
@@ -1528,9 +1531,9 @@ Partial Class Frm_Order
         '
         Me.LayoutControlItem13.Control = Me.Edit_NewPass
         Me.LayoutControlItem13.CustomizationFormText = "Meja :"
-        Me.LayoutControlItem13.Location = New System.Drawing.Point(0, 38)
+        Me.LayoutControlItem13.Location = New System.Drawing.Point(0, 40)
         Me.LayoutControlItem13.Name = "LayoutControlItem10"
-        Me.LayoutControlItem13.Size = New System.Drawing.Size(412, 38)
+        Me.LayoutControlItem13.Size = New System.Drawing.Size(412, 40)
         Me.LayoutControlItem13.Text = "Kata Kunci Baru :"
         Me.LayoutControlItem13.TextLocation = DevExpress.Utils.Locations.Left
         Me.LayoutControlItem13.TextSize = New System.Drawing.Size(152, 28)
@@ -1539,9 +1542,9 @@ Partial Class Frm_Order
         '
         Me.LayoutControlItem14.Control = Me.Edit_CheckPass
         Me.LayoutControlItem14.CustomizationFormText = "Meja :"
-        Me.LayoutControlItem14.Location = New System.Drawing.Point(0, 76)
+        Me.LayoutControlItem14.Location = New System.Drawing.Point(0, 80)
         Me.LayoutControlItem14.Name = "LayoutControlItem11"
-        Me.LayoutControlItem14.Size = New System.Drawing.Size(412, 38)
+        Me.LayoutControlItem14.Size = New System.Drawing.Size(412, 40)
         Me.LayoutControlItem14.Text = "Cek Ulang Sandi :"
         Me.LayoutControlItem14.TextLocation = DevExpress.Utils.Locations.Left
         Me.LayoutControlItem14.TextSize = New System.Drawing.Size(152, 28)
@@ -1651,16 +1654,16 @@ Partial Class Frm_Order
         Me.PanelControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelControl1.Location = New System.Drawing.Point(0, 81)
         Me.PanelControl1.Name = "PanelControl1"
-        Me.PanelControl1.Size = New System.Drawing.Size(1308, 697)
+        Me.PanelControl1.Size = New System.Drawing.Size(1308, 606)
         Me.PanelControl1.TabIndex = 44
         '
         'XtraTabControl1
         '
         Me.XtraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.XtraTabControl1.Location = New System.Drawing.Point(0, 59)
+        Me.XtraTabControl1.Location = New System.Drawing.Point(0, 72)
         Me.XtraTabControl1.Name = "XtraTabControl1"
         Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage1
-        Me.XtraTabControl1.Size = New System.Drawing.Size(1310, 810)
+        Me.XtraTabControl1.Size = New System.Drawing.Size(1310, 715)
         Me.XtraTabControl1.TabIndex = 40
         Me.XtraTabControl1.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.XtraTabPage1, Me.XtraTabPage2, Me.XtraTabPage3, Me.XtraTabPage4})
         '
@@ -1669,14 +1672,14 @@ Partial Class Frm_Order
         Me.XtraTabPage1.Controls.Add(Me.PanelControl1)
         Me.XtraTabPage1.Controls.Add(Me.PanelHeader)
         Me.XtraTabPage1.Name = "XtraTabPage1"
-        Me.XtraTabPage1.Size = New System.Drawing.Size(1308, 778)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(1308, 687)
         Me.XtraTabPage1.Text = "XtraTabPage1"
         '
         'XtraTabPage2
         '
         Me.XtraTabPage2.Controls.Add(Me.LayoutControl5)
         Me.XtraTabPage2.Name = "XtraTabPage2"
-        Me.XtraTabPage2.Size = New System.Drawing.Size(1308, 778)
+        Me.XtraTabPage2.Size = New System.Drawing.Size(1308, 687)
         Me.XtraTabPage2.Text = "XtraTabPage2"
         '
         'LayoutControl5
@@ -1694,7 +1697,7 @@ Partial Class Frm_Order
         Me.LayoutControl5.Margin = New System.Windows.Forms.Padding(4)
         Me.LayoutControl5.Name = "LayoutControl5"
         Me.LayoutControl5.Root = Me.LayoutControlGroup5
-        Me.LayoutControl5.Size = New System.Drawing.Size(1308, 778)
+        Me.LayoutControl5.Size = New System.Drawing.Size(1308, 687)
         Me.LayoutControl5.TabIndex = 1
         Me.LayoutControl5.Text = "LayoutControl5"
         '
@@ -1711,7 +1714,7 @@ Partial Class Frm_Order
         Me.Label_OrderNo.LineLocation = DevExpress.XtraEditors.LineLocation.Center
         Me.Label_OrderNo.LineOrientation = DevExpress.XtraEditors.LabelLineOrientation.Horizontal
         Me.Label_OrderNo.LineVisible = True
-        Me.Label_OrderNo.Location = New System.Drawing.Point(12, 83)
+        Me.Label_OrderNo.Location = New System.Drawing.Point(12, 74)
         Me.Label_OrderNo.Margin = New System.Windows.Forms.Padding(4)
         Me.Label_OrderNo.Name = "Label_OrderNo"
         Me.Label_OrderNo.Size = New System.Drawing.Size(291, 24)
@@ -1722,7 +1725,7 @@ Partial Class Frm_Order
         'GC_MenuType
         '
         Me.GC_MenuType.DataSource = Me.ViewMenuTypeListBindingSource
-        Me.GC_MenuType.Location = New System.Drawing.Point(13, 166)
+        Me.GC_MenuType.Location = New System.Drawing.Point(13, 159)
         Me.GC_MenuType.MainView = Me.TV_MenuType
         Me.GC_MenuType.Name = "GC_MenuType"
         Me.GC_MenuType.Size = New System.Drawing.Size(282, 166)
@@ -1770,10 +1773,10 @@ Partial Class Frm_Order
         'GridControl3
         '
         Me.GridControl3.DataSource = Me.ViewPOSMenuCategoryFrontListBindingSource
-        Me.GridControl3.Location = New System.Drawing.Point(13, 338)
+        Me.GridControl3.Location = New System.Drawing.Point(13, 331)
         Me.GridControl3.MainView = Me.TV_MenuCategory
         Me.GridControl3.Name = "GridControl3"
-        Me.GridControl3.Size = New System.Drawing.Size(282, 417)
+        Me.GridControl3.Size = New System.Drawing.Size(282, 333)
         Me.GridControl3.TabIndex = 11
         Me.GridControl3.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.TV_MenuCategory})
         '
@@ -1834,7 +1837,7 @@ Partial Class Frm_Order
         Me.PanelControl2.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelControl2.MaximumSize = New System.Drawing.Size(0, 76)
         Me.PanelControl2.Name = "PanelControl2"
-        Me.PanelControl2.Size = New System.Drawing.Size(291, 67)
+        Me.PanelControl2.Size = New System.Drawing.Size(291, 58)
         Me.PanelControl2.TabIndex = 6
         '
         'SB_Back
@@ -1846,7 +1849,7 @@ Partial Class Frm_Order
         Me.SB_Back.Margin = New System.Windows.Forms.Padding(4)
         Me.SB_Back.Name = "SB_Back"
         Me.SB_Back.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light
-        Me.SB_Back.Size = New System.Drawing.Size(56, 67)
+        Me.SB_Back.Size = New System.Drawing.Size(56, 58)
         Me.SB_Back.TabIndex = 16
         '
         'SB_TableAndType
@@ -1868,14 +1871,14 @@ Partial Class Frm_Order
         '
         'Ed_Keyword
         '
-        Me.Ed_Keyword.Location = New System.Drawing.Point(13, 116)
+        Me.Ed_Keyword.Location = New System.Drawing.Point(13, 107)
         Me.Ed_Keyword.Margin = New System.Windows.Forms.Padding(4)
         Me.Ed_Keyword.Name = "Ed_Keyword"
         Me.Ed_Keyword.Properties.Appearance.Font = New System.Drawing.Font("Segoe UI", 20.0!)
         Me.Ed_Keyword.Properties.Appearance.Options.UseFont = True
         Me.Ed_Keyword.Properties.Appearance.Options.UseTextOptions = True
         Me.Ed_Keyword.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.Ed_Keyword.Size = New System.Drawing.Size(289, 44)
+        Me.Ed_Keyword.Size = New System.Drawing.Size(289, 46)
         Me.Ed_Keyword.StyleController = Me.LayoutControl5
         Me.Ed_Keyword.TabIndex = 9
         '
@@ -1888,7 +1891,7 @@ Partial Class Frm_Order
         Me.View_menu_listGridControl.MainView = Me.TileView_Menu
         Me.View_menu_listGridControl.Margin = New System.Windows.Forms.Padding(4)
         Me.View_menu_listGridControl.Name = "View_menu_listGridControl"
-        Me.View_menu_listGridControl.Size = New System.Drawing.Size(529, 736)
+        Me.View_menu_listGridControl.Size = New System.Drawing.Size(531, 645)
         Me.View_menu_listGridControl.TabIndex = 5
         Me.View_menu_listGridControl.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.TileView_Menu})
         '
@@ -1918,7 +1921,7 @@ Partial Class Frm_Order
         Me.TileView_Menu.OptionsTiles.ScrollMode = DevExpress.XtraEditors.TileControlScrollMode.None
         Me.TileView_Menu.OptionsTiles.ShowGroupText = False
         Me.TileView_Menu.OptionsTiles.VerticalContentAlignment = DevExpress.Utils.VertAlignment.Top
-        TileViewItemElement9.Appearance.Normal.Font = New System.Drawing.Font("Lato", 12.0!, System.Drawing.FontStyle.Bold)
+        TileViewItemElement9.Appearance.Normal.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         TileViewItemElement9.Appearance.Normal.Options.UseFont = True
         TileViewItemElement9.Appearance.Normal.Options.UseTextOptions = True
         TileViewItemElement9.Appearance.Normal.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
@@ -2037,7 +2040,7 @@ Partial Class Frm_Order
         Me.GridControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.GridControl1.Name = "GridControl1"
         Me.GridControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.Repo_Num})
-        Me.GridControl1.Size = New System.Drawing.Size(410, 564)
+        Me.GridControl1.Size = New System.Drawing.Size(410, 473)
         Me.GridControl1.TabIndex = 4
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GV_OrderDetail})
         '
@@ -2447,7 +2450,7 @@ Partial Class Frm_Order
         Me.LayoutControlGroup5.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem1, Me.LCItem_MenuType, Me.LCItem_MenuCategory, Me.LayoutControlItem2, Me.LayoutControlItem15, Me.LayoutControlGroup6, Me.LCItem_Keyword})
         Me.LayoutControlGroup5.Name = "Root"
         Me.LayoutControlGroup5.Padding = New DevExpress.XtraLayout.Utils.Padding(10, 10, 10, 20)
-        Me.LayoutControlGroup5.Size = New System.Drawing.Size(1308, 778)
+        Me.LayoutControlGroup5.Size = New System.Drawing.Size(1308, 687)
         Me.LayoutControlGroup5.TextVisible = False
         '
         'LayoutControlItem1
@@ -2456,14 +2459,14 @@ Partial Class Frm_Order
         Me.LayoutControlItem1.Location = New System.Drawing.Point(295, 0)
         Me.LayoutControlItem1.Name = "LayoutControlItem4"
         Me.LayoutControlItem1.Padding = New DevExpress.XtraLayout.Utils.Padding(2, 2, 10, 2)
-        Me.LayoutControlItem1.Size = New System.Drawing.Size(533, 748)
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(535, 657)
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem1.TextVisible = False
         '
         'LCItem_MenuType
         '
         Me.LCItem_MenuType.Control = Me.GC_MenuType
-        Me.LCItem_MenuType.Location = New System.Drawing.Point(0, 153)
+        Me.LCItem_MenuType.Location = New System.Drawing.Point(0, 146)
         Me.LCItem_MenuType.MaxSize = New System.Drawing.Size(295, 172)
         Me.LCItem_MenuType.MinSize = New System.Drawing.Size(295, 172)
         Me.LCItem_MenuType.Name = "LCItem_MenuType"
@@ -2476,10 +2479,10 @@ Partial Class Frm_Order
         'LCItem_MenuCategory
         '
         Me.LCItem_MenuCategory.Control = Me.GridControl3
-        Me.LCItem_MenuCategory.Location = New System.Drawing.Point(0, 325)
+        Me.LCItem_MenuCategory.Location = New System.Drawing.Point(0, 318)
         Me.LCItem_MenuCategory.Name = "LCItem_MenuCategory"
         Me.LCItem_MenuCategory.Padding = New DevExpress.XtraLayout.Utils.Padding(3, 10, 3, 3)
-        Me.LCItem_MenuCategory.Size = New System.Drawing.Size(295, 423)
+        Me.LCItem_MenuCategory.Size = New System.Drawing.Size(295, 339)
         Me.LCItem_MenuCategory.TextSize = New System.Drawing.Size(0, 0)
         Me.LCItem_MenuCategory.TextVisible = False
         '
@@ -2488,14 +2491,14 @@ Partial Class Frm_Order
         Me.LayoutControlItem2.Control = Me.PanelControl2
         Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem2.Name = "LayoutControlItem3"
-        Me.LayoutControlItem2.Size = New System.Drawing.Size(295, 71)
+        Me.LayoutControlItem2.Size = New System.Drawing.Size(295, 62)
         Me.LayoutControlItem2.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem2.TextVisible = False
         '
         'LayoutControlItem15
         '
         Me.LayoutControlItem15.Control = Me.Label_OrderNo
-        Me.LayoutControlItem15.Location = New System.Drawing.Point(0, 71)
+        Me.LayoutControlItem15.Location = New System.Drawing.Point(0, 62)
         Me.LayoutControlItem15.Name = "LayoutControlItem12"
         Me.LayoutControlItem15.Size = New System.Drawing.Size(295, 28)
         Me.LayoutControlItem15.TextSize = New System.Drawing.Size(0, 0)
@@ -2503,7 +2506,7 @@ Partial Class Frm_Order
         '
         'LayoutControlGroup6
         '
-        Me.LayoutControlGroup6.AppearanceGroup.Font = New System.Drawing.Font("Lato", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.LayoutControlGroup6.AppearanceGroup.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
         Me.LayoutControlGroup6.AppearanceGroup.Options.UseFont = True
         Me.LayoutControlGroup6.AppearanceGroup.Options.UseTextOptions = True
         Me.LayoutControlGroup6.AppearanceGroup.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
@@ -2511,9 +2514,9 @@ Partial Class Frm_Order
         Me.LayoutControlGroup6.GroupStyle = DevExpress.Utils.GroupStyle.Light
         Me.LayoutControlGroup6.HeaderButtonsLocation = DevExpress.Utils.GroupElementLocation.AfterText
         Me.LayoutControlGroup6.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem16, Me.LayoutControlItem36})
-        Me.LayoutControlGroup6.Location = New System.Drawing.Point(828, 0)
+        Me.LayoutControlGroup6.Location = New System.Drawing.Point(830, 0)
         Me.LayoutControlGroup6.Name = "LayoutControlGroup6"
-        Me.LayoutControlGroup6.Size = New System.Drawing.Size(460, 748)
+        Me.LayoutControlGroup6.Size = New System.Drawing.Size(458, 657)
         Me.LayoutControlGroup6.Text = ".:: Detail Pembelanjaan ::."
         Me.LayoutControlGroup6.TextLocation = DevExpress.Utils.Locations.Left
         '
@@ -2523,7 +2526,7 @@ Partial Class Frm_Order
         Me.LayoutControlItem16.Location = New System.Drawing.Point(0, 151)
         Me.LayoutControlItem16.Name = "LayoutControlItem1"
         Me.LayoutControlItem16.Padding = New DevExpress.XtraLayout.Utils.Padding(3, 3, 7, 3)
-        Me.LayoutControlItem16.Size = New System.Drawing.Size(416, 574)
+        Me.LayoutControlItem16.Size = New System.Drawing.Size(416, 483)
         Me.LayoutControlItem16.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem16.TextVisible = False
         '
@@ -2543,10 +2546,10 @@ Partial Class Frm_Order
         'LCItem_Keyword
         '
         Me.LCItem_Keyword.Control = Me.Ed_Keyword
-        Me.LCItem_Keyword.Location = New System.Drawing.Point(0, 99)
+        Me.LCItem_Keyword.Location = New System.Drawing.Point(0, 90)
         Me.LCItem_Keyword.Name = "LCItem_Keyword"
         Me.LCItem_Keyword.Padding = New DevExpress.XtraLayout.Utils.Padding(3, 3, 7, 3)
-        Me.LCItem_Keyword.Size = New System.Drawing.Size(295, 54)
+        Me.LCItem_Keyword.Size = New System.Drawing.Size(295, 56)
         Me.LCItem_Keyword.TextSize = New System.Drawing.Size(0, 0)
         Me.LCItem_Keyword.TextVisible = False
         '
@@ -2556,7 +2559,7 @@ Partial Class Frm_Order
         Me.XtraTabPage3.Controls.Add(Me.FlyoutPanel_UpdateQty)
         Me.XtraTabPage3.Controls.Add(Me.FlyoutPanel_POSPayment)
         Me.XtraTabPage3.Name = "XtraTabPage3"
-        Me.XtraTabPage3.Size = New System.Drawing.Size(1308, 778)
+        Me.XtraTabPage3.Size = New System.Drawing.Size(1308, 687)
         Me.XtraTabPage3.Text = "XtraTabPage3"
         '
         'FlyoutPanel_Cancel
@@ -2585,7 +2588,7 @@ Partial Class Frm_Order
         Me.LookUpEdit_VoidReason.Location = New System.Drawing.Point(18, 35)
         Me.LookUpEdit_VoidReason.Margin = New System.Windows.Forms.Padding(4)
         Me.LookUpEdit_VoidReason.Name = "LookUpEdit_VoidReason"
-        Me.LookUpEdit_VoidReason.Properties.Appearance.Font = New System.Drawing.Font("Lato", 20.0!)
+        Me.LookUpEdit_VoidReason.Properties.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!)
         Me.LookUpEdit_VoidReason.Properties.Appearance.Options.UseFont = True
         Me.LookUpEdit_VoidReason.Properties.AppearanceDropDown.Font = New System.Drawing.Font("Segoe UI", 25.0!)
         Me.LookUpEdit_VoidReason.Properties.AppearanceDropDown.Options.UseFont = True
@@ -2642,7 +2645,7 @@ Partial Class Frm_Order
         '
         'Label_MenuName_Memo
         '
-        Me.Label_MenuName_Memo.Appearance.Font = New System.Drawing.Font("Lato", 18.0!)
+        Me.Label_MenuName_Memo.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
         Me.Label_MenuName_Memo.Appearance.Options.UseFont = True
         Me.Label_MenuName_Memo.Appearance.Options.UseTextOptions = True
         Me.Label_MenuName_Memo.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
@@ -2661,7 +2664,7 @@ Partial Class Frm_Order
         Me.SpinEdit_Qty.Location = New System.Drawing.Point(27, 132)
         Me.SpinEdit_Qty.Margin = New System.Windows.Forms.Padding(4)
         Me.SpinEdit_Qty.Name = "SpinEdit_Qty"
-        Me.SpinEdit_Qty.Properties.Appearance.Font = New System.Drawing.Font("Lato", 25.0!)
+        Me.SpinEdit_Qty.Properties.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!)
         Me.SpinEdit_Qty.Properties.Appearance.Options.UseFont = True
         Me.SpinEdit_Qty.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SpinEdit_Qty.Properties.EditValueChangedFiringMode = DevExpress.XtraEditors.Controls.EditValueChangedFiringMode.[Default]
@@ -2685,7 +2688,7 @@ Partial Class Frm_Order
         Me.Ed_Price.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.NumericMaskManager))
         Me.Ed_Price.Properties.MaskSettings.Set("mask", "n0")
         Me.Ed_Price.Properties.ReadOnly = True
-        Me.Ed_Price.Size = New System.Drawing.Size(294, 44)
+        Me.Ed_Price.Size = New System.Drawing.Size(294, 48)
         Me.Ed_Price.TabIndex = 80
         '
         'SB_Update
@@ -2806,7 +2809,7 @@ Partial Class Frm_Order
         Me.Ed_Rounding.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.NumericMaskManager))
         Me.Ed_Rounding.Properties.MaskSettings.Set("mask", "n0")
         Me.Ed_Rounding.Properties.ReadOnly = True
-        Me.Ed_Rounding.Size = New System.Drawing.Size(248, 36)
+        Me.Ed_Rounding.Size = New System.Drawing.Size(248, 40)
         Me.Ed_Rounding.TabIndex = 43
         '
         'LabelControl5
@@ -2859,7 +2862,7 @@ Partial Class Frm_Order
         'CB_Tunai
         '
         Me.CB_Tunai.AllowFocus = False
-        Me.CB_Tunai.Appearance.Font = New System.Drawing.Font("Lato", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CB_Tunai.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CB_Tunai.Appearance.Options.UseFont = True
         Me.CB_Tunai.GroupIndex = 1
         Me.CB_Tunai.Location = New System.Drawing.Point(24, 448)
@@ -2916,7 +2919,7 @@ Partial Class Frm_Order
         Me.Ed_Bill.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.NumericMaskManager))
         Me.Ed_Bill.Properties.MaskSettings.Set("mask", "n0")
         Me.Ed_Bill.Properties.ReadOnly = True
-        Me.Ed_Bill.Size = New System.Drawing.Size(248, 36)
+        Me.Ed_Bill.Size = New System.Drawing.Size(248, 40)
         Me.Ed_Bill.TabIndex = 34
         '
         'Label_Bank
@@ -2960,13 +2963,13 @@ Partial Class Frm_Order
         Me.Ed_CardValue.Properties.Mask.UseMaskAsDisplayFormat = True
         Me.Ed_CardValue.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.NumericMaskManager))
         Me.Ed_CardValue.Properties.MaskSettings.Set("mask", "n0")
-        Me.Ed_CardValue.Size = New System.Drawing.Size(251, 40)
+        Me.Ed_CardValue.Size = New System.Drawing.Size(251, 44)
         Me.Ed_CardValue.TabIndex = 8
         '
         'CB_Debit
         '
         Me.CB_Debit.AllowFocus = False
-        Me.CB_Debit.Appearance.Font = New System.Drawing.Font("Lato", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CB_Debit.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CB_Debit.Appearance.Options.UseFont = True
         Me.CB_Debit.GroupIndex = 1
         Me.CB_Debit.Location = New System.Drawing.Point(23, 236)
@@ -2980,7 +2983,7 @@ Partial Class Frm_Order
         'CB_Credit
         '
         Me.CB_Credit.AllowFocus = False
-        Me.CB_Credit.Appearance.Font = New System.Drawing.Font("Lato", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CB_Credit.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CB_Credit.Appearance.Options.UseFont = True
         Me.CB_Credit.GroupIndex = 1
         Me.CB_Credit.Location = New System.Drawing.Point(23, 294)
@@ -2994,7 +2997,7 @@ Partial Class Frm_Order
         'CB_QRIS
         '
         Me.CB_QRIS.AllowFocus = False
-        Me.CB_QRIS.Appearance.Font = New System.Drawing.Font("Lato", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CB_QRIS.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CB_QRIS.Appearance.Options.UseFont = True
         Me.CB_QRIS.GroupIndex = 1
         Me.CB_QRIS.Location = New System.Drawing.Point(23, 352)
@@ -3008,7 +3011,7 @@ Partial Class Frm_Order
         'Label4
         '
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(163, 246)
+        Me.Label4.Location = New System.Drawing.Point(143, 249)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(104, 32)
@@ -3059,7 +3062,7 @@ Partial Class Frm_Order
         Me.Ed_Change.Properties.Mask.UseMaskAsDisplayFormat = True
         Me.Ed_Change.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.NumericMaskManager))
         Me.Ed_Change.Properties.MaskSettings.Set("mask", "n0")
-        Me.Ed_Change.Size = New System.Drawing.Size(248, 40)
+        Me.Ed_Change.Size = New System.Drawing.Size(248, 44)
         Me.Ed_Change.TabIndex = 14
         '
         'SB_RoundNominal
@@ -3118,7 +3121,7 @@ Partial Class Frm_Order
         Me.LookUpEdit_Bank.Location = New System.Drawing.Point(255, 239)
         Me.LookUpEdit_Bank.Margin = New System.Windows.Forms.Padding(4)
         Me.LookUpEdit_Bank.Name = "LookUpEdit_Bank"
-        Me.LookUpEdit_Bank.Properties.Appearance.Font = New System.Drawing.Font("Lato", 20.0!)
+        Me.LookUpEdit_Bank.Properties.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!)
         Me.LookUpEdit_Bank.Properties.Appearance.Options.UseFont = True
         Me.LookUpEdit_Bank.Properties.AppearanceDropDown.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!)
         Me.LookUpEdit_Bank.Properties.AppearanceDropDown.Options.UseFont = True
@@ -3152,7 +3155,7 @@ Partial Class Frm_Order
         Me.Ed_CardNo.Properties.Mask.UseMaskAsDisplayFormat = True
         Me.Ed_CardNo.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.SimpleMaskManager))
         Me.Ed_CardNo.Properties.MaskSettings.Set("mask", "0000 0000 0000 0000")
-        Me.Ed_CardNo.Size = New System.Drawing.Size(248, 34)
+        Me.Ed_CardNo.Size = New System.Drawing.Size(248, 38)
         Me.Ed_CardNo.TabIndex = 7
         '
         'Ed_Payment
@@ -3171,7 +3174,7 @@ Partial Class Frm_Order
         Me.Ed_Payment.Properties.Mask.UseMaskAsDisplayFormat = True
         Me.Ed_Payment.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.NumericMaskManager))
         Me.Ed_Payment.Properties.MaskSettings.Set("mask", "n0")
-        Me.Ed_Payment.Size = New System.Drawing.Size(251, 40)
+        Me.Ed_Payment.Size = New System.Drawing.Size(251, 44)
         Me.Ed_Payment.TabIndex = 1
         '
         'XtraTabPage4
@@ -3179,7 +3182,7 @@ Partial Class Frm_Order
         Me.XtraTabPage4.Controls.Add(Me.SB_BackCO)
         Me.XtraTabPage4.Controls.Add(Me.GC_Checker)
         Me.XtraTabPage4.Name = "XtraTabPage4"
-        Me.XtraTabPage4.Size = New System.Drawing.Size(1308, 765)
+        Me.XtraTabPage4.Size = New System.Drawing.Size(1308, 687)
         Me.XtraTabPage4.Text = "XtraTabPage4"
         '
         'SB_BackCO
@@ -3206,7 +3209,7 @@ Partial Class Frm_Order
         Me.GC_Checker.Name = "GC_Checker"
         Me.GC_Checker.Padding = New System.Windows.Forms.Padding(10)
         Me.GC_Checker.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemButtonEdit1, Me.RepositoryItemMemoEdit1})
-        Me.GC_Checker.Size = New System.Drawing.Size(1308, 765)
+        Me.GC_Checker.Size = New System.Drawing.Size(1308, 687)
         Me.GC_Checker.TabIndex = 6
         Me.GC_Checker.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.LV_CO})
         '
@@ -3372,7 +3375,7 @@ Partial Class Frm_Order
         Me.RibbonControl1.Location = New System.Drawing.Point(0, 0)
         Me.RibbonControl1.MaxItemId = 1
         Me.RibbonControl1.Name = "RibbonControl1"
-        Me.RibbonControl1.Size = New System.Drawing.Size(1310, 59)
+        Me.RibbonControl1.Size = New System.Drawing.Size(1310, 72)
         '
         'RibbonPage2
         '
@@ -3403,11 +3406,15 @@ Partial Class Frm_Order
         '
         Me.Sp_POS_CheckerSequenceTableAdapter.ClearBeforeFill = True
         '
+        'Sp_POSReportTransaction_GetDataInvoiceDetailTableAdapter
+        '
+        Me.Sp_POSReportTransaction_GetDataInvoiceDetailTableAdapter.ClearBeforeFill = True
+        '
         'Frm_Order
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1310, 869)
+        Me.ClientSize = New System.Drawing.Size(1310, 787)
         Me.ControlBox = False
         Me.Controls.Add(Me.XtraTabControl1)
         Me.Controls.Add(Me.RibbonControl1)
@@ -3820,4 +3827,5 @@ Partial Class Frm_Order
     Friend WithEvents colTableType_OrderList As DevExpress.XtraGrid.Columns.TileViewColumn
     Friend WithEvents SB_Close As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SB_CloseFlyOut1 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents Sp_POSReportTransaction_GetDataInvoiceDetailTableAdapter As DataSet_ReportTableAdapters.sp_POSReportTransaction_GetDataInvoiceDetailTableAdapter
 End Class

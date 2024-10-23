@@ -418,7 +418,24 @@ Public Class Frm_Order
     End Sub
 
     Private Sub RadioGroup_OrderType_SelectedIndexChanged(sender As Object, e As EventArgs) Handles RadioGroup_OrderType.SelectedIndexChanged
-        SearchLookUpEdit_Server.Visible = True
+
+        If (RadioGroup_OrderType.SelectedIndex = 0) Then
+            Label1.Visible = True
+            SearchLookUpEdit_Server.Visible = True
+            Label2.Visible = True
+            LookUpEdit_Table.Visible = True
+            Label3.Visible = True
+            SpinEdit1.Visible = True
+
+        Else
+            Label1.Visible = True
+            SearchLookUpEdit_Server.Visible = True
+            Label2.Visible = False
+            LookUpEdit_Table.Visible = False
+            Label3.Visible = False
+            SpinEdit1.Visible = False
+        End If
+
     End Sub
 
 

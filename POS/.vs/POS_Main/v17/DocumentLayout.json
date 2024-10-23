@@ -1,0 +1,340 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Git\\Resto\\POS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|C:\\Git\\Resto\\POS\\pos\\frm_order.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\frm_order.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|C:\\Git\\Resto\\POS\\pos\\frm_order.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\frm_order.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|POS||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|c:\\git\\resto\\pos\\pos\\rpt_billinvoiceprint.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\rpt_billinvoiceprint.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|C:\\Git\\Resto\\POS\\pos\\frm_dashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\frm_dashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|C:\\Git\\Resto\\POS\\pos\\rpt_billinvoicepackageprintpreview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\rpt_billinvoicepackageprintpreview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|C:\\Git\\Resto\\POS\\pos\\rpt_billinvoiceprintwithrounding.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\rpt_billinvoiceprintwithrounding.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|C:\\Git\\Resto\\POS\\pos\\rpt_billinvoiceprintwithrounding.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\rpt_billinvoiceprintwithrounding.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|C:\\Git\\Resto\\POS\\pos\\dialog_ordertype.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\dialog_ordertype.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|C:\\Git\\Resto\\POS\\pos\\dialog_ordertype.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\dialog_ordertype.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|C:\\Git\\Resto\\POS\\pos\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|C:\\Git\\Resto\\POS\\pos\\rpt_billinvoiceprintwithrounding.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\rpt_billinvoiceprintwithrounding.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|C:\\Git\\Resto\\POS\\pos\\rpt_billinvoiceprintwithrounding.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\rpt_billinvoiceprintwithrounding.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|C:\\Git\\Resto\\POS\\pos\\rpt_billinvoicepreview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\rpt_billinvoicepreview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|C:\\Git\\Resto\\POS\\pos\\rpt_eventinvoice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\rpt_eventinvoice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|C:\\Git\\Resto\\POS\\pos\\dataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\dataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|C:\\Git\\Resto\\POS\\pos\\rpt_billinvoiceprint.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\rpt_billinvoiceprint.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|C:\\Git\\Resto\\POS\\pos\\frm_changesetting.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\frm_changesetting.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Git\\Resto\\POS\\POS\\Frm_LogIn.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:POS\\Frm_LogIn.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|c:\\git\\resto\\pos\\pos\\my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{21C2531F-BCB8-4278-95ED-9E9BD1262B62}|POS\\POS.vbproj|solutionrelative:pos\\my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 78,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d3b09462-361e-4675-acc6-e0732f84d521}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d562c6a0-d2fe-4c19-a8b3-e5cbc09bf375}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5e929736-0e81-4d52-a78e-546a1649faca}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ec2c1c6c-cecc-4f7a-869e-9a8f55540944}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 310,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Rpt_BillInvoicePrintWithRounding.vb",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\Rpt_BillInvoicePrintWithRounding.vb",
+              "RelativeDocumentMoniker": "POS\\Rpt_BillInvoicePrintWithRounding.vb",
+              "ToolTip": "C:\\Git\\Resto\\POS\\POS\\Rpt_BillInvoicePrintWithRounding.vb",
+              "RelativeToolTip": "POS\\Rpt_BillInvoicePrintWithRounding.vb",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwDsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000587|",
+              "WhenOpened": "2024-10-22T07:54:45.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Frm_Order.vb [Design]",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\Frm_Order.vb",
+              "RelativeDocumentMoniker": "POS\\Frm_Order.vb",
+              "ToolTip": "C:\\Git\\Resto\\POS\\POS\\Frm_Order.vb [Design]",
+              "RelativeToolTip": "POS\\Frm_Order.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-22T07:54:45.359Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "POS",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\POS.vbproj",
+              "RelativeDocumentMoniker": "POS\\POS.vbproj",
+              "ToolTip": "C:\\Git\\Resto\\POS\\POS\\POS.vbproj",
+              "RelativeToolTip": "POS\\POS.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2023-11-14T03:43:19.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Frm_Order.vb",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\Frm_Order.vb",
+              "RelativeDocumentMoniker": "POS\\Frm_Order.vb",
+              "ToolTip": "C:\\Git\\Resto\\POS\\POS\\Frm_Order.vb",
+              "RelativeToolTip": "POS\\Frm_Order.vb",
+              "ViewState": "AgIAAKABAABAzczMzGwwwKkBAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-22T07:54:45.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rpt_BillInvoicePrint.vb [Design]",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\Rpt_BillInvoicePrint.vb",
+              "RelativeDocumentMoniker": "POS\\Rpt_BillInvoicePrint.vb",
+              "ToolTip": "C:\\Git\\Resto\\POS\\POS\\Rpt_BillInvoicePrint.vb [Design]",
+              "RelativeToolTip": "POS\\Rpt_BillInvoicePrint.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-22T07:54:45.387Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Rpt_BillInvoicePrintWithRounding.vb [Design]",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\Rpt_BillInvoicePrintWithRounding.vb",
+              "RelativeDocumentMoniker": "POS\\Rpt_BillInvoicePrintWithRounding.vb",
+              "ToolTip": "D:\\Project\\VB\\Resto\\POS\\POS\\Rpt_BillInvoicePrintWithRounding.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000587|",
+              "WhenOpened": "2024-10-22T07:54:45.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dialog_OrderType.vb [Design]",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\Dialog_OrderType.vb",
+              "RelativeDocumentMoniker": "POS\\Dialog_OrderType.vb",
+              "ToolTip": "D:\\Project\\VB\\Resto\\POS\\POS\\Dialog_OrderType.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-10-22T07:54:45.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Rpt_BillInvoicePackagePrintPreview.vb",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\Rpt_BillInvoicePackagePrintPreview.vb",
+              "RelativeDocumentMoniker": "POS\\Rpt_BillInvoicePackagePrintPreview.vb",
+              "ToolTip": "C:\\Git\\Resto\\POS\\POS\\Rpt_BillInvoicePackagePrintPreview.vb",
+              "RelativeToolTip": "POS\\Rpt_BillInvoicePackagePrintPreview.vb",
+              "ViewState": "AQIAACcAAAAAAAAAAADgvz8AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000587|",
+              "WhenOpened": "2024-10-22T07:54:45.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Frm_Dashboard.vb [Design]",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\Frm_Dashboard.vb",
+              "RelativeDocumentMoniker": "POS\\Frm_Dashboard.vb",
+              "ToolTip": "D:\\Project\\VB\\Resto\\POS - 2024\\POS\\Frm_Dashboard.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-10-22T07:54:45.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Frm_LogIn.designer.vb",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\Frm_LogIn.designer.vb",
+              "RelativeDocumentMoniker": "POS\\Frm_LogIn.designer.vb",
+              "ToolTip": "C:\\Git\\Resto\\POS\\POS\\Frm_LogIn.designer.vb",
+              "RelativeToolTip": "POS\\Frm_LogIn.designer.vb",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwEUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-22T07:54:45.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "app.config",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\app.config",
+              "RelativeDocumentMoniker": "POS\\app.config",
+              "ToolTip": "C:\\Git\\Resto\\POS\\POS\\app.config",
+              "RelativeToolTip": "POS\\app.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAABBwM4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-22T07:54:45.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dialog_OrderType.vb",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\Dialog_OrderType.vb",
+              "RelativeDocumentMoniker": "POS\\Dialog_OrderType.vb",
+              "ToolTip": "C:\\Git\\Resto\\POS\\POS\\Dialog_OrderType.vb",
+              "RelativeToolTip": "POS\\Dialog_OrderType.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-10-22T07:54:45.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Rpt_BillInvoicePrintWithRounding.resx",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\Rpt_BillInvoicePrintWithRounding.resx",
+              "RelativeDocumentMoniker": "POS\\Rpt_BillInvoicePrintWithRounding.resx",
+              "ToolTip": "C:\\Git\\Resto\\POS\\POS\\Rpt_BillInvoicePrintWithRounding.resx",
+              "RelativeToolTip": "POS\\Rpt_BillInvoicePrintWithRounding.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-10-22T07:54:45.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Rpt_BillInvoicePrintWithRounding.Designer.vb",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\Rpt_BillInvoicePrintWithRounding.Designer.vb",
+              "RelativeDocumentMoniker": "POS\\Rpt_BillInvoicePrintWithRounding.Designer.vb",
+              "ToolTip": "C:\\Git\\Resto\\POS\\POS\\Rpt_BillInvoicePrintWithRounding.Designer.vb",
+              "RelativeToolTip": "POS\\Rpt_BillInvoicePrintWithRounding.Designer.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-10-22T07:54:45.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Rpt_BillInvoicePreview.vb [Design]",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\Rpt_BillInvoicePreview.vb",
+              "RelativeDocumentMoniker": "POS\\Rpt_BillInvoicePreview.vb",
+              "ToolTip": "D:\\Project\\VB\\Resto\\POS\\POS\\Rpt_BillInvoicePreview.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000587|",
+              "WhenOpened": "2024-10-22T07:54:45.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Rpt_EventInvoice.vb [Design]",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\Rpt_EventInvoice.vb",
+              "RelativeDocumentMoniker": "POS\\Rpt_EventInvoice.vb",
+              "ToolTip": "D:\\Project\\VB\\Resto\\POS\\POS\\Rpt_EventInvoice.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000587|",
+              "WhenOpened": "2024-10-22T07:54:45.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DataSet.xsd",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\DataSet.xsd",
+              "RelativeDocumentMoniker": "POS\\DataSet.xsd",
+              "ToolTip": "C:\\Git\\Resto\\POS\\POS\\DataSet.xsd",
+              "RelativeToolTip": "POS\\DataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-10-22T07:54:45.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Rpt_BillInvoicePrint.vb",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\Rpt_BillInvoicePrint.vb",
+              "RelativeDocumentMoniker": "POS\\Rpt_BillInvoicePrint.vb",
+              "ToolTip": "C:\\Git\\Resto\\POS\\POS\\Rpt_BillInvoicePrint.vb",
+              "RelativeToolTip": "POS\\Rpt_BillInvoicePrint.vb",
+              "ViewState": "AQIAABcAAAAAAAAAAAAWwCUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000587|",
+              "WhenOpened": "2024-10-22T07:54:45.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Frm_ChangeSetting.vb",
+              "DocumentMoniker": "C:\\Git\\Resto\\POS\\POS\\Frm_ChangeSetting.vb",
+              "RelativeDocumentMoniker": "POS\\Frm_ChangeSetting.vb",
+              "ToolTip": "C:\\Git\\Resto\\POS\\POS\\Frm_ChangeSetting.vb",
+              "RelativeToolTip": "POS\\Frm_ChangeSetting.vb",
+              "ViewState": "AQIAADgBAAAAAAAAAAApwFcBAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-10-22T07:54:45.431Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
